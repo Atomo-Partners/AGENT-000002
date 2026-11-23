@@ -1,0 +1,5237 @@
+{
+ "archivo_origen": "ESPECIA_EMIS.pdf",
+ "fecha_extraccion": "simulado",
+ "modelo": "prebuilt-layout",
+ "tablas": [
+  {
+   "rowCount": 5,
+   "columnCount": 2,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "Hoja Resumen de Compañía",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "3",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Información de Contacto",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "3",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Datos Financieros Claves",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "3",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Ratios",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "8",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Limitaciones de Responsabilidad",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "11",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 2
+    }
+   ]
+  },
+  {
+   "rowCount": 9,
+   "columnCount": 2,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "Hoja Resumen de Compañía - Información de Contacto",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Nombre Completo: Moda Pap S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "Casa Matriz",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "Carrera 35 15 B 143 Oficina 9201 Medellín; Antioquia; Colombia;",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Estado: No cotizada",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "Mapa",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Forma Legal: S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "Teléfono: +57-310-410-8229",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Estatus Operacional: Operacional",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "Correo Electrónico: administrativa@especia.com.co",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "EMISid: 3918565",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "CO-NIT: 900424137",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Fecha de Incorporación: 25 de marzo de 2011",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 3
+    }
+   ]
+  },
+  {
+   "rowCount": 11,
+   "columnCount": 5,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "PERÍODO FISCAL",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "Y-2022 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "Y-2023 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "Y-2024 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "Y-2025 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Total Ingreso Operativo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "2,173",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "2,176",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "1,745",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "1,436",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Ingresos netos por ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "2,173",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "2,176",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "1,745",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "1,436",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Utilidad bruta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "1,083",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "1,259",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "852",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "741",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Margen De Ganancia Bruta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "49.86%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "57.88%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "48.80%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "51.59%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "Ganancia operativa (EBIT)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "-35",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 2,
+     "content": "140",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 3,
+     "content": "35",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 4,
+     "content": "-47",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "Margen Operacional",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "-1.62%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 2,
+     "content": "6.45%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 3,
+     "content": "1.98%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 4,
+     "content": "-3.26%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Ganancia (Pérdida) Neta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "-38",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 2,
+     "content": "92",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 3,
+     "content": "-37",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 4,
+     "content": "-47",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 0,
+     "content": "Margen Neto",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 1,
+     "content": "-1.73%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 2,
+     "content": "4.24%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 3,
+     "content": "-2.10%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 4,
+     "content": "-3.26%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 0,
+     "content": "Activos Totales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 1,
+     "content": "390",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 2,
+     "content": "576",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 3,
+     "content": "511",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 4,
+     "content": "689",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 3
+    }
+   ]
+  },
+  {
+   "rowCount": 6,
+   "columnCount": 5,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "PERÍODO FISCAL",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "Y-2022 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "Y-2023 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "Y-2024 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "Y-2025 INDIV.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Activos Corrientes",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "345",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "539",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "499",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "608",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Pasivos Totales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "259",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "306",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "193",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "535",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Deuda Neta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Proveedor",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 4
+    }
+   ]
+  },
+  {
+   "rowCount": 10,
+   "columnCount": 9,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "COMPAÑÍA",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "TOTAL INGRESO OPERATIVO",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "GANANCIA OPERATIVA (EBIT)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "GANANCIA (PÉRDIDA) NETA",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "RENDIMIENTO SOBRE LOS ACTIVOS (%)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "RENDIMIENTO SOBRE EL CAPITAL (%)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 6,
+     "content": "UTILIDAD POR ACCIÓN",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 7,
+     "content": "FECHA DE REFERENCIA DEL PRECIO",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 8,
+     "content": "AÑO FISCAL",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Inversiones Grandes Almacenes Tiendaszayre S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "781,860",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "141",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "101.70",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "N/D",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 8,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Manufacturas Eliot S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "401,738",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "18,043",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "8,908",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "2.10",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "6.79",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Jakema S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "296,098",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "0",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "N/D",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "N/D",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Crystal S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "285,031",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "20,365",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "9,024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "3.50",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "8.06",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Permoda Ltda",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "252,581",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "23,791",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "1,222",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "0.32",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 5,
+     "content": "1.04",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "Stf Group S.A.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "216,946",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 2,
+     "content": "13,534",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 3,
+     "content": "-881",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 4,
+     "content": "-0.49",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 5,
+     "content": "-1.60",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "H&M Hennes & Mauritz Colombia S A S",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "191,063",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 2,
+     "content": "22,457",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 3,
+     "content": "7,965",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 4,
+     "content": "6.40",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 5,
+     "content": "8.80",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Comercializadora Arturo Calle Sas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "175,293",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 2,
+     "content": "19,109",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 3,
+     "content": "10,733",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 4,
+     "content": "11.43",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 5,
+     "content": "20.88",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 0,
+     "content": "Compania de Inversiones Textiles de Moda S.A.S. - Texmoda S.A.S",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 1,
+     "content": "157,445",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 2,
+     "content": "9,934",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 3,
+     "content": "-667",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 4,
+     "content": "-0.76",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 5,
+     "content": "236.79",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 6,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 7,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 8,
+     "content": "2025",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 4
+    }
+   ]
+  },
+  {
+   "rowCount": 1,
+   "columnCount": 7,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "Compania de Cosmeticos Votre Passion S.A.S.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "152,172",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "1,121",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "-781",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "-4.24",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "-53.12",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 6,
+     "content": "2025",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 5
+    }
+   ]
+  },
+  {
+   "rowCount": 5,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Tipo de Estado Financiero",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Fecha final del período",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "2021-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "2022-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "2023-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "2024-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "2025-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Proveedor",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Unidades",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "Miles USD",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 6
+    }
+   ]
+  },
+  {
+   "rowCount": 16,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Estado de Resultados",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Tipo de Moneda utilizado para la conversión de la moneda (IFRS)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "3,743.09",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "4,255.44",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "4,325.05",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "4,071.35",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "4,052.71",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Total Ingreso Operativo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "1,621.00",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "2,173.06",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "2,176.16",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "1,745.10",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "1,435.92",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Ingresos netos por ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "1,621.00",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "2,173.06",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "2,176.16",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "1,745.10",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 5,
+     "content": "1,435.92",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "Costo de mercancías vendidas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "-703.65",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 2,
+     "content": "-1,089.64",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 3,
+     "content": "-916.66",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 4,
+     "content": "-893.53",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 5,
+     "content": "-695.15",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "Utilidad bruta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "917.34",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 2,
+     "content": "1,083.42",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 3,
+     "content": "1,259.50",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 4,
+     "content": "851.57",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 5,
+     "content": "740.77",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Gastos de venta y distribución",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "-851.74",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 2,
+     "content": "-1,087.75",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 3,
+     "content": "-1,050.61",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 4,
+     "content": "-1,015.30",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 5,
+     "content": "-1,115.30",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 0,
+     "content": "Ganancia operativa (EBIT)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 1,
+     "content": "42.30",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 2,
+     "content": "-35.23",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 3,
+     "content": "140.28",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 4,
+     "content": "34.57",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 5,
+     "content": "-46.78",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 0,
+     "content": "Otros resultados no operativos netos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 1,
+     "content": "-23.31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 2,
+     "content": "-30.90",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 3,
+     "content": "6.12",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 4,
+     "content": "127.15",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 5,
+     "content": "327.76",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 0,
+     "content": "Otros ingresos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 1,
+     "content": "38.58",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 2,
+     "content": "68.02",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 3,
+     "content": "26.87",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 4,
+     "content": "182.29",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 5,
+     "content": "389.36",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 0,
+     "content": "Otros gastos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 1,
+     "content": "-61.89",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 2,
+     "content": "-98.92",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 3,
+     "content": "-20.75",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 4,
+     "content": "-55.15",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 5,
+     "content": "-61.61",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 0,
+     "content": "Ganancias antes de impuestos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 1,
+     "content": "26.36",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 2,
+     "content": "-37.67",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 3,
+     "content": "92.29",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 4,
+     "content": "-36.58",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 5,
+     "content": "-46.78",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 0,
+     "content": "Ganancias después de impuestos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 1,
+     "content": "26.36",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 2,
+     "content": "-37.67",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 3,
+     "content": "92.29",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 4,
+     "content": "-36.58",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 5,
+     "content": "-46.78",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 0,
+     "content": "Ganancia (Pérdida) Neta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 1,
+     "content": "26.36",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 2,
+     "content": "-37.67",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 3,
+     "content": "92.29",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 4,
+     "content": "-36.58",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 5,
+     "content": "-46.78",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 6
+    }
+   ]
+  },
+  {
+   "rowCount": 11,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Tipo de Moneda utilizado para la conversión de la moneda (IFRS)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "3,981.16",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "4,810.20",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "3,822.05",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "4,409.15",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "3,757.08",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Activos Totales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "540.60",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "389.71",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "575.72",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "511.07",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "689.36",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Activos no corrientes",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "53.83",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "44.23",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "36.97",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "12.23",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "81.28",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Propiedad, planta y equipo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "53.83",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "44.23",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "36.97",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "12.23",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "81.28",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Activos Corrientes",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "486.77",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "345.47",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "538.76",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "498.84",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 5,
+     "content": "608.09",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "Total de patrimonio y pasivos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "540.60",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 2,
+     "content": "389.71",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 3,
+     "content": "575.72",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 4,
+     "content": "511.07",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 5,
+     "content": "689.36",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "Total de patrimonio",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "198.75",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 2,
+     "content": "131.17",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 3,
+     "content": "269.51",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 4,
+     "content": "318.48",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 5,
+     "content": "153.89",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Pasivos Totales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "341.85",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 2,
+     "content": "258.54",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 3,
+     "content": "306.22",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 4,
+     "content": "192.58",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 5,
+     "content": "535.47",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 0,
+     "content": "Pasivos no corrientes",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 1,
+     "content": "161.09",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 2,
+     "content": "120.06",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 3,
+     "content": "74.31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 4,
+     "content": "41.06",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 5,
+     "content": "0.00",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 0,
+     "content": "Pasivos Corrientes",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 1,
+     "content": "180.76",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 2,
+     "content": "138.48",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 3,
+     "content": "231.91",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 4,
+     "content": "151.53",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 5,
+     "content": "535.47",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 6
+    }
+   ]
+  },
+  {
+   "rowCount": 6,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Tipo de Estado Financiero",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Fecha inicial del periodo de reporte",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "2021-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "2022-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "2023-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "2024-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "2025-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Fecha final del período",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "2021-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "2022-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "2023-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "2024-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "2025-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Unidades originales como se reportó",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Fuente",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 5,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 7
+    }
+   ]
+  },
+  {
+   "rowCount": 5,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Tipo de Estado Financiero",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Fecha final del período",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "2021-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "2022-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "2023-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "2024-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "2025-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Proveedor",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "Medellin Chamber of Commerce",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Unidades",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "Miles USD",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "Miles USD",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 8
+    }
+   ]
+  },
+  {
+   "rowCount": 25,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Tipo de Moneda utilizado para la conversión de la moneda (IFRS)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "3,743.09",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "4,255.44",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "4,325.05",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "4,071.35",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "4,052.71",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Ratios de Rentabilidad",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Rendimiento Sobre Los Activos (ROA)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "4.58%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "-8.55%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "18.14%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "-6.61%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "-7.32%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Rendimiento Sobre Activos Anualizado",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "4.58%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "-8.55%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "18.14%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "-6.61%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "-7.32%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Rendimiento Sobre El Patrimonio (ROE)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "12.47%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "-25.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "38.75%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "-10.61%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 5,
+     "content": "-32.79%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "Rendimiento Sobre El Patrimonio Anualizado",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "12.47%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 2,
+     "content": "-25.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 3,
+     "content": "38.75%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 4,
+     "content": "-10.61%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 5,
+     "content": "-32.79%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "Rendimiento Sobre El Capital Empleado",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "11.05%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 2,
+     "content": "-12.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 3,
+     "content": "46.17%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 4,
+     "content": "8.88%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 5,
+     "content": "-32.79%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Margen De Ganancia Bruta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "56.59%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 2,
+     "content": "49.86%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 3,
+     "content": "57.88%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 4,
+     "content": "48.80%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 5,
+     "content": "51.59%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 0,
+     "content": "Margen Operacional",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 1,
+     "content": "2.61%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 2,
+     "content": "-1.62%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 3,
+     "content": "6.45%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 4,
+     "content": "1.98%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 5,
+     "content": "-3.26%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 0,
+     "content": "Margen Neto",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 1,
+     "content": "1.63%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 2,
+     "content": "-1.73%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 3,
+     "content": "4.24%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 4,
+     "content": "-2.10%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 5,
+     "content": "-3.26%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 0,
+     "content": "ROA Operativo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 1,
+     "content": "7.36%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 2,
+     "content": "-8.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 3,
+     "content": "27.57%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 4,
+     "content": "6.25%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 5,
+     "content": "-7.32%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 0,
+     "content": "Ratios de Eficiencia",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 0,
+     "content": "Rotación Del Activo Corriente",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 1,
+     "content": "3.13x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 2,
+     "content": "5.56x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 3,
+     "content": "4.57x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 4,
+     "content": "3.23x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 5,
+     "content": "2.55x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 0,
+     "content": "Rotación Del Activo No Corriente",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 1,
+     "content": "28.31x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 2,
+     "content": "43.46x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 3,
+     "content": "66.61x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 4,
+     "content": "131.74x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 5,
+     "content": "19.06x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 0,
+     "content": "Rotación De Activos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 1,
+     "content": "2.82x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 2,
+     "content": "4.93x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 3,
+     "content": "4.28x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 4,
+     "content": "3.15x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 5,
+     "content": "2.25x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 0,
+     "content": "Rotación Del Capital De Trabajo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 1,
+     "content": "4.98x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 2,
+     "content": "9.29x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 3,
+     "content": "8.03x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 4,
+     "content": "4.64x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 5,
+     "content": "21.33x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 0,
+     "content": "Proporción De Exportación",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 0,
+     "content": "Cifras de valoración",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 0,
+     "content": "Efectivo Neto",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 1,
+     "content": "-363.59",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 2,
+     "content": "-292.25",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 3,
+     "content": "-270.60",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 4,
+     "content": "-208.56",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 5,
+     "content": "-496.41",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 0,
+     "content": "Capital De Trabajo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 1,
+     "content": "325.47",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 2,
+     "content": "233.98",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 3,
+     "content": "271.16",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 4,
+     "content": "376.13",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 5,
+     "content": "67.32",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 0,
+     "content": "Capital Empleado",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 1,
+     "content": "382.72",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 2,
+     "content": "283.98",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 3,
+     "content": "303.83",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 4,
+     "content": "389.37",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 5,
+     "content": "142.67",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 0,
+     "content": "Ratios de Liquidez",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 0,
+     "content": "Razón De Liquidez",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 1,
+     "content": "2.69x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 2,
+     "content": "2.49x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 3,
+     "content": "2.32x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 4,
+     "content": "3.29x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 5,
+     "content": "1.14x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 0,
+     "content": "Modelo Z-Score de Altman",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 1,
+     "content": "4.63",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 2,
+     "content": "3.44",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 3,
+     "content": "5.64",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 4,
+     "content": "5.75",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 5,
+     "content": "0.50",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 8
+    }
+   ]
+  },
+  {
+   "rowCount": 34,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "Pasivos Corrientes / Pasivos No Corrientes",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "1.12x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "1.15x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "3.12x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "3.69x",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Deuda / Activos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Relación Deuda/Capital",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Relación Deuda Largo Plazo/Capital Empleado",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 0,
+     "content": "Relación Activos/Patrimonio",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 1,
+     "content": "272.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 2,
+     "content": "297.11%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 3,
+     "content": "213.62%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 4,
+     "content": "160.47%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 4,
+     "columnIndex": 5,
+     "content": "447.95%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 0,
+     "content": "Ratios de Tendencia de Crecimiento",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 5,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 0,
+     "content": "Tendencia De Los Ingresos Netos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 1,
+     "content": "68.21%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 2,
+     "content": "52.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 3,
+     "content": "1.78%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 4,
+     "content": "-24.51%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 6,
+     "columnIndex": 5,
+     "content": "-18.09%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 0,
+     "content": "Tendencia De Los Ingresos Operacionales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 1,
+     "content": "68.21%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 2,
+     "content": "52.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 3,
+     "content": "1.78%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 4,
+     "content": "-24.51%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 7,
+     "columnIndex": 5,
+     "content": "-18.09%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 0,
+     "content": "Tendencia De La Utilidad Bruta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 1,
+     "content": "64.49%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 2,
+     "content": "34.27%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 3,
+     "content": "18.15%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 4,
+     "content": "-36.35%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 8,
+     "columnIndex": 5,
+     "content": "-13.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 0,
+     "content": "Tendencia De La Utilidad Operacional",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 1,
+     "content": "2,251.81%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 2,
+     "content": "-194.69%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 3,
+     "content": "-504.70%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 4,
+     "content": "-76.80%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 9,
+     "columnIndex": 5,
+     "content": "-234.71%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 0,
+     "content": "Tendencia De La Utilidad Neta",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 1,
+     "content": "305.04%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 2,
+     "content": "-262.49%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 3,
+     "content": "-348.97%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 4,
+     "content": "-137.32%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 10,
+     "columnIndex": 5,
+     "content": "27.29%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 0,
+     "content": "Tendencia Propiedad, Planta Y Equipo Neto (PP&E)",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 1,
+     "content": "-33.44%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 2,
+     "content": "-0.72%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 3,
+     "content": "-33.59%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 4,
+     "content": "-61.83%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 11,
+     "columnIndex": 5,
+     "content": "466.23%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 0,
+     "content": "Tendencia De Los Activos Totales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 1,
+     "content": "27.84%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 2,
+     "content": "-12.90%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 3,
+     "content": "17.38%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 4,
+     "content": "2.41%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 12,
+     "columnIndex": 5,
+     "content": "14.94%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 0,
+     "content": "Tendencia Del Patrimonio Neto",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 1,
+     "content": "14.25%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 2,
+     "content": "-20.26%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 3,
+     "content": "63.26%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 4,
+     "content": "36.33%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 13,
+     "columnIndex": 5,
+     "content": "-58.83%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 0,
+     "content": "Ratios de rendimiento",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 14,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 0,
+     "content": "Razón Flujo De Caja Operativo/Ingresos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 15,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 0,
+     "content": "Razón Flujo De Caja Operativo/Activos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 16,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 0,
+     "content": "Razón Flujo De Caja Operativo/Patrimonio",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 17,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 0,
+     "content": "Razón Flujo De Caja Operativo/Utilidad Operacional",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 18,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 0,
+     "content": "Proporciones de tamaño común",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 19,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 0,
+     "content": "Relación Efectivo/Total Activos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 20,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 0,
+     "content": "Relación Cuentas Por Cobrar/Activos Totales",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 21,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 0,
+     "content": "Relación Inventario/Total Activos",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 22,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 0,
+     "content": "Relación Activo fijo/Total activo",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 1,
+     "content": "9.96%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 2,
+     "content": "11.35%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 3,
+     "content": "6.42%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 4,
+     "content": "2.39%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 23,
+     "columnIndex": 5,
+     "content": "11.79%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 0,
+     "content": "Relación Pasivo Corriente/Pasivo total",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 1,
+     "content": "52.88%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 2,
+     "content": "53.56%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 3,
+     "content": "75.73%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 4,
+     "content": "78.68%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 24,
+     "columnIndex": 5,
+     "content": "100.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 25,
+     "columnIndex": 0,
+     "content": "Razón Salarios Y Prestaciones Laborales/ Ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 25,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 25,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 25,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 25,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 25,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 26,
+     "columnIndex": 0,
+     "content": "Relación Gastos Administrativos/Ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 26,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 26,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 26,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 26,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 26,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 27,
+     "columnIndex": 0,
+     "content": "Relación Depreciación Y Amortización/Ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 27,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 27,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 27,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 27,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 27,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 28,
+     "columnIndex": 0,
+     "content": "Relación Intereses Pagados/Ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 28,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 28,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 28,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 28,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 28,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 29,
+     "columnIndex": 0,
+     "content": "Relación Impuesto A La Renta/Ventas",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 29,
+     "columnIndex": 1,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 29,
+     "columnIndex": 2,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 29,
+     "columnIndex": 3,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 29,
+     "columnIndex": 4,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 29,
+     "columnIndex": 5,
+     "content": "0.00%",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 30,
+     "columnIndex": 0,
+     "content": "Más Inforciones",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 30,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 30,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 30,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 30,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 30,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 31,
+     "columnIndex": 0,
+     "content": "NOMBRE",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 31,
+     "columnIndex": 1,
+     "content": "2021",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 31,
+     "columnIndex": 2,
+     "content": "2022",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 31,
+     "columnIndex": 3,
+     "content": "2023",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 31,
+     "columnIndex": 4,
+     "content": "2024",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 31,
+     "columnIndex": 5,
+     "content": "2025",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 32,
+     "columnIndex": 0,
+     "content": "Todos los ratios calculados por EMIS",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 32,
+     "columnIndex": 1,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 32,
+     "columnIndex": 2,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 32,
+     "columnIndex": 3,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 32,
+     "columnIndex": 4,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 32,
+     "columnIndex": 5,
+     "content": "",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 33,
+     "columnIndex": 0,
+     "content": "Tipo de Estado Financiero",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 33,
+     "columnIndex": 1,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 33,
+     "columnIndex": 2,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 33,
+     "columnIndex": 3,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 33,
+     "columnIndex": 4,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 33,
+     "columnIndex": 5,
+     "content": "Anual, Indiv.",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 9
+    }
+   ]
+  },
+  {
+   "rowCount": 4,
+   "columnCount": 6,
+   "cells": [
+    {
+     "rowIndex": 0,
+     "columnIndex": 0,
+     "content": "Fecha inicial del periodo de reporte",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 1,
+     "content": "2021-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 2,
+     "content": "2022-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 3,
+     "content": "2023-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 4,
+     "content": "2024-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 0,
+     "columnIndex": 5,
+     "content": "2025-01-01",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 0,
+     "content": "Fecha final del período",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 1,
+     "content": "2021-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 2,
+     "content": "2022-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 3,
+     "content": "2023-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 4,
+     "content": "2024-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 1,
+     "columnIndex": 5,
+     "content": "2025-12-31",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 0,
+     "content": "Unidades originales como se reportó",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 1,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 2,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 3,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 4,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 2,
+     "columnIndex": 5,
+     "content": "COP Miles",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 0,
+     "content": "Fuente",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 1,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 2,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 3,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 4,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    },
+    {
+     "rowIndex": 3,
+     "columnIndex": 5,
+     "content": "C.C. Medellin - EEFF",
+     "kind": "content"
+    }
+   ],
+   "boundingRegions": [
+    {
+     "pageNumber": 10
+    }
+   ]
+  }
+ ]
+}

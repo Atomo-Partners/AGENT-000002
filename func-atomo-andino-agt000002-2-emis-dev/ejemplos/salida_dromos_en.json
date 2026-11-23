@@ -1,0 +1,4856 @@
+{
+  "metadata": {
+    "fuente": "EMIS",
+    "archivo_origen": "EEFF EMIS Dromos.pdf",
+    "fecha_extraccion": "2026-11-13T14:28:29.8424324Z",
+    "modelo": "prebuilt-layout",
+    "fecha_estandarizacion": "2026-11-13T19:13:09Z",
+    "idioma_reporte": "en",
+    "unidades": "usd_miles",
+    "convencion_porcentajes": "fraccion (20.05% = 0.2005)",
+    "version_esquema": "1.0",
+    "version_catalogo": "1.0",
+    "tablas_recibidas": 16
+  },
+  "empresa": {
+    "nombre_completo": "Dromos Pavimentos S.A.S",
+    "estado_bolsa": "Non-Listed",
+    "forma_legal": "Other non-liability limited",
+    "estado_operacional": "Operational",
+    "emis_id": "2653351",
+    "nit": "900215394",
+    "fecha_constitucion": "2008-04-22",
+    "sede": "Km 3.8 Via Mosquera La Mesa Zona Industr Mosquera; Cundinamarca; Colombia;",
+    "telefono": "+57-60-1-742-5376",
+    "fax": "+57-60-1-744-5656",
+    "email": "william.tanaka@dromos.co"
+  },
+  "clasificacion_naics": null,
+  "descripcion_negocio": null,
+  "informacion_basica": null,
+  "ejecutivos_clave": null,
+  "resumen_financiero": {
+    "anios": [
+      2021,
+      2023,
+      2024,
+      2025
+    ],
+    "filas": [
+      {
+        "id": "total_operating_revenue",
+        "etiqueta": "Total Operating Revenue",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 11745.0,
+          "2023": 26466.0,
+          "2024": 34015.0,
+          "2025": 33508.0
+        },
+        "fuente": {
+          "pagina": 3,
+          "tabla": 2,
+          "fila": 2
+        }
+      },
+      {
+        "id": "net_sales_revenue",
+        "etiqueta": "Net sales revenue",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 11720.0,
+          "2023": 26300.0,
+          "2024": 33782.0,
+          "2025": 33197.0
+        },
+        "fuente": {
+          "pagina": 3,
+          "tabla": 2,
+          "fila": 3
+        }
+      },
+      {
+        "id": "gross_profit",
+        "etiqueta": "Gross Profit",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 2350.0,
+          "2023": 5564.0,
+          "2024": 7531.0,
+          "2025": 6892.0
+        },
+        "fuente": {
+          "pagina": 3,
+          "tabla": 2,
+          "fila": 4
+        }
+      },
+      {
+        "id": "gross_profit_margin",
+        "etiqueta": "Gross Profit Margin",
+        "unidad": "fraccion",
+        "valores": {
+          "2021": 0.2005,
+          "2023": 0.2116,
+          "2024": 0.2229,
+          "2025": 0.2076
+        },
+        "fuente": {
+          "pagina": 3,
+          "tabla": 2,
+          "fila": 5
+        }
+      },
+      {
+        "id": "operating_profit",
+        "etiqueta": "Operating Profit",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 1309.0,
+          "2023": 4125.0,
+          "2024": 5703.0,
+          "2025": 4218.0
+        },
+        "fuente": {
+          "pagina": 3,
+          "tabla": 2,
+          "fila": 6
+        }
+      },
+      {
+        "id": "operating_profit_margin",
+        "etiqueta": "Operating Profit Margin",
+        "unidad": "fraccion",
+        "valores": {
+          "2021": 0.1117,
+          "2023": 0.1569,
+          "2024": 0.1688,
+          "2025": 0.1271
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 2
+        }
+      },
+      {
+        "id": "ebitda",
+        "etiqueta": "EBITDA",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 1980.0,
+          "2023": 4711.0,
+          "2024": 6919.0,
+          "2025": 5448.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 3
+        }
+      },
+      {
+        "id": "ebitda_margin",
+        "etiqueta": "EBITDA Margin",
+        "unidad": "fraccion",
+        "valores": {
+          "2021": 0.169,
+          "2023": 0.1791,
+          "2024": 0.2048,
+          "2025": 0.1641
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 4
+        }
+      },
+      {
+        "id": "net_profit",
+        "etiqueta": "Net Profit/Loss for the Period",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 538.0,
+          "2023": 2115.0,
+          "2024": 3281.0,
+          "2025": 1962.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 5
+        }
+      },
+      {
+        "id": "net_profit_margin",
+        "etiqueta": "Net Profit Margin",
+        "unidad": "fraccion",
+        "valores": {
+          "2021": 0.0459,
+          "2023": 0.0804,
+          "2024": 0.0971,
+          "2025": 0.0591
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 6
+        }
+      },
+      {
+        "id": "total_assets",
+        "etiqueta": "Total Assets",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 16057.0,
+          "2023": 27100.0,
+          "2024": 29851.0,
+          "2025": 36974.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 7
+        }
+      },
+      {
+        "id": "current_assets",
+        "etiqueta": "Current Assets",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 3820.0,
+          "2023": 4919.0,
+          "2024": 8494.0,
+          "2025": 7755.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 8
+        }
+      },
+      {
+        "id": "total_liabilities",
+        "etiqueta": "Total Liabilities",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 8092.0,
+          "2023": 13707.0,
+          "2024": 17707.0,
+          "2025": 21128.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 9
+        }
+      },
+      {
+        "id": "net_debt",
+        "etiqueta": "Net Debt",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": 5234.0,
+          "2023": 5141.0,
+          "2024": 9896.0,
+          "2025": 12478.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 10
+        }
+      },
+      {
+        "id": "net_cash_flow_operating",
+        "etiqueta": "Net Cash Flow from (used in) Operating Activities",
+        "unidad": "usd_miles",
+        "valores": {
+          "2021": -573.0,
+          "2023": 4569.0,
+          "2024": 1457.0,
+          "2025": 1811.0
+        },
+        "fuente": {
+          "pagina": 4,
+          "tabla": 3,
+          "fila": 11
+        }
+      }
+    ]
+  },
+  "empresas_similares": [
+    {
+      "nombre": "Grupo Construccion y Consultoria de Colombia Sas",
+      "total_ingreso_operativo": 799750.0,
+      "utilidad_operacional": 48277.0,
+      "utilidad_neta": 45890.0,
+      "roa": 334.4916,
+      "roe": 334.6348,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 4,
+        "tabla": 4,
+        "fila": 1
+      }
+    },
+    {
+      "nombre": "Kma Construcciones S.A.S",
+      "total_ingreso_operativo": 240079.0,
+      "utilidad_operacional": 92521.0,
+      "utilidad_neta": 72999.0,
+      "roa": 0.1447,
+      "roe": 0.262,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 4,
+        "tabla": 4,
+        "fila": 2
+      }
+    },
+    {
+      "nombre": "Sociedad Operadora de Aeropuertos Centro Norte S.A.S.",
+      "total_ingreso_operativo": 201163.0,
+      "utilidad_operacional": 68485.0,
+      "utilidad_neta": 45412.0,
+      "roa": 0.2045,
+      "roe": 0.3567,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 4,
+        "tabla": 4,
+        "fila": 3
+      }
+    },
+    {
+      "nombre": "Mincivil S A",
+      "total_ingreso_operativo": 186634.0,
+      "utilidad_operacional": 15489.0,
+      "utilidad_neta": 15499.0,
+      "roa": 0.055,
+      "roe": 0.0988,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 0
+      }
+    },
+    {
+      "nombre": "Ortiz Construcciones y Proyectos S A Sucursal Colombia",
+      "total_ingreso_operativo": 174712.0,
+      "utilidad_operacional": 28547.0,
+      "utilidad_neta": 17611.0,
+      "roa": 0.0802,
+      "roe": 0.5379,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 1
+      }
+    },
+    {
+      "nombre": "Constructora Colpatria S.A.S",
+      "total_ingreso_operativo": 172626.0,
+      "utilidad_operacional": 16187.0,
+      "utilidad_neta": 10575.0,
+      "roa": 0.0185,
+      "roe": 0.0659,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 3
+      }
+    },
+    {
+      "nombre": "Mecanicos Asociados S.A.S.",
+      "total_ingreso_operativo": 171327.0,
+      "utilidad_operacional": 2244.0,
+      "utilidad_neta": -1404.0,
+      "roa": -0.0109,
+      "roe": -0.0285,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 4
+      }
+    },
+    {
+      "nombre": "Wvg Construcoes e Infraestrutura Ltda Sucursal Colombia",
+      "total_ingreso_operativo": 157326.0,
+      "utilidad_operacional": 69857.0,
+      "utilidad_neta": 64317.0,
+      "roa": 0.3898,
+      "roe": 0.3927,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2021,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 5
+      }
+    },
+    {
+      "nombre": "China Harbour Engineering Company Limited Colombia",
+      "total_ingreso_operativo": 151838.0,
+      "utilidad_operacional": 14869.0,
+      "utilidad_neta": 62017.0,
+      "roa": 0.4802,
+      "roe": -0.7435,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 6
+      }
+    },
+    {
+      "nombre": "Ismocol S.A.",
+      "total_ingreso_operativo": 140034.0,
+      "utilidad_operacional": 9669.0,
+      "utilidad_neta": 7518.0,
+      "roa": 0.0686,
+      "roe": 0.084,
+      "utilidad_por_accion": null,
+      "fecha_referencia_precio": null,
+      "anio_fiscal": 2025,
+      "fuente": {
+        "pagina": 5,
+        "tabla": 5,
+        "fila": 7
+      }
+    }
+  ],
+  "estados_financieros": {
+    "detalles_reporte": {
+      "statement_type": {
+        "etiqueta": "Statement type",
+        "valores": {
+          "2020": "anual_individual",
+          "2021": "anual_individual",
+          "2023": "anual_individual",
+          "2024": "anual_individual",
+          "2025": "anual_individual"
+        }
+      },
+      "period_end_date": {
+        "etiqueta": "Period end date",
+        "valores": {
+          "2020": "2020-12-31",
+          "2021": "2021-12-31",
+          "2023": "2023-12-31",
+          "2024": "2024-12-31",
+          "2025": "2025-12-31"
+        }
+      },
+      "provider": {
+        "etiqueta": "Provider",
+        "valores": {
+          "2020": "Superintendencia de Sociedades",
+          "2021": "Superintendencia de Sociedades",
+          "2023": "Superintendencia de Sociedades",
+          "2024": "Superintendencia de Sociedades",
+          "2025": "Superintendencia de Sociedades"
+        }
+      },
+      "units": {
+        "etiqueta": "Units",
+        "valores": {
+          "2020": "usd_miles",
+          "2021": "usd_miles",
+          "2023": "usd_miles",
+          "2024": "usd_miles",
+          "2025": "usd_miles"
+        }
+      }
+    },
+    "periodos": [
+      {
+        "anio": 2020,
+        "inicio": "2020-01-01",
+        "fin": "2020-12-31",
+        "tasa_resultados": 3693.36,
+        "tasa_balance": 3432.5,
+        "tasa_flujo": 3693.36,
+        "tasa_ratios": 3693.36
+      },
+      {
+        "anio": 2021,
+        "inicio": "2021-01-01",
+        "fin": "2021-12-31",
+        "tasa_resultados": 3743.09,
+        "tasa_balance": 3981.16,
+        "tasa_flujo": 3743.09,
+        "tasa_ratios": 3743.09
+      },
+      {
+        "anio": 2023,
+        "inicio": "2023-01-01",
+        "fin": "2023-12-31",
+        "tasa_resultados": 4325.05,
+        "tasa_balance": 3822.05,
+        "tasa_flujo": 4325.05,
+        "tasa_ratios": 4325.05
+      },
+      {
+        "anio": 2024,
+        "inicio": "2024-01-01",
+        "fin": "2024-12-31",
+        "tasa_resultados": 4071.35,
+        "tasa_balance": 4409.15,
+        "tasa_flujo": 4071.35,
+        "tasa_ratios": 4071.35
+      },
+      {
+        "anio": 2025,
+        "inicio": "2025-01-01",
+        "fin": "2025-12-31",
+        "tasa_resultados": 4052.71,
+        "tasa_balance": 3757.08,
+        "tasa_flujo": 4052.71,
+        "tasa_ratios": 4052.71
+      }
+    ],
+    "estado_resultados": [
+      {
+        "id": "total_operating_revenue",
+        "etiqueta": "Total Operating Revenue",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 10045.2,
+          "2021": 11744.73,
+          "2023": 26465.91,
+          "2024": 34015.26,
+          "2025": 33507.79
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 4
+        }
+      },
+      {
+        "id": "net_sales_revenue",
+        "etiqueta": "Net sales revenue",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 10003.28,
+          "2021": 11719.93,
+          "2023": 26299.76,
+          "2024": 33781.75,
+          "2025": 33196.88
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 5
+        }
+      },
+      {
+        "id": "cost_of_goods_sold",
+        "etiqueta": "Cost of Goods Sold",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -7432.11,
+          "2021": -9370.06,
+          "2023": -20735.7,
+          "2024": -26251.18,
+          "2025": -26304.47
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 6
+        }
+      },
+      {
+        "id": "gross_profit",
+        "etiqueta": "Gross Profit",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2571.17,
+          "2021": 2349.88,
+          "2023": 5564.06,
+          "2024": 7530.57,
+          "2025": 6892.41
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 7
+        }
+      },
+      {
+        "id": "selling_and_distribution_expenses",
+        "etiqueta": "Selling and Distribution Expenses",
+        "padre": "operating_profit",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -75.74,
+          "2021": -100.15,
+          "2023": -232.92,
+          "2024": -326.87,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 8
+        }
+      },
+      {
+        "id": "administrative_expenses",
+        "etiqueta": "Administrative Expenses",
+        "padre": "operating_profit",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -659.0,
+          "2021": -790.92,
+          "2023": -1081.94,
+          "2024": -1506.95,
+          "2025": -1867.69
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 9
+        }
+      },
+      {
+        "id": "net_other_operating_result",
+        "etiqueta": "Net Other Operating Result",
+        "padre": "operating_profit",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -136.65,
+          "2021": -149.58,
+          "2023": -123.74,
+          "2024": 5.95,
+          "2025": -806.34
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 10
+        }
+      },
+      {
+        "id": "other_operating_income",
+        "etiqueta": "Other Operating Income",
+        "padre": "net_other_operating_result",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 41.92,
+          "2021": 24.79,
+          "2023": 166.15,
+          "2024": 233.51,
+          "2025": 310.91
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 11
+        }
+      },
+      {
+        "id": "other_operating_expenses",
+        "etiqueta": "Other Operating Expenses",
+        "padre": "net_other_operating_result",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -178.57,
+          "2021": -174.37,
+          "2023": -289.89,
+          "2024": -227.56,
+          "2025": -1117.25
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 12
+        }
+      },
+      {
+        "id": "operating_profit",
+        "etiqueta": "Operating Profit",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1699.78,
+          "2021": 1309.23,
+          "2023": 4125.46,
+          "2024": 5702.71,
+          "2025": 4218.38
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 13
+        }
+      },
+      {
+        "id": "ebitda",
+        "etiqueta": "EBITDA",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2390.46,
+          "2021": 1980.04,
+          "2023": 4710.99,
+          "2024": 6918.6,
+          "2025": 5448.37
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 14
+        }
+      },
+      {
+        "id": "financial_result",
+        "etiqueta": "Financial result",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -200.05,
+          "2021": -329.97,
+          "2023": -562.46,
+          "2024": -648.53,
+          "2025": -945.73
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 15
+        }
+      },
+      {
+        "id": "finance_income",
+        "etiqueta": "Finance income",
+        "padre": "financial_result",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 34.98,
+          "2021": 4.44,
+          "2023": 37.62,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 16
+        }
+      },
+      {
+        "id": "finance_expenses",
+        "etiqueta": "Finance Expenses",
+        "padre": "financial_result",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -235.03,
+          "2021": -334.42,
+          "2023": -600.09,
+          "2024": -648.53,
+          "2025": -945.73
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 17
+        }
+      },
+      {
+        "id": "net_other_non_operating_result",
+        "etiqueta": "Net Other Non-Operating Result",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -345.32,
+          "2021": 0.0,
+          "2023": -8.73,
+          "2024": 0.0,
+          "2025": -73.86
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 18
+        }
+      },
+      {
+        "id": "profit_before_income_tax",
+        "etiqueta": "Profit before Income Tax",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1154.41,
+          "2021": 979.25,
+          "2023": 3554.27,
+          "2024": 5054.17,
+          "2025": 3198.79
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 19
+        }
+      },
+      {
+        "id": "income_tax",
+        "etiqueta": "Income Tax",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -277.45,
+          "2021": -441.58,
+          "2023": -1439.03,
+          "2024": -1773.05,
+          "2025": -1236.55
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 20
+        }
+      },
+      {
+        "id": "profit_after_income_tax",
+        "etiqueta": "Profit after Income Tax",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 876.96,
+          "2021": 537.67,
+          "2023": 2115.23,
+          "2024": 3281.12,
+          "2025": 1962.24
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 21
+        }
+      },
+      {
+        "id": "net_profit",
+        "etiqueta": "Net Profit/Loss for the Period",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 876.96,
+          "2021": 537.67,
+          "2023": 2115.23,
+          "2024": 3281.12,
+          "2025": 1962.24
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 7,
+          "fila": 22
+        }
+      }
+    ],
+    "balance_general": [
+      {
+        "id": "total_assets",
+        "etiqueta": "Total Assets",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 16588.92,
+          "2021": 16056.58,
+          "2023": 27100.15,
+          "2024": 29851.48,
+          "2025": 36974.31
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 8,
+          "fila": 2
+        }
+      },
+      {
+        "id": "non_current_assets",
+        "etiqueta": "Non-Current Assets",
+        "padre": "total_assets",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 12483.52,
+          "2021": 12236.21,
+          "2023": 22180.76,
+          "2024": 21357.73,
+          "2025": 29219.23
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 8,
+          "fila": 3
+        }
+      },
+      {
+        "id": "property_plant_equipment",
+        "etiqueta": "Property, Plant and Equipment",
+        "padre": "non_current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 12361.68,
+          "2021": 12112.25,
+          "2023": 19551.11,
+          "2024": 18355.58,
+          "2025": 24146.16
+        },
+        "fuente": {
+          "pagina": 6,
+          "tabla": 8,
+          "fila": 4
+        }
+      },
+      {
+        "id": "intangible_assets_and_goodwill",
+        "etiqueta": "Intangible Assets and Goodwill",
+        "padre": "non_current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 23.77,
+          "2021": 28.15,
+          "2023": 2343.64,
+          "2024": 2315.79,
+          "2025": 2019.3
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 0
+        }
+      },
+      {
+        "id": "goodwill",
+        "etiqueta": "Goodwill",
+        "padre": "intangible_assets_and_goodwill",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 430.92,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 1
+        }
+      },
+      {
+        "id": "other_intangible_assets",
+        "etiqueta": "Other Intangible Assets",
+        "padre": "intangible_assets_and_goodwill",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 23.77,
+          "2021": 28.15,
+          "2023": 2343.64,
+          "2024": 1884.86,
+          "2025": 2019.3
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 2
+        }
+      },
+      {
+        "id": "non_current_trade_and_other_receivables",
+        "etiqueta": "Non-Current Trade and Other Receivables",
+        "padre": "non_current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 112.19,
+          "2024": 514.33,
+          "2025": 2418.19
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 3
+        }
+      },
+      {
+        "id": "non_current_trade_receivables",
+        "etiqueta": "Non-Current Trade Receivables",
+        "padre": "non_current_trade_and_other_receivables",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 112.19,
+          "2024": 514.33,
+          "2025": 2418.19
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 4
+        }
+      },
+      {
+        "id": "long_term_financial_assets",
+        "etiqueta": "Long-Term Financial Assets",
+        "padre": "non_current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 635.59
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 5
+        }
+      },
+      {
+        "id": "other_non_current_financial_assets",
+        "etiqueta": "Other Non-Current Financial Assets",
+        "padre": "long_term_financial_assets",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 635.59
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 6
+        }
+      },
+      {
+        "id": "deferred_assets",
+        "etiqueta": "Deferred Assets",
+        "padre": "non_current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 98.08,
+          "2021": 95.81,
+          "2023": 173.82,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 7
+        }
+      },
+      {
+        "id": "non_current_deferred_tax_assets",
+        "etiqueta": "Non-Current Deferred Tax Assets",
+        "padre": "deferred_assets",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 98.08,
+          "2021": 95.81,
+          "2023": 173.82,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 8
+        }
+      },
+      {
+        "id": "other_non_current_assets",
+        "etiqueta": "Other Non-Current Assets",
+        "padre": "non_current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 172.03,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 9
+        }
+      },
+      {
+        "id": "current_assets",
+        "etiqueta": "Current Assets",
+        "padre": "total_assets",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 4105.4,
+          "2021": 3820.37,
+          "2023": 4919.39,
+          "2024": 8493.75,
+          "2025": 7755.08
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 10
+        }
+      },
+      {
+        "id": "inventories",
+        "etiqueta": "Inventories",
+        "padre": "current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1150.1,
+          "2021": 1201.98,
+          "2023": 906.5,
+          "2024": 1158.2,
+          "2025": 1092.5
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 11
+        }
+      },
+      {
+        "id": "trade_and_other_receivables",
+        "etiqueta": "Trade and Other Receivables",
+        "padre": "current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2318.31,
+          "2021": 2124.93,
+          "2023": 3356.53,
+          "2024": 6965.96,
+          "2025": 5821.9
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 12
+        }
+      },
+      {
+        "id": "current_trade_receivables",
+        "etiqueta": "Current Trade Receivables",
+        "padre": "trade_and_other_receivables",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1525.69,
+          "2021": 1397.59,
+          "2023": 1863.63,
+          "2024": 5464.31,
+          "2025": 4329.07
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 13
+        }
+      },
+      {
+        "id": "tax_receivables",
+        "etiqueta": "Tax Receivables",
+        "padre": "trade_and_other_receivables",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 792.63,
+          "2021": 727.34,
+          "2023": 1492.9,
+          "2024": 1501.65,
+          "2025": 1492.82
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 14
+        }
+      },
+      {
+        "id": "cash_and_cash_equivalents",
+        "etiqueta": "Cash and Cash Equivalents",
+        "padre": "current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 543.72,
+          "2021": 460.84,
+          "2023": 526.9,
+          "2024": 117.34,
+          "2025": 569.18
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 15
+        }
+      },
+      {
+        "id": "other_current_assets",
+        "etiqueta": "Other Current Assets",
+        "padre": "current_assets",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 93.27,
+          "2021": 32.62,
+          "2023": 129.46,
+          "2024": 252.24,
+          "2025": 271.5
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 16
+        }
+      },
+      {
+        "id": "total_equity_and_liabilities",
+        "etiqueta": "Total Equity and Liabilities",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 16588.92,
+          "2021": 16056.58,
+          "2023": 27100.15,
+          "2024": 29851.48,
+          "2025": 36974.31
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 17
+        }
+      },
+      {
+        "id": "total_equity",
+        "etiqueta": "Total Equity",
+        "padre": "total_equity_and_liabilities",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 8650.95,
+          "2021": 7964.24,
+          "2023": 13392.83,
+          "2024": 12144.44,
+          "2025": 15846.14
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 18
+        }
+      },
+      {
+        "id": "equity_attributable_to_owners",
+        "etiqueta": "Equity attributable to Owners of the Parent",
+        "padre": "total_equity",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 8650.95,
+          "2021": 7964.24,
+          "2023": 13392.83,
+          "2024": 12144.44,
+          "2025": 15846.14
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 19
+        }
+      },
+      {
+        "id": "issued_capital",
+        "etiqueta": "Issued Capital",
+        "padre": "equity_attributable_to_owners",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1456.66,
+          "2021": 1255.92,
+          "2023": 1308.2,
+          "2024": 1134.01,
+          "2025": 1330.82
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 20
+        }
+      },
+      {
+        "id": "other_reserves",
+        "etiqueta": "Other Reserves",
+        "padre": "equity_attributable_to_owners",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 609.73,
+          "2021": 607.06,
+          "2023": 654.1,
+          "2024": 567.0,
+          "2025": 665.41
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 21
+        }
+      },
+      {
+        "id": "retained_earnings",
+        "etiqueta": "Retained Earnings",
+        "padre": "equity_attributable_to_owners",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1972.56,
+          "2021": 2154.83,
+          "2023": 2893.79,
+          "2024": 3043.4,
+          "2025": 2084.91
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 22
+        }
+      },
+      {
+        "id": "other_components_of_equity",
+        "etiqueta": "Other Components of Equity",
+        "padre": "equity_attributable_to_owners",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 4611.98,
+          "2021": 3946.44,
+          "2023": 8536.74,
+          "2024": 7400.03,
+          "2025": 11765.01
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 23
+        }
+      },
+      {
+        "id": "total_liabilities",
+        "etiqueta": "Total Liabilities",
+        "padre": "total_equity_and_liabilities",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 7937.98,
+          "2021": 8092.34,
+          "2023": 13707.31,
+          "2024": 17707.04,
+          "2025": 21128.17
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 24
+        }
+      },
+      {
+        "id": "non_current_liabilities",
+        "etiqueta": "Non-Current Liabilities",
+        "padre": "total_liabilities",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 5019.07,
+          "2021": 6751.21,
+          "2023": 9623.32,
+          "2024": 11952.08,
+          "2025": 15344.98
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 25
+        }
+      },
+      {
+        "id": "non_current_loans_and_borrowings",
+        "etiqueta": "Non-Current Loans and Borrowings",
+        "padre": "non_current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 3188.74,
+          "2021": 5381.39,
+          "2023": 6344.15,
+          "2024": 9249.67,
+          "2025": 14026.18
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 26
+        }
+      },
+      {
+        "id": "other_non_current_payables",
+        "etiqueta": "Other Non-Current Payables",
+        "padre": "non_current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1623.66,
+          "2021": 1122.32,
+          "2023": 2726.17,
+          "2024": 2386.28,
+          "2025": 337.84
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 27
+        }
+      },
+      {
+        "id": "non_current_deferred_revenue_and_accruals",
+        "etiqueta": "Deferred Revenue, Accrued Expenses and Other Deferred Non-Current Liabilities",
+        "padre": "non_current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 96.61,
+          "2021": 152.72,
+          "2023": 553.0,
+          "2024": 316.12,
+          "2025": 333.37
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 28
+        }
+      },
+      {
+        "id": "non_current_provisions",
+        "etiqueta": "Provisions for Other Liabilities and Charges",
+        "padre": "non_current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 110.06,
+          "2021": 94.79,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 29
+        }
+      },
+      {
+        "id": "other_non_current_liabilities",
+        "etiqueta": "Other Non-Current Liabilities",
+        "padre": "non_current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 647.57
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 30
+        }
+      },
+      {
+        "id": "current_liabilities",
+        "etiqueta": "Current Liabilities",
+        "padre": "total_liabilities",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2918.91,
+          "2021": 1341.13,
+          "2023": 4083.99,
+          "2024": 5754.96,
+          "2025": 5783.19
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 31
+        }
+      },
+      {
+        "id": "current_loans_and_borrowings",
+        "etiqueta": "Current Loans and Borrowings",
+        "padre": "current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.72,
+          "2023": 0.84,
+          "2024": 5.21,
+          "2025": 3.07
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 32
+        }
+      },
+      {
+        "id": "trade_and_other_payables",
+        "etiqueta": "Trade and Other Payables",
+        "padre": "current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2487.71,
+          "2021": 941.15,
+          "2023": 2294.63,
+          "2024": 3553.06,
+          "2025": 3690.61
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 33
+        }
+      },
+      {
+        "id": "current_trade_payables",
+        "etiqueta": "Current Trade Payables",
+        "padre": "trade_and_other_payables",
+        "nivel": 4,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2487.71,
+          "2021": 941.15,
+          "2023": 2294.63,
+          "2024": 3553.06,
+          "2025": 3690.61
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 34
+        }
+      },
+      {
+        "id": "current_provisions",
+        "etiqueta": "Provisions for Other Liabilities and Charges",
+        "padre": "current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 385.86,
+          "2024": 274.44,
+          "2025": 414.5
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 35
+        }
+      },
+      {
+        "id": "other_current_liabilities",
+        "etiqueta": "Other Current Liabilities",
+        "padre": "current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.95,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 36
+        }
+      },
+      {
+        "id": "current_income_tax_liabilities",
+        "etiqueta": "Current Income Tax Liabilities",
+        "padre": "current_liabilities",
+        "nivel": 3,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 431.19,
+          "2021": 399.26,
+          "2023": 1401.71,
+          "2024": 1922.26,
+          "2025": 1675.01
+        },
+        "fuente": {
+          "pagina": 7,
+          "tabla": 9,
+          "fila": 37
+        }
+      }
+    ],
+    "flujo_de_caja": [
+      {
+        "id": "net_cash_flow_operating",
+        "etiqueta": "Net Cash Flow from (used in) Operating Activities",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1090.86,
+          "2021": -573.17,
+          "2023": 4569.25,
+          "2024": 1457.0,
+          "2025": 1811.45
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 2
+        }
+      },
+      {
+        "id": "cf_net_profit",
+        "etiqueta": "Net Profit",
+        "padre": "net_cash_flow_operating",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 876.96,
+          "2021": 537.67,
+          "2023": 2115.23,
+          "2024": 3281.12,
+          "2025": 1962.24
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 3
+        }
+      },
+      {
+        "id": "cash_generated_from_operations",
+        "etiqueta": "Cash generated from Operations",
+        "padre": "net_cash_flow_operating",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 982.33,
+          "2021": 1145.71,
+          "2023": 1916.54,
+          "2024": 3001.49,
+          "2025": 3297.02
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 4
+        }
+      },
+      {
+        "id": "adj_depreciation_impairment_ppe",
+        "etiqueta": "Adjustments for: Depreciation and Impairment of Property, Plant and Equipment",
+        "padre": "cash_generated_from_operations",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 690.67,
+          "2021": 670.81,
+          "2023": 585.53,
+          "2024": 1215.89,
+          "2025": 1229.99
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 5
+        }
+      },
+      {
+        "id": "adj_other_adjustments",
+        "etiqueta": "Adjustments for: Other Adjustments",
+        "padre": "cash_generated_from_operations",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 14.21,
+          "2021": 474.9,
+          "2023": 1330.17,
+          "2024": 1785.6,
+          "2025": 2067.03
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 6
+        }
+      },
+      {
+        "id": "chg_inventories",
+        "etiqueta": "Changes in: Inventories",
+        "padre": "cash_generated_from_operations",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -459.27,
+          "2021": -231.85,
+          "2023": 520.95,
+          "2024": -388.6,
+          "2025": 248.16
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 7
+        }
+      },
+      {
+        "id": "chg_trade_and_other_receivables",
+        "etiqueta": "Changes in: Trade and Other Receivables",
+        "padre": "cash_generated_from_operations",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -439.3,
+          "2021": -102.55,
+          "2023": 563.18,
+          "2024": -6089.87,
+          "2025": 198.77
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 8
+        }
+      },
+      {
+        "id": "chg_trade_and_other_payables",
+        "etiqueta": "Changes in: Trade and Other Payables",
+        "padre": "cash_generated_from_operations",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 503.89,
+          "2021": -1575.63,
+          "2023": -546.66,
+          "2024": 1652.85,
+          "2025": -2937.06
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 9
+        }
+      },
+      {
+        "id": "chg_provisions_and_employee_benefits",
+        "etiqueta": "Changes in: Provisions and Employee Benefits",
+        "padre": "cash_generated_from_operations",
+        "nivel": 2,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 277.45,
+          "2021": 0.0,
+          "2023": 0.84,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 10
+        }
+      },
+      {
+        "id": "other_operating_activity_cash_flows",
+        "etiqueta": "Other Operating Activity Cash Flows",
+        "padre": "net_cash_flow_operating",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -373.75,
+          "2021": -346.52,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": -957.68
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 11
+        }
+      },
+      {
+        "id": "net_cash_flow_investing",
+        "etiqueta": "Net Cash Flow from (used in) Investing Activities",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -1112.48,
+          "2021": -2159.92,
+          "2023": -2272.91,
+          "2024": -3148.07,
+          "2025": -1051.4
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 12
+        }
+      },
+      {
+        "id": "purchase_of_ppe",
+        "etiqueta": "Purchase of Property, Plant and Equipment",
+        "padre": "net_cash_flow_investing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -1108.88,
+          "2021": -2150.59,
+          "2023": -2271.71,
+          "2024": -2463.09,
+          "2025": -1013.79
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 13
+        }
+      },
+      {
+        "id": "proceeds_from_sale_of_ppe",
+        "etiqueta": "Proceeds from Sale of Property, Plant and Equipment",
+        "padre": "net_cash_flow_investing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 8.38,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 14
+        }
+      },
+      {
+        "id": "purchase_of_intangible_assets",
+        "etiqueta": "Purchase of Intangible Assets",
+        "padre": "net_cash_flow_investing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -3.6,
+          "2021": -9.33,
+          "2023": -9.58,
+          "2024": -505.97,
+          "2025": -37.62
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 15
+        }
+      },
+      {
+        "id": "other_investing_activity_cash_flows",
+        "etiqueta": "Other Investing Activity Cash Flows",
+        "padre": "net_cash_flow_investing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": -179.02,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 16
+        }
+      },
+      {
+        "id": "net_cash_flow_financing",
+        "etiqueta": "Net Cash Flow from (used in) Financing Activities",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 284.39,
+          "2021": 2724.65,
+          "2023": -2454.33,
+          "2024": 1323.52,
+          "2025": -360.05
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 17
+        }
+      },
+      {
+        "id": "proceeds_from_borrowings",
+        "etiqueta": "Proceeds from Borrowings",
+        "padre": "net_cash_flow_financing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1259.11,
+          "2021": 2724.65,
+          "2023": 0.0,
+          "2024": 4025.33,
+          "2025": 2980.44
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 18
+        }
+      },
+      {
+        "id": "payments_of_finance_lease_liabilities",
+        "etiqueta": "Payments of Finance Lease Liabilities",
+        "padre": "net_cash_flow_financing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": -604.64,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 19
+        }
+      },
+      {
+        "id": "dividends_paid",
+        "etiqueta": "Dividends Paid",
+        "padre": "net_cash_flow_financing",
+        "nivel": 1,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -974.72,
+          "2021": 0.0,
+          "2023": -1849.69,
+          "2024": -2701.81,
+          "2025": -3340.49
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 20
+        }
+      },
+      {
+        "id": "net_change_in_cash",
+        "etiqueta": "Net Increase/Decrease in Cash and Cash Equivalents",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 262.77,
+          "2021": -8.45,
+          "2023": -157.99,
+          "2024": -367.55,
+          "2025": 400.0
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 21
+        }
+      },
+      {
+        "id": "cash_beginning_of_period",
+        "etiqueta": "Cash at the Beginning of the Period",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 242.55,
+          "2021": 0.0,
+          "2023": 623.61,
+          "2024": 494.64,
+          "2025": 127.67
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 22
+        }
+      },
+      {
+        "id": "cash_end_of_period",
+        "etiqueta": "Cash at the End of the Period",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 505.32,
+          "2021": 0.0,
+          "2023": 465.62,
+          "2024": 127.08,
+          "2025": 527.66
+        },
+        "fuente": {
+          "pagina": 8,
+          "tabla": 10,
+          "fila": 23
+        }
+      }
+    ],
+    "otra_informacion": {
+      "statement_type": {
+        "etiqueta": "Statement type",
+        "valores": {
+          "2020": "anual_individual",
+          "2021": "anual_individual",
+          "2023": "anual_individual",
+          "2024": "anual_individual",
+          "2025": "anual_individual"
+        }
+      },
+      "begin_date": {
+        "etiqueta": "Begin date of reporting period",
+        "valores": {
+          "2020": "2020-01-01",
+          "2021": "2021-01-01",
+          "2023": "2023-01-01",
+          "2024": "2024-01-01",
+          "2025": "2025-01-01"
+        }
+      },
+      "period_end_date": {
+        "etiqueta": "Period end date",
+        "valores": {
+          "2020": "2020-12-31",
+          "2021": "2021-12-31",
+          "2023": "2023-12-31",
+          "2024": "2024-12-31",
+          "2025": "2025-12-31"
+        }
+      },
+      "original_units": {
+        "etiqueta": "Original units as reported",
+        "valores": {
+          "2020": "cop_miles",
+          "2021": "cop_miles",
+          "2023": "cop_miles",
+          "2024": "cop_miles",
+          "2025": "cop_miles"
+        }
+      },
+      "source": {
+        "etiqueta": "Source",
+        "valores": {
+          "2020": "Supersociedades - IFRS",
+          "2021": "Supersociedades - IFRS",
+          "2023": "Supersociedades - IFRS",
+          "2024": "Supersociedades - IFRS",
+          "2025": "Supersociedades - IFRS"
+        }
+      }
+    }
+  },
+  "ratios": {
+    "detalles_reporte": {
+      "statement_type": {
+        "etiqueta": "Statement type",
+        "valores": {
+          "2020": "anual_individual",
+          "2021": "anual_individual",
+          "2023": "anual_individual",
+          "2024": "anual_individual",
+          "2025": "anual_individual"
+        }
+      },
+      "period_end_date": {
+        "etiqueta": "Period end date",
+        "valores": {
+          "2020": "2020-12-31",
+          "2021": "2021-12-31",
+          "2023": "2023-12-31",
+          "2024": "2024-12-31",
+          "2025": "2025-12-31"
+        }
+      },
+      "provider": {
+        "etiqueta": "Provider",
+        "valores": {
+          "2020": "Superintendencia de Sociedades",
+          "2021": "Superintendencia de Sociedades",
+          "2023": "Superintendencia de Sociedades",
+          "2024": "Superintendencia de Sociedades",
+          "2025": "Superintendencia de Sociedades"
+        }
+      },
+      "units": {
+        "etiqueta": "Units",
+        "valores": {
+          "2020": "usd_miles",
+          "2021": "usd_miles",
+          "2023": "usd_miles",
+          "2024": "usd_miles",
+          "2025": "usd_miles"
+        }
+      }
+    },
+    "rentabilidad": [
+      {
+        "id": "return_on_assets",
+        "etiqueta": "Return on Assets (ROA)",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0569,
+          "2021": 0.0315,
+          "2023": 0.0883,
+          "2024": 0.1015,
+          "2025": 0.0572
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 3
+        }
+      },
+      {
+        "id": "annualised_roa",
+        "etiqueta": "Annualised ROA",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0569,
+          "2021": 0.0315,
+          "2023": 0.0883,
+          "2024": 0.1015,
+          "2025": 0.0572
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 4
+        }
+      },
+      {
+        "id": "return_on_equity",
+        "etiqueta": "Return on Equity (ROE)",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1091,
+          "2021": 0.0635,
+          "2023": 0.1787,
+          "2024": 0.2495,
+          "2025": 0.1336
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 5
+        }
+      },
+      {
+        "id": "annualised_roe",
+        "etiqueta": "Annualised ROE",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1091,
+          "2021": 0.0635,
+          "2023": 0.1787,
+          "2024": 0.2495,
+          "2025": 0.1336
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 6
+        }
+      },
+      {
+        "id": "return_on_capital_employed",
+        "etiqueta": "Return on Capital Employed",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1338,
+          "2021": 0.0836,
+          "2023": 0.2028,
+          "2024": 0.2185,
+          "2025": 0.1459
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 7
+        }
+      },
+      {
+        "id": "gross_profit_margin",
+        "etiqueta": "Gross Profit Margin",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.257,
+          "2021": 0.2005,
+          "2023": 0.2116,
+          "2024": 0.2229,
+          "2025": 0.2076
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 8
+        }
+      },
+      {
+        "id": "ebitda_margin",
+        "etiqueta": "EBITDA Margin",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.239,
+          "2021": 0.1689,
+          "2023": 0.1791,
+          "2024": 0.2048,
+          "2025": 0.1641
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 9
+        }
+      },
+      {
+        "id": "operating_profit_margin",
+        "etiqueta": "Operating Profit Margin",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1699,
+          "2021": 0.1117,
+          "2023": 0.1569,
+          "2024": 0.1688,
+          "2025": 0.1271
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 10
+        }
+      },
+      {
+        "id": "net_profit_margin",
+        "etiqueta": "Net Profit Margin",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0877,
+          "2021": 0.0459,
+          "2023": 0.0804,
+          "2024": 0.0971,
+          "2025": 0.0591
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 11
+        }
+      },
+      {
+        "id": "operating_roa",
+        "etiqueta": "Operating ROA",
+        "grupo": "rentabilidad",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1103,
+          "2021": 0.0767,
+          "2023": 0.1723,
+          "2024": 0.1764,
+          "2025": 0.1231
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 12
+        }
+      }
+    ],
+    "eficiencia": [
+      {
+        "id": "inventory_turnover",
+        "etiqueta": "Inventory Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 6.95,
+          "2021": 7.33,
+          "2023": 25.89,
+          "2024": 20.93,
+          "2025": 25.97
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 14
+        }
+      },
+      {
+        "id": "trade_receivables_turnover",
+        "etiqueta": "Trade Receivables Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 7.05,
+          "2021": 7.88,
+          "2023": 15.06,
+          "2024": 5.22,
+          "2025": 5.31
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 15
+        }
+      },
+      {
+        "id": "current_assets_turnover",
+        "etiqueta": "Current Assets Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 2.62,
+          "2021": 2.88,
+          "2023": 6.05,
+          "2024": 3.67,
+          "2025": 4.62
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 16
+        }
+      },
+      {
+        "id": "days_inventory_outstanding",
+        "etiqueta": "Days Inventory Outstanding (Ending)",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "dias",
+        "valores": {
+          "2020": 52.49,
+          "2021": 49.8,
+          "2023": 14.1,
+          "2024": 17.44,
+          "2025": 14.05
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 17
+        }
+      },
+      {
+        "id": "days_sales_outstanding",
+        "etiqueta": "Days Sales Outstanding (Ending)",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "dias",
+        "valores": {
+          "2020": 51.74,
+          "2021": 46.29,
+          "2023": 22.86,
+          "2024": 63.94,
+          "2025": 44.13
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 18
+        }
+      },
+      {
+        "id": "days_payable_outstanding",
+        "etiqueta": "Days Payable Outstanding (Ending)",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "dias",
+        "valores": {
+          "2020": 113.55,
+          "2021": 38.99,
+          "2023": 35.69,
+          "2024": 53.5,
+          "2025": 47.48
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 19
+        }
+      },
+      {
+        "id": "cash_conversion_cycle",
+        "etiqueta": "Cash Conversion Cycle (Ending)",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "dias",
+        "valores": {
+          "2020": -9.31,
+          "2021": 57.1,
+          "2023": 1.26,
+          "2024": 27.88,
+          "2025": 10.7
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 20
+        }
+      },
+      {
+        "id": "non_current_assets_turnover",
+        "etiqueta": "Non-Current Assets Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.86,
+          "2021": 0.9,
+          "2023": 1.34,
+          "2024": 1.46,
+          "2025": 1.23
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 21
+        }
+      },
+      {
+        "id": "assets_turnover",
+        "etiqueta": "Assets Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.65,
+          "2021": 0.69,
+          "2023": 1.1,
+          "2024": 1.05,
+          "2025": 0.97
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 22
+        }
+      },
+      {
+        "id": "trade_payables_turnover",
+        "etiqueta": "Trade Payables Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 3.41,
+          "2021": 9.58,
+          "2023": 10.62,
+          "2024": 6.93,
+          "2025": 7.62
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 23
+        }
+      },
+      {
+        "id": "working_capital_turnover",
+        "etiqueta": "Working Capital Turnover",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 9.07,
+          "2021": 4.44,
+          "2023": 35.63,
+          "2024": 11.39,
+          "2025": 18.16
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 24
+        }
+      },
+      {
+        "id": "export_proportion",
+        "etiqueta": "Export Proportion",
+        "grupo": "eficiencia",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 9,
+          "tabla": 13,
+          "fila": 25
+        }
+      }
+    ],
+    "cifras_de_valoracion": [
+      {
+        "id": "book_value",
+        "etiqueta": "Bookvalue (BV)",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 8017.84,
+          "2021": 8440.85,
+          "2023": 9764.18,
+          "2024": 10644.15,
+          "2025": 12818.23
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 0
+        }
+      },
+      {
+        "id": "net_cash",
+        "etiqueta": "Net Cash",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": -6872.0,
+          "2021": -8116.88,
+          "2023": -11647.54,
+          "2024": -19049.13,
+          "2025": -19059.28
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 1
+        }
+      },
+      {
+        "id": "debt",
+        "etiqueta": "Debt",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2963.52,
+          "2021": 5724.42,
+          "2023": 5607.08,
+          "2024": 10022.77,
+          "2025": 13005.87
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 2
+        }
+      },
+      {
+        "id": "long_term_debt",
+        "etiqueta": "Long-Term Debt",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2963.52,
+          "2021": 5723.66,
+          "2023": 5606.33,
+          "2024": 10017.13,
+          "2025": 13003.03
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 3
+        }
+      },
+      {
+        "id": "short_term_debt",
+        "etiqueta": "Short-Term Debt",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.76,
+          "2023": 0.75,
+          "2024": 5.64,
+          "2025": 2.85
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 4
+        }
+      },
+      {
+        "id": "net_debt",
+        "etiqueta": "Net Debt",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 2458.21,
+          "2021": 5234.27,
+          "2023": 5141.46,
+          "2024": 9895.69,
+          "2025": 12478.21
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 5
+        }
+      },
+      {
+        "id": "working_capital",
+        "etiqueta": "Working Capital",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1102.69,
+          "2021": 2636.93,
+          "2023": 738.24,
+          "2024": 2966.03,
+          "2025": 1828.05
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 6
+        }
+      },
+      {
+        "id": "capital_employed",
+        "etiqueta": "Capital Employed",
+        "grupo": "cifras_de_valoracion",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 12704.51,
+          "2021": 15651.4,
+          "2023": 20339.39,
+          "2024": 26095.84,
+          "2025": 28915.84
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 7
+        }
+      }
+    ],
+    "liquidez": [
+      {
+        "id": "current_ratio",
+        "etiqueta": "Current Ratio",
+        "grupo": "liquidez",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 1.41,
+          "2021": 2.85,
+          "2023": 1.2,
+          "2024": 1.48,
+          "2025": 1.34
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 9
+        }
+      },
+      {
+        "id": "quick_ratio",
+        "etiqueta": "Quick Ratio",
+        "grupo": "liquidez",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 1.01,
+          "2021": 1.95,
+          "2023": 0.98,
+          "2024": 1.27,
+          "2025": 1.15
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 10
+        }
+      },
+      {
+        "id": "dooms_day_ratio",
+        "etiqueta": "Doom's Day Ratio",
+        "grupo": "liquidez",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.19,
+          "2021": 0.34,
+          "2023": 0.13,
+          "2024": 0.02,
+          "2025": 0.1
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 11
+        }
+      },
+      {
+        "id": "cash_ratio",
+        "etiqueta": "Cash Ratio",
+        "grupo": "liquidez",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.19,
+          "2021": 0.34,
+          "2023": 0.13,
+          "2024": 0.02,
+          "2025": 0.1
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 12
+        }
+      },
+      {
+        "id": "operating_cash_flow_ratio",
+        "etiqueta": "Operating Cash Flow Ratio",
+        "grupo": "liquidez",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.4,
+          "2021": -0.4,
+          "2023": 1.27,
+          "2024": 0.23,
+          "2025": 0.34
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 13
+        }
+      },
+      {
+        "id": "altman_z_score",
+        "etiqueta": "Altman Z-Score",
+        "grupo": "liquidez",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "indice",
+        "valores": {
+          "2020": 2.5,
+          "2021": 2.87,
+          "2023": 2.57,
+          "2024": 2.71,
+          "2025": 1.95
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 14
+        }
+      }
+    ],
+    "apalancamiento": [
+      {
+        "id": "current_to_non_current_liabilities",
+        "etiqueta": "Current Liabilities / Non-Current Liabilities",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.58,
+          "2021": 0.2,
+          "2023": 0.42,
+          "2024": 0.48,
+          "2025": 0.38
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 16
+        }
+      },
+      {
+        "id": "debt_to_assets",
+        "etiqueta": "Debt / Assets",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1922,
+          "2021": 0.3352,
+          "2023": 0.2341,
+          "2024": 0.31,
+          "2025": 0.3794
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 17
+        }
+      },
+      {
+        "id": "debt_to_equity",
+        "etiqueta": "Debt / Equity",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.3686,
+          "2021": 0.6758,
+          "2023": 0.4738,
+          "2024": 0.7621,
+          "2025": 0.8853
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 18
+        }
+      },
+      {
+        "id": "long_term_debt_to_capital_employed",
+        "etiqueta": "Long-Term Debt / Capital Employed",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.2333,
+          "2021": 0.3657,
+          "2023": 0.2756,
+          "2024": 0.3839,
+          "2025": 0.4497
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 19
+        }
+      },
+      {
+        "id": "debt_to_ebitda",
+        "etiqueta": "Debt / EBITDA",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 1.24,
+          "2021": 2.89,
+          "2023": 1.19,
+          "2024": 1.45,
+          "2025": 2.39
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 20
+        }
+      },
+      {
+        "id": "net_debt_to_ebitda",
+        "etiqueta": "Net Debt / EBITDA",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 1.03,
+          "2021": 2.64,
+          "2023": 1.09,
+          "2024": 1.43,
+          "2025": 2.29
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 21
+        }
+      },
+      {
+        "id": "net_cash_flow_to_debt",
+        "etiqueta": "Net Cash Flow / Debt",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0887,
+          "2021": -0.0015,
+          "2023": -0.0282,
+          "2024": -0.0367,
+          "2025": 0.0308
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 22
+        }
+      },
+      {
+        "id": "assets_to_equity",
+        "etiqueta": "Assets / Equity",
+        "grupo": "apalancamiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 1.9176,
+          "2021": 2.0161,
+          "2023": 2.0235,
+          "2024": 2.458,
+          "2025": 2.3333
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 23
+        }
+      }
+    ],
+    "tendencias_de_crecimiento": [
+      {
+        "id": "net_sales_revenue_trend",
+        "etiqueta": "Net Sales Revenue Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -0.1701,
+          "2021": 0.1874,
+          "2023": null,
+          "2024": 0.2091,
+          "2025": -0.0218
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 25
+        }
+      },
+      {
+        "id": "total_operating_revenue_trend",
+        "etiqueta": "Total Operating Revenue Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -0.1821,
+          "2021": 0.1849,
+          "2023": null,
+          "2024": 0.2099,
+          "2025": -0.0194
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 26
+        }
+      },
+      {
+        "id": "gross_profit_trend",
+        "etiqueta": "Gross Profit Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0191,
+          "2021": -0.0738,
+          "2023": null,
+          "2024": 0.274,
+          "2025": -0.0889
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 27
+        }
+      },
+      {
+        "id": "ebitda_trend",
+        "etiqueta": "EBITDA Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0741,
+          "2021": -0.1605,
+          "2023": null,
+          "2024": 0.3825,
+          "2025": -0.2161
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 28
+        }
+      },
+      {
+        "id": "operating_profit_trend",
+        "etiqueta": "Operating Profit Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1398,
+          "2021": -0.2194,
+          "2023": null,
+          "2024": 0.3012,
+          "2025": -0.2637
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 29
+        }
+      },
+      {
+        "id": "net_profit_trend",
+        "etiqueta": "Net Profit Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -0.3755,
+          "2021": -0.3786,
+          "2023": null,
+          "2024": 0.4602,
+          "2025": -0.4047
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 30
+        }
+      },
+      {
+        "id": "accounts_receivables_trend",
+        "etiqueta": "Accounts Receivables Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.4305,
+          "2021": 0.0625,
+          "2023": null,
+          "2024": 2.4907,
+          "2025": -0.0383
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 31
+        }
+      },
+      {
+        "id": "inventory_trend",
+        "etiqueta": "Inventory Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.7488,
+          "2021": 0.2122,
+          "2023": null,
+          "2024": 0.4739,
+          "2025": -0.1962
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 32
+        }
+      },
+      {
+        "id": "net_ppe_trend",
+        "etiqueta": "Net Property, Plant and Equipment (PPE) Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0378,
+          "2021": 0.1364,
+          "2023": null,
+          "2024": 0.0831,
+          "2025": 0.1209
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 33
+        }
+      },
+      {
+        "id": "total_assets_trend",
+        "etiqueta": "Total Assets Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1142,
+          "2021": 0.1226,
+          "2023": null,
+          "2024": 0.2707,
+          "2025": 0.0554
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 34
+        }
+      },
+      {
+        "id": "book_value_trend",
+        "etiqueta": "Bookvalue Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -0.0125,
+          "2021": 0.0669,
+          "2023": null,
+          "2024": 0.0262,
+          "2025": 0.1987
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 35
+        }
+      },
+      {
+        "id": "shareholders_equity_trend",
+        "etiqueta": "Shareholders' Equity Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -0.012,
+          "2021": 0.0678,
+          "2023": null,
+          "2024": 0.0461,
+          "2025": 0.1118
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 36
+        }
+      },
+      {
+        "id": "operating_cash_flow_trend",
+        "etiqueta": "Operating Cash Flow Trend",
+        "grupo": "tendencias_de_crecimiento",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -0.3439,
+          "2021": -1.5325,
+          "2023": null,
+          "2024": -0.6998,
+          "2025": 0.2376
+        },
+        "fuente": {
+          "pagina": 10,
+          "tabla": 14,
+          "fila": 37
+        }
+      }
+    ],
+    "cobertura": [
+      {
+        "id": "operating_cash_flow_to_debt",
+        "etiqueta": "Operating Cash Flow / Debt",
+        "grupo": "cobertura",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "veces",
+        "valores": {
+          "2020": 0.37,
+          "2021": -0.1,
+          "2023": 0.81,
+          "2024": 0.15,
+          "2025": 0.14
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 0
+        }
+      }
+    ],
+    "desempeno": [
+      {
+        "id": "operating_cash_flow_to_revenue",
+        "etiqueta": "Operating Cash Flow / Revenue",
+        "grupo": "desempeno",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1091,
+          "2021": -0.0489,
+          "2023": 0.1737,
+          "2024": 0.0431,
+          "2025": 0.0546
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 2
+        }
+      },
+      {
+        "id": "operating_cash_flow_to_assets",
+        "etiqueta": "Operating Cash Flow / Assets",
+        "grupo": "desempeno",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0708,
+          "2021": -0.0336,
+          "2023": 0.1908,
+          "2024": 0.0451,
+          "2025": 0.0528
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 3
+        }
+      },
+      {
+        "id": "operating_cash_flow_to_equity",
+        "etiqueta": "Operating Cash Flow / Equity",
+        "grupo": "desempeno",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.1357,
+          "2021": -0.0677,
+          "2023": 0.3861,
+          "2024": 0.1108,
+          "2025": 0.1233
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 4
+        }
+      },
+      {
+        "id": "operating_cash_flow_to_ebit",
+        "etiqueta": "Operating Cash Flow / EBIT",
+        "grupo": "desempeno",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.6418,
+          "2021": -0.4378,
+          "2023": 1.1076,
+          "2024": 0.2555,
+          "2025": 0.4294
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 5
+        }
+      },
+      {
+        "id": "capital_expenditure",
+        "etiqueta": "Capital Expenditure (CapEx)",
+        "grupo": "desempeno",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "usd_miles",
+        "valores": {
+          "2020": 1108.88,
+          "2021": 2150.59,
+          "2023": 2271.71,
+          "2024": 2463.09,
+          "2025": 1013.79
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 6
+        }
+      }
+    ],
+    "tamano_comun": [
+      {
+        "id": "cash_to_total_assets",
+        "etiqueta": "Cash / Total Assets",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0328,
+          "2021": 0.0287,
+          "2023": 0.0194,
+          "2024": 0.0039,
+          "2025": 0.0154
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 8
+        }
+      },
+      {
+        "id": "trade_receivables_to_total_assets",
+        "etiqueta": "Trade Receivables / Total Assets",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.092,
+          "2021": 0.087,
+          "2023": 0.0729,
+          "2024": 0.2003,
+          "2025": 0.1825
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 9
+        }
+      },
+      {
+        "id": "inventories_to_total_assets",
+        "etiqueta": "Inventories / Total Assets",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0693,
+          "2021": 0.0749,
+          "2023": 0.0334,
+          "2024": 0.0388,
+          "2025": 0.0295
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 10
+        }
+      },
+      {
+        "id": "fixed_assets_to_total_assets",
+        "etiqueta": "Fixed Assets / Total Assets",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.7452,
+          "2021": 0.7543,
+          "2023": 0.7214,
+          "2024": 0.6149,
+          "2025": 0.6531
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 11
+        }
+      },
+      {
+        "id": "current_to_total_liabilities",
+        "etiqueta": "Current Liabilities / Total Liabilities",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.3677,
+          "2021": 0.1657,
+          "2023": 0.2979,
+          "2024": 0.325,
+          "2025": 0.2737
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 12
+        }
+      },
+      {
+        "id": "salaries_to_net_sales",
+        "etiqueta": "Salaries and Employee Benefits / Net Sales",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 13
+        }
+      },
+      {
+        "id": "administrative_expenses_to_net_sales",
+        "etiqueta": "Administrative Expenses / Net Sales",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0659,
+          "2021": 0.0675,
+          "2023": 0.0411,
+          "2024": 0.0446,
+          "2025": 0.0563
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 14
+        }
+      },
+      {
+        "id": "depreciation_amortization_to_net_sales",
+        "etiqueta": "Depreciation and Amortization / Net sales",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 15
+        }
+      },
+      {
+        "id": "interest_paid_to_net_sales",
+        "etiqueta": "Interest Paid / Net Sales",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0,
+          "2021": 0.0,
+          "2023": 0.0,
+          "2024": 0.0,
+          "2025": 0.0
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 16
+        }
+      },
+      {
+        "id": "income_tax_to_net_sales",
+        "etiqueta": "Income Tax / Net Sales",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 0.0277,
+          "2021": 0.0377,
+          "2023": 0.0547,
+          "2024": 0.0525,
+          "2025": 0.0372
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 17
+        }
+      },
+      {
+        "id": "operating_cf_to_total_cf",
+        "etiqueta": "Operating Cash Flow / Total Cash Flow",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 4.1514,
+          "2021": 67.8269,
+          "2023": -28.9206,
+          "2024": -3.964,
+          "2025": 4.5286
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 18
+        }
+      },
+      {
+        "id": "investing_cf_to_total_cf",
+        "etiqueta": "Investing Cash Flow / Total Cash Flow",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": -4.2337,
+          "2021": 255.5969,
+          "2023": 14.3862,
+          "2024": 8.5649,
+          "2025": -2.6285
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 19
+        }
+      },
+      {
+        "id": "financing_cf_to_total_cf",
+        "etiqueta": "Financing Cash Flow / Total Cash Flow",
+        "grupo": "tamano_comun",
+        "padre": null,
+        "nivel": 0,
+        "unidad": "fraccion",
+        "valores": {
+          "2020": 1.0823,
+          "2021": -322.4238,
+          "2023": 15.5344,
+          "2024": -3.6009,
+          "2025": -0.9001
+        },
+        "fuente": {
+          "pagina": 11,
+          "tabla": 15,
+          "fila": 20
+        }
+      }
+    ],
+    "otra_informacion": {
+      "statement_type": {
+        "etiqueta": "Statement type",
+        "valores": {
+          "2020": "anual_individual",
+          "2021": "anual_individual",
+          "2023": "anual_individual",
+          "2024": "anual_individual",
+          "2025": "anual_individual"
+        }
+      },
+      "begin_date": {
+        "etiqueta": "Begin date of reporting period",
+        "valores": {
+          "2020": "2020-01-01",
+          "2021": "2021-01-01",
+          "2023": "2023-01-01",
+          "2024": "2024-01-01",
+          "2025": "2025-01-01"
+        }
+      },
+      "period_end_date": {
+        "etiqueta": "Period end date",
+        "valores": {
+          "2020": "2020-12-31",
+          "2021": "2021-12-31",
+          "2023": "2023-12-31",
+          "2024": "2024-12-31",
+          "2025": "2025-12-31"
+        }
+      },
+      "nota": "all ratios calculated by emis"
+    }
+  },
+  "filas_no_reconocidas": [],
+  "calidad": {
+    "estado": "error",
+    "anios": [
+      2020,
+      2021,
+      2023,
+      2024,
+      2025
+    ],
+    "anios_faltantes": [
+      2022
+    ],
+    "secciones_ausentes": [],
+    "secciones_no_disponibles": [
+      {
+        "seccion": "clasificacion_naics",
+        "motivo": "La entrada no trae 'parrafos'."
+      },
+      {
+        "seccion": "descripcion_negocio",
+        "motivo": "La entrada no trae 'parrafos'."
+      },
+      {
+        "seccion": "informacion_basica",
+        "motivo": "La entrada no trae 'parrafos'."
+      },
+      {
+        "seccion": "ejecutivos_clave",
+        "motivo": "La entrada no trae 'parrafos'."
+      }
+    ],
+    "cuentas_faltantes": {
+      "estado_resultados": [
+        "other_non_operating_income",
+        "other_non_operating_expenses"
+      ],
+      "balance_general": [],
+      "flujo_de_caja": [],
+      "ratios.rentabilidad": [],
+      "ratios.eficiencia": [],
+      "ratios.cifras_de_valoracion": [],
+      "ratios.liquidez": [],
+      "ratios.apalancamiento": [],
+      "ratios.tendencias_de_crecimiento": [],
+      "ratios.cobertura": [],
+      "ratios.desempeno": [],
+      "ratios.tamano_comun": [],
+      "resumen_financiero": [
+        "provider"
+      ]
+    },
+    "correcciones": [
+      {
+        "tipo": "tabla_continuada",
+        "seccion": "empresas_similares",
+        "tabla": 5,
+        "detalle": "Continuación de la tabla anterior en otra página; columnas alineadas desde la derecha."
+      },
+      {
+        "tipo": "tabla_continuada",
+        "tabla": 9,
+        "pagina": 7,
+        "detalle": "Tabla sin fila de años; hereda los años de la tabla anterior."
+      },
+      {
+        "tipo": "tabla_continuada",
+        "tabla": 11,
+        "pagina": 8,
+        "detalle": "Tabla sin fila de años; hereda los años de la tabla anterior."
+      },
+      {
+        "tipo": "tabla_continuada",
+        "tabla": 14,
+        "pagina": 10,
+        "detalle": "Tabla sin fila de años; hereda los años de la tabla anterior."
+      },
+      {
+        "tipo": "fila_partida_unida",
+        "seccion": "empresas_similares",
+        "empresa": "Ortiz Construcciones y Proyectos S A Sucursal Colombia",
+        "filas": [
+          {
+            "pagina": 5,
+            "tabla": 5,
+            "fila": 1
+          },
+          {
+            "pagina": 5,
+            "tabla": 5,
+            "fila": 2
+          }
+        ]
+      }
+    ],
+    "validaciones": [
+      {
+        "id": "utilidad_bruta",
+        "descripcion": "Utilidad bruta = ventas netas + costo de ventas",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 2571.17,
+            "calculado": 2571.17,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 2349.88,
+            "calculado": 2349.87,
+            "diferencia": -0.01
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 5564.06,
+            "calculado": 5564.06,
+            "diferencia": -0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 7530.57,
+            "calculado": 7530.57,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 6892.41,
+            "calculado": 6892.41,
+            "diferencia": -0.0
+          }
+        }
+      },
+      {
+        "id": "otros_operacionales",
+        "descripcion": "Otros operacionales = otros ingresos + otros gastos operacionales",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": -136.65,
+            "calculado": -136.65,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": -149.58,
+            "calculado": -149.58,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": -123.74,
+            "calculado": -123.74,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 5.95,
+            "calculado": 5.95,
+            "diferencia": -0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": -806.34,
+            "calculado": -806.34,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "utilidad_operacional",
+        "descripcion": "Utilidad operacional = bruta + venta + administración + otros operacionales",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 1699.78,
+            "calculado": 1699.78,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 1309.23,
+            "calculado": 1309.23,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 4125.46,
+            "calculado": 4125.46,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 5702.71,
+            "calculado": 5702.7,
+            "diferencia": -0.01
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 4218.38,
+            "calculado": 4218.38,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "resultado_financiero",
+        "descripcion": "Resultado financiero = ingresos + gastos financieros",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": -200.05,
+            "calculado": -200.05,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": -329.97,
+            "calculado": -329.98,
+            "diferencia": -0.01
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": -562.46,
+            "calculado": -562.47,
+            "diferencia": -0.01
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": -648.53,
+            "calculado": -648.53,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": -945.73,
+            "calculado": -945.73,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "otros_no_operacionales",
+        "descripcion": "Otros no operacionales = otros ingresos + otros gastos no operacionales",
+        "severidad": "error",
+        "evaluados": 0,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "no_evaluable"
+          },
+          "2021": {
+            "estado": "no_evaluable"
+          },
+          "2023": {
+            "estado": "no_evaluable"
+          },
+          "2024": {
+            "estado": "no_evaluable"
+          },
+          "2025": {
+            "estado": "no_evaluable"
+          }
+        }
+      },
+      {
+        "id": "utilidad_antes_impuestos",
+        "descripcion": "Utilidad antes de impuestos = operacional + financiero + no operacional",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 1154.41,
+            "calculado": 1154.41,
+            "diferencia": -0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 979.25,
+            "calculado": 979.26,
+            "diferencia": 0.01
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 3554.27,
+            "calculado": 3554.27,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 5054.17,
+            "calculado": 5054.18,
+            "diferencia": 0.01
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 3198.79,
+            "calculado": 3198.79,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "utilidad_neta",
+        "descripcion": "Utilidad después de impuestos = antes de impuestos + impuesto",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 876.96,
+            "calculado": 876.96,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 537.67,
+            "calculado": 537.67,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 2115.23,
+            "calculado": 2115.24,
+            "diferencia": 0.01
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 3281.12,
+            "calculado": 3281.12,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 1962.24,
+            "calculado": 1962.24,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "activo_total",
+        "descripcion": "Activo total = no corriente + corriente",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 16588.92,
+            "calculado": 16588.92,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 16056.58,
+            "calculado": 16056.58,
+            "diferencia": -0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 27100.15,
+            "calculado": 27100.15,
+            "diferencia": -0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 29851.48,
+            "calculado": 29851.48,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 36974.31,
+            "calculado": 36974.31,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "activo_corriente",
+        "descripcion": "Activo corriente = suma de sus componentes",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 4105.4,
+            "calculado": 4105.4,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 3820.37,
+            "calculado": 3820.37,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 4919.39,
+            "calculado": 4919.39,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 8493.75,
+            "calculado": 8493.74,
+            "diferencia": -0.01
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 7755.08,
+            "calculado": 7755.08,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "patrimonio_y_pasivos",
+        "descripcion": "Total patrimonio y pasivos = patrimonio + pasivo total",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 16588.92,
+            "calculado": 16588.93,
+            "diferencia": 0.01
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 16056.58,
+            "calculado": 16056.58,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 27100.15,
+            "calculado": 27100.14,
+            "diferencia": -0.01
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 29851.48,
+            "calculado": 29851.48,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 36974.31,
+            "calculado": 36974.31,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "cuadre_balance",
+        "descripcion": "Activo total = total patrimonio y pasivos",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 16588.92,
+            "calculado": 16588.92,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 16056.58,
+            "calculado": 16056.58,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 27100.15,
+            "calculado": 27100.15,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 29851.48,
+            "calculado": 29851.48,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 36974.31,
+            "calculado": 36974.31,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "pasivo_total",
+        "descripcion": "Pasivo total = no corriente + corriente",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 7937.98,
+            "calculado": 7937.98,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 8092.34,
+            "calculado": 8092.34,
+            "diferencia": 0.0
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 13707.31,
+            "calculado": 13707.31,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 17707.04,
+            "calculado": 17707.04,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 21128.17,
+            "calculado": 21128.17,
+            "diferencia": 0.0
+          }
+        }
+      },
+      {
+        "id": "patrimonio",
+        "descripcion": "Patrimonio de los propietarios = capital + reservas + utilidades retenidas + otros",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 8650.95,
+            "calculado": 8650.93,
+            "diferencia": -0.02
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": 7964.24,
+            "calculado": 7964.25,
+            "diferencia": 0.01
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 13392.83,
+            "calculado": 13392.83,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 12144.44,
+            "calculado": 12144.44,
+            "diferencia": 0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 15846.14,
+            "calculado": 15846.15,
+            "diferencia": 0.01
+          }
+        }
+      },
+      {
+        "id": "cambio_en_caja",
+        "descripcion": "Cambio en caja = operación + inversión + financiación",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 262.77,
+            "calculado": 262.77,
+            "diferencia": -0.0
+          },
+          "2021": {
+            "estado": "ok",
+            "esperado": -8.45,
+            "calculado": -8.44,
+            "diferencia": 0.01
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": -157.99,
+            "calculado": -157.99,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": -367.55,
+            "calculado": -367.55,
+            "diferencia": -0.0
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 400.0,
+            "calculado": 400.0,
+            "diferencia": -0.0
+          }
+        }
+      },
+      {
+        "id": "caja_final",
+        "descripcion": "Caja final = caja inicial + cambio en caja",
+        "severidad": "error",
+        "evaluados": 5,
+        "fallas": [
+          "2021"
+        ],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 505.32,
+            "calculado": 505.32,
+            "diferencia": 0.0
+          },
+          "2021": {
+            "estado": "falla",
+            "esperado": 0.0,
+            "calculado": -8.45,
+            "diferencia": -8.45
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 465.62,
+            "calculado": 465.62,
+            "diferencia": 0.0
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 127.08,
+            "calculado": 127.09,
+            "diferencia": 0.01
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 527.66,
+            "calculado": 527.67,
+            "diferencia": 0.01
+          }
+        }
+      },
+      {
+        "id": "caja_flujo_vs_balance",
+        "descripcion": "Caja final del flujo × tasa de resultados ÷ tasa de balance = caja del balance",
+        "severidad": "advertencia",
+        "evaluados": 5,
+        "fallas": [
+          "2021"
+        ],
+        "resultados": {
+          "2020": {
+            "estado": "ok",
+            "esperado": 543.72,
+            "calculado": 543.722848,
+            "diferencia": 0.002848
+          },
+          "2021": {
+            "estado": "falla",
+            "esperado": 460.84,
+            "calculado": 0.0,
+            "diferencia": -460.84
+          },
+          "2023": {
+            "estado": "ok",
+            "esperado": 526.9,
+            "calculado": 526.897812,
+            "diferencia": -0.002188
+          },
+          "2024": {
+            "estado": "ok",
+            "esperado": 117.34,
+            "calculado": 117.343968,
+            "diferencia": 0.003968
+          },
+          "2025": {
+            "estado": "ok",
+            "esperado": 569.18,
+            "calculado": 569.179511,
+            "diferencia": -0.000489
+          }
+        }
+      },
+      {
+        "id": "resumen_vs_estados",
+        "descripcion": "Cada cifra del resumen financiero coincide con la del estado o ratio de igual id, con tolerancia de redondeo",
+        "severidad": "advertencia",
+        "evaluados": 60,
+        "fallas": [],
+        "resultados": {
+          "total_operating_revenue:2021": {
+            "estado": "ok",
+            "esperado": 11744.73,
+            "calculado": 11745.0,
+            "diferencia": 0.27
+          },
+          "total_operating_revenue:2023": {
+            "estado": "ok",
+            "esperado": 26465.91,
+            "calculado": 26466.0,
+            "diferencia": 0.09
+          },
+          "total_operating_revenue:2024": {
+            "estado": "ok",
+            "esperado": 34015.26,
+            "calculado": 34015.0,
+            "diferencia": -0.26
+          },
+          "total_operating_revenue:2025": {
+            "estado": "ok",
+            "esperado": 33507.79,
+            "calculado": 33508.0,
+            "diferencia": 0.21
+          },
+          "net_sales_revenue:2021": {
+            "estado": "ok",
+            "esperado": 11719.93,
+            "calculado": 11720.0,
+            "diferencia": 0.07
+          },
+          "net_sales_revenue:2023": {
+            "estado": "ok",
+            "esperado": 26299.76,
+            "calculado": 26300.0,
+            "diferencia": 0.24
+          },
+          "net_sales_revenue:2024": {
+            "estado": "ok",
+            "esperado": 33781.75,
+            "calculado": 33782.0,
+            "diferencia": 0.25
+          },
+          "net_sales_revenue:2025": {
+            "estado": "ok",
+            "esperado": 33196.88,
+            "calculado": 33197.0,
+            "diferencia": 0.12
+          },
+          "gross_profit:2021": {
+            "estado": "ok",
+            "esperado": 2349.88,
+            "calculado": 2350.0,
+            "diferencia": 0.12
+          },
+          "gross_profit:2023": {
+            "estado": "ok",
+            "esperado": 5564.06,
+            "calculado": 5564.0,
+            "diferencia": -0.06
+          },
+          "gross_profit:2024": {
+            "estado": "ok",
+            "esperado": 7530.57,
+            "calculado": 7531.0,
+            "diferencia": 0.43
+          },
+          "gross_profit:2025": {
+            "estado": "ok",
+            "esperado": 6892.41,
+            "calculado": 6892.0,
+            "diferencia": -0.41
+          },
+          "gross_profit_margin:2021": {
+            "estado": "ok",
+            "esperado": 0.2005,
+            "calculado": 0.2005,
+            "diferencia": 0.0
+          },
+          "gross_profit_margin:2023": {
+            "estado": "ok",
+            "esperado": 0.2116,
+            "calculado": 0.2116,
+            "diferencia": 0.0
+          },
+          "gross_profit_margin:2024": {
+            "estado": "ok",
+            "esperado": 0.2229,
+            "calculado": 0.2229,
+            "diferencia": 0.0
+          },
+          "gross_profit_margin:2025": {
+            "estado": "ok",
+            "esperado": 0.2076,
+            "calculado": 0.2076,
+            "diferencia": 0.0
+          },
+          "operating_profit:2021": {
+            "estado": "ok",
+            "esperado": 1309.23,
+            "calculado": 1309.0,
+            "diferencia": -0.23
+          },
+          "operating_profit:2023": {
+            "estado": "ok",
+            "esperado": 4125.46,
+            "calculado": 4125.0,
+            "diferencia": -0.46
+          },
+          "operating_profit:2024": {
+            "estado": "ok",
+            "esperado": 5702.71,
+            "calculado": 5703.0,
+            "diferencia": 0.29
+          },
+          "operating_profit:2025": {
+            "estado": "ok",
+            "esperado": 4218.38,
+            "calculado": 4218.0,
+            "diferencia": -0.38
+          },
+          "operating_profit_margin:2021": {
+            "estado": "ok",
+            "esperado": 0.1117,
+            "calculado": 0.1117,
+            "diferencia": 0.0
+          },
+          "operating_profit_margin:2023": {
+            "estado": "ok",
+            "esperado": 0.1569,
+            "calculado": 0.1569,
+            "diferencia": 0.0
+          },
+          "operating_profit_margin:2024": {
+            "estado": "ok",
+            "esperado": 0.1688,
+            "calculado": 0.1688,
+            "diferencia": 0.0
+          },
+          "operating_profit_margin:2025": {
+            "estado": "ok",
+            "esperado": 0.1271,
+            "calculado": 0.1271,
+            "diferencia": 0.0
+          },
+          "ebitda:2021": {
+            "estado": "ok",
+            "esperado": 1980.04,
+            "calculado": 1980.0,
+            "diferencia": -0.04
+          },
+          "ebitda:2023": {
+            "estado": "ok",
+            "esperado": 4710.99,
+            "calculado": 4711.0,
+            "diferencia": 0.01
+          },
+          "ebitda:2024": {
+            "estado": "ok",
+            "esperado": 6918.6,
+            "calculado": 6919.0,
+            "diferencia": 0.4
+          },
+          "ebitda:2025": {
+            "estado": "ok",
+            "esperado": 5448.37,
+            "calculado": 5448.0,
+            "diferencia": -0.37
+          },
+          "ebitda_margin:2021": {
+            "estado": "ok",
+            "esperado": 0.1689,
+            "calculado": 0.169,
+            "diferencia": 0.0001
+          },
+          "ebitda_margin:2023": {
+            "estado": "ok",
+            "esperado": 0.1791,
+            "calculado": 0.1791,
+            "diferencia": 0.0
+          },
+          "ebitda_margin:2024": {
+            "estado": "ok",
+            "esperado": 0.2048,
+            "calculado": 0.2048,
+            "diferencia": 0.0
+          },
+          "ebitda_margin:2025": {
+            "estado": "ok",
+            "esperado": 0.1641,
+            "calculado": 0.1641,
+            "diferencia": 0.0
+          },
+          "net_profit:2021": {
+            "estado": "ok",
+            "esperado": 537.67,
+            "calculado": 538.0,
+            "diferencia": 0.33
+          },
+          "net_profit:2023": {
+            "estado": "ok",
+            "esperado": 2115.23,
+            "calculado": 2115.0,
+            "diferencia": -0.23
+          },
+          "net_profit:2024": {
+            "estado": "ok",
+            "esperado": 3281.12,
+            "calculado": 3281.0,
+            "diferencia": -0.12
+          },
+          "net_profit:2025": {
+            "estado": "ok",
+            "esperado": 1962.24,
+            "calculado": 1962.0,
+            "diferencia": -0.24
+          },
+          "net_profit_margin:2021": {
+            "estado": "ok",
+            "esperado": 0.0459,
+            "calculado": 0.0459,
+            "diferencia": 0.0
+          },
+          "net_profit_margin:2023": {
+            "estado": "ok",
+            "esperado": 0.0804,
+            "calculado": 0.0804,
+            "diferencia": 0.0
+          },
+          "net_profit_margin:2024": {
+            "estado": "ok",
+            "esperado": 0.0971,
+            "calculado": 0.0971,
+            "diferencia": 0.0
+          },
+          "net_profit_margin:2025": {
+            "estado": "ok",
+            "esperado": 0.0591,
+            "calculado": 0.0591,
+            "diferencia": 0.0
+          },
+          "total_assets:2021": {
+            "estado": "ok",
+            "esperado": 16056.58,
+            "calculado": 16057.0,
+            "diferencia": 0.42
+          },
+          "total_assets:2023": {
+            "estado": "ok",
+            "esperado": 27100.15,
+            "calculado": 27100.0,
+            "diferencia": -0.15
+          },
+          "total_assets:2024": {
+            "estado": "ok",
+            "esperado": 29851.48,
+            "calculado": 29851.0,
+            "diferencia": -0.48
+          },
+          "total_assets:2025": {
+            "estado": "ok",
+            "esperado": 36974.31,
+            "calculado": 36974.0,
+            "diferencia": -0.31
+          },
+          "current_assets:2021": {
+            "estado": "ok",
+            "esperado": 3820.37,
+            "calculado": 3820.0,
+            "diferencia": -0.37
+          },
+          "current_assets:2023": {
+            "estado": "ok",
+            "esperado": 4919.39,
+            "calculado": 4919.0,
+            "diferencia": -0.39
+          },
+          "current_assets:2024": {
+            "estado": "ok",
+            "esperado": 8493.75,
+            "calculado": 8494.0,
+            "diferencia": 0.25
+          },
+          "current_assets:2025": {
+            "estado": "ok",
+            "esperado": 7755.08,
+            "calculado": 7755.0,
+            "diferencia": -0.08
+          },
+          "total_liabilities:2021": {
+            "estado": "ok",
+            "esperado": 8092.34,
+            "calculado": 8092.0,
+            "diferencia": -0.34
+          },
+          "total_liabilities:2023": {
+            "estado": "ok",
+            "esperado": 13707.31,
+            "calculado": 13707.0,
+            "diferencia": -0.31
+          },
+          "total_liabilities:2024": {
+            "estado": "ok",
+            "esperado": 17707.04,
+            "calculado": 17707.0,
+            "diferencia": -0.04
+          },
+          "total_liabilities:2025": {
+            "estado": "ok",
+            "esperado": 21128.17,
+            "calculado": 21128.0,
+            "diferencia": -0.17
+          },
+          "net_debt:2021": {
+            "estado": "ok",
+            "esperado": 5234.27,
+            "calculado": 5234.0,
+            "diferencia": -0.27
+          },
+          "net_debt:2023": {
+            "estado": "ok",
+            "esperado": 5141.46,
+            "calculado": 5141.0,
+            "diferencia": -0.46
+          },
+          "net_debt:2024": {
+            "estado": "ok",
+            "esperado": 9895.69,
+            "calculado": 9896.0,
+            "diferencia": 0.31
+          },
+          "net_debt:2025": {
+            "estado": "ok",
+            "esperado": 12478.21,
+            "calculado": 12478.0,
+            "diferencia": -0.21
+          },
+          "net_cash_flow_operating:2021": {
+            "estado": "ok",
+            "esperado": -573.17,
+            "calculado": -573.0,
+            "diferencia": 0.17
+          },
+          "net_cash_flow_operating:2023": {
+            "estado": "ok",
+            "esperado": 4569.25,
+            "calculado": 4569.0,
+            "diferencia": -0.25
+          },
+          "net_cash_flow_operating:2024": {
+            "estado": "ok",
+            "esperado": 1457.0,
+            "calculado": 1457.0,
+            "diferencia": 0.0
+          },
+          "net_cash_flow_operating:2025": {
+            "estado": "ok",
+            "esperado": 1811.45,
+            "calculado": 1811.0,
+            "diferencia": -0.45
+          }
+        }
+      }
+    ],
+    "advertencias": [
+      {
+        "codigo": "anios_faltantes",
+        "detalle": "La serie no trae los años [2022]."
+      },
+      {
+        "codigo": "validacion",
+        "detalle": "No cuadra: Caja final del flujo × tasa de resultados ÷ tasa de balance = caja del balance en ['2021']."
+      }
+    ]
+  }
+}

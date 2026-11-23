@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "",
+    "TRM_API_URL": "https://www.datos.gov.co/resource/32sa-8pi3.json",
+    "DATOS_GOV_APP_TOKEN": "",
+    "MARGEN_CERCANO": "0.10"
+  }
+}

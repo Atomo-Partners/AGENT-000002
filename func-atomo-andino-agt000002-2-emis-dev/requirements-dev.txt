@@ -1,0 +1,3 @@
+# Solo para correr las pruebas en tu equipo.
+-r requirements.txt
+pytest
