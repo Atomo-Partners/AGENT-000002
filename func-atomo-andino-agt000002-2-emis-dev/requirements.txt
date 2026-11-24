@@ -1,2 +1,0 @@
-# Dependencias que se instalan en Azure. La lógica solo usa la librería estándar de Python.
-azure-functions
