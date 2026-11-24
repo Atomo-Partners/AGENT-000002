@@ -1,0 +1,779 @@
+{
+  "version": "2026-11-24",
+  "fuente": "Notion · kn__indicadores_emis (collection://417eb369-a1c8-8100-8397-000b0ae6e3ab)",
+  "leido": "2026-11-24",
+  "indicadores": [
+    {
+      "indicador_id": "capex_venta",
+      "nombre": "Capex sobre venta",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Eficiencia del capital",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Compra de propiedades, planta y equipo / total ingreso operativo, sumando numerador y denominador de los ultimos 3 años",
+      "por_que": "Intensidad de capital: cuanto de cada peso vendido se reinvierte en activos fijos. Complementa capex sobre depreciacion: este dice cuanto pesa la inversion en la caja; aquel, si alcanza para mantener los activos."
+    },
+    {
+      "indicador_id": "ciclo_conversion_efectivo",
+      "nombre": "Ciclo de conversion de efectivo",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Dias de cartera mas dias de inventario menos dias de proveedores",
+      "por_que": "Cartera, inventario y proveedores en un numero. Dice si crecer consume caja o la libera."
+    },
+    {
+      "indicador_id": "cobertura_intereses",
+      "nombre": "Cobertura de intereses",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Solvencia",
+      "unidad": "x (multiplo)",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "EBIT / gastos financieros",
+      "por_que": "Mide cuantas veces la operacion paga el costo de su deuda. Reemplaza a concentracion_clientes, que no se puede calcular con EMIS."
+    },
+    {
+      "indicador_id": "conf_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Confecciones y apparel",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "La moda pierde valor con cada temporada: inventario alto es la antesala de rebajas. Se quita la antiguedad por temporada, que EMIS no trae.",
+      "correccion_local": "En Notion figura como general/Todas, pero su prefijo y su fila de scorecard son de Confecciones. Como general entraba a todas las empresas sin benchmark."
+    },
+    {
+      "indicador_id": "conversion_a_caja",
+      "nombre": "Conversion de la metrica ancla a caja operativa",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Suma del flujo neto de efectivo de actividades de explotacion de los ultimos 3 años / suma de la metrica ancla de los mismos 3 años",
+      "por_que": "Cuanto de la rentabilidad contable llega a caja. La brecha persistente es senal de calidad de utilidad."
+    },
+    {
+      "indicador_id": "crecimiento_real",
+      "nombre": "Crecimiento real deflactado por IPC",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Crecimiento",
+      "unidad": "%",
+      "serie": "cagr_3_años",
+      "fuente_dato": [
+        "EMIS",
+        "Publico"
+      ],
+      "formula": "Crecimiento anual compuesto de los ingresos entre el año t-3 y el ultimo año, en moneda local (convertir con la tasa que trae EMIS) y deflactado con el IPC del pais",
+      "por_que": "El hallazgo mas frecuente de todos: crece en pesos y se estanca en terminos reales."
+    },
+    {
+      "indicador_id": "deuda_ebitda",
+      "nombre": "Deuda sobre ebitda",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Solvencia",
+      "unidad": "x (multiplo)",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "(Creditos y prestamos corrientes + creditos y prestamos no corrientes) / EBITDA del ultimo año",
+      "por_que": "Apalancamiento bruto: no descuenta la caja, que puede estar comprometida en capital de trabajo. Leer junto con deuda neta sobre ancla; la diferencia entre ambas muestra cuanto depende la solvencia del efectivo disponible. No aplica a servicios financieros."
+    },
+    {
+      "indicador_id": "deuda_neta_sobre_ancla",
+      "nombre": "Deuda neta sobre la metrica ancla",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Solvencia",
+      "unidad": "x (multiplo)",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "(Deuda financiera menos caja) / metrica ancla",
+      "por_que": "Capacidad de pago, y cuanta deuda de adquisicion tolera la estructura."
+    },
+    {
+      "indicador_id": "gasto_sga_sobre_ventas",
+      "nombre": "Gasto comercial y administrativo sobre ventas",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Gastos de administracion y de ventas / ingresos",
+      "por_que": "La disciplina de gasto. Es la palanca mas frecuente y la mas verificable, porque casi siempre hay un nivel propio al que volver."
+    },
+    {
+      "indicador_id": "margen_bruto",
+      "nombre": "Margen bruto",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "(Ingresos menos costo de ventas) / ingresos",
+      "por_que": "Donde empieza la economia del negocio. Distingue un problema de precio o de insumo de uno de estructura."
+    },
+    {
+      "indicador_id": "margen_metrica_ancla",
+      "nombre": "Margen de la metrica ancla",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Metrica ancla (EBIT o EBITDA segun el negocio) / ingresos",
+      "por_que": "La rentabilidad operativa real, ya con los costos que son el negocio."
+    },
+    {
+      "indicador_id": "patrimonio_sobre_capital_pagado",
+      "nombre": "Capital Pagado",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Solvencia",
+      "unidad": "x (multiplo)",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total de patrimonio / (capital suscrito + prima de emision), ultimo cierre",
+      "por_que": "Dice si el negocio ha creado o destruido valor sobre lo que aportaron los socios: por encima de 1x hay utilidades acumuladas; por debajo, las perdidas se comieron parte del capital, una alerta sobre negocio en marcha. Funciona sobre todo como prueba de alarma: en una SAS el capital suscrito suele ser pequeño y el ratio sale muy alto en empresas sanas."
+    },
+    {
+      "indicador_id": "roa_operativo",
+      "nombre": "Retorno operativo sobre activos",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Eficiencia del capital",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "EBIT / activos totales",
+      "por_que": "El retorno que gana el activo, limpio de como se financio."
+    },
+    {
+      "indicador_id": "rotacion_activos",
+      "nombre": "Rotacion de activos",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Eficiencia del capital",
+      "unidad": "ratio",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Ingresos / activos totales",
+      "por_que": "Cuantas ventas produce cada peso de activo. Su caida con activos creciendo es la senal clasica de subuso."
+    },
+    {
+      "indicador_id": "superavit_capital_sobre_patrimonio",
+      "nombre": "Superavit de capital",
+      "alcance": "general",
+      "industria": "Todas",
+      "eje": "Solvencia",
+      "unidad": "%",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "(Prima de emision + otros componentes del patrimonio) / total de patrimonio, ultimo cierre",
+      "por_que": "Calidad del patrimonio: que parte viene de aportes por encima del nominal y de revalorizaciones, y no de utilidades del negocio. Un porcentaje alto indica un patrimonio que no se gano operando. En EMIS la linea otros componentes del patrimonio puede mezclar revalorizaciones, ORI y reservas: si sale alto, pedir la composicion en diligencia."
+    },
+    {
+      "indicador_id": "agro_capex_sobre_depreciacion",
+      "nombre": "Inversion de capital sobre depreciacion",
+      "alcance": "industria",
+      "industria": "Agroindustria y alimentos",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Compra de propiedades, planta y equipo / depreciacion (EBITDA menos EBIT), promedio de 3 años",
+      "por_que": "Dice si la planta se renueva o se esta consumiendo: menos de 1x sostenido anticipa inversion diferida que pagara el comprador. Reemplaza mezcla de canal, que EMIS no trae."
+    },
+    {
+      "indicador_id": "agro_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Agroindustria y alimentos",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "Producto perecedero y compras de cosecha: inventario alto es riesgo de perdida y caja inmovilizada. Reemplaza merma, que EMIS no trae."
+    },
+    {
+      "indicador_id": "agro_rotacion_activo_fijo",
+      "nombre": "Rotacion del activo fijo",
+      "alcance": "industria",
+      "industria": "Agroindustria y alimentos",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo / propiedad, planta y equipo neto",
+      "por_que": "Cuanto factura cada peso de planta: es el proxy de utilizacion que se puede calcular. Reemplaza utilizacion de planta, que EMIS no trae."
+    },
+    {
+      "indicador_id": "agro_volatilidad_margen_bruto",
+      "nombre": "Volatilidad del margen bruto",
+      "alcance": "industria",
+      "industria": "Agroindustria y alimentos",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del margen bruto (utilidad bruta / total ingreso operativo) en los 5 años del EMIS, en puntos porcentuales",
+      "por_que": "Dice si la empresa traslada a precio las alzas de materias primas: un margen estable es senal de poder de precio. Reemplaza costo de materia prima sobre ventas, que repetia el margen bruto y cuyo rezago no se calcula con EMIS."
+    },
+    {
+      "indicador_id": "debt_service_coverage_ratio",
+      "nombre": "DSCR",
+      "alcance": "industria",
+      "industria": "Agroindustria y alimentos",
+      "eje": "Solvencia",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "(EBITDA - impuesto a la renta) / (gastos financieros + reembolso de prestamos del flujo de financiacion), sumando numerador y denominador de los ultimos 3 años",
+      "por_que": "Mide si la caja operativa alcanza para pagar intereses y capital de la deuda. Es el covenant que piden los bancos y marca cuanta deuda de adquisicion soporta el target. Se usan 3 años porque las amortizaciones llegan en bloques. Si la deuda se refinancia en vez de pagarse, el reembolso sale bajo y el indicador se ve mejor de lo que es."
+    },
+    {
+      "indicador_id": "pharma_dias_cartera",
+      "nombre": "Dias de cartera",
+      "alcance": "industria",
+      "industria": "Aseo cosmeticos y pharma",
+      "eje": "Comercial y cliente",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por cobrar / total ingreso operativo x 365",
+      "por_que": "Cadenas y distribuidores imponen plazo: los dias de cartera son la huella visible de esa dependencia. Reemplaza concentracion en cadenas, que EMIS no trae."
+    },
+    {
+      "indicador_id": "pharma_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Aseo cosmeticos y pharma",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "Producto con fecha de vencimiento: inventario alto es riesgo de destruccion y caja inmovilizada. Reemplaza descuentos y devoluciones, que EMIS no separa."
+    },
+    {
+      "indicador_id": "pharma_inversion_intangibles",
+      "nombre": "Inversion en intangibles sobre ventas",
+      "alcance": "industria",
+      "industria": "Aseo cosmeticos y pharma",
+      "eje": "Crecimiento",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Compra de activos intangibles / total ingreso operativo, promedio de 3 años",
+      "por_que": "Registros, marcas y desarrollo de producto sostienen el portafolio; inversion casi nula anticipa un portafolio que envejece. Reemplaza margen por linea, que EMIS no trae."
+    },
+    {
+      "indicador_id": "pharma_volatilidad_margen_bruto",
+      "nombre": "Volatilidad del margen bruto",
+      "alcance": "industria",
+      "industria": "Aseo cosmeticos y pharma",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del margen bruto (utilidad bruta / total ingreso operativo) en los 5 años del EMIS, en puntos porcentuales",
+      "por_que": "Principios activos importados y tasa de cambio presionan el costo: un margen estable indica capacidad de trasladar precio. Reemplaza registros sanitarios, que pasan a la etapa de diligencia."
+    },
+    {
+      "indicador_id": "conf_dias_cartera",
+      "nombre": "Dias de cartera",
+      "alcance": "industria",
+      "industria": "Confecciones y apparel",
+      "eje": "Comercial y cliente",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por cobrar / total ingreso operativo x 365",
+      "por_que": "Refleja la mezcla de canal: tiendas propias cobran de contado y mayoristas o grandes superficies a plazo. Reemplaza mezcla de canal, que EMIS no trae."
+    },
+    {
+      "indicador_id": "conf_inventario_vs_ventas",
+      "nombre": "Crecimiento del inventario frente a ventas",
+      "alcance": "industria",
+      "industria": "Confecciones y apparel",
+      "eje": "Comercial y cliente",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Crecimiento anual de inventarios menos crecimiento anual de ingresos, en moneda local y en puntos porcentuales; promedio simple de las diferencias de los ultimos 3 años",
+      "por_que": "Si el inventario crece mas rapido que las ventas, la coleccion no se esta vendiendo: es la huella del sell-through en los estados financieros. Reemplaza sell-through, que EMIS no trae."
+    },
+    {
+      "indicador_id": "conf_volatilidad_margen_bruto",
+      "nombre": "Volatilidad del margen bruto",
+      "alcance": "industria",
+      "industria": "Confecciones y apparel",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del margen bruto (utilidad bruta / total ingreso operativo) en los 5 años del EMIS, en puntos porcentuales",
+      "por_que": "Las rebajas para liquidar colecciones aparecen como caidas del margen bruto. Reemplaza margen y porcentaje de venta en descuento, que EMIS no trae."
+    },
+    {
+      "indicador_id": "cons_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Construccion liviana y fertilizantes",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "Fertilizantes se compran antes de la temporada y materiales se acumulan cuando la obra se frena: inventario alto inmoviliza caja. Reemplaza pedidos en firme, que EMIS no trae."
+    },
+    {
+      "indicador_id": "cons_rotacion_activo_fijo",
+      "nombre": "Rotacion del activo fijo",
+      "alcance": "industria",
+      "industria": "Construccion liviana y fertilizantes",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo / propiedad, planta y equipo neto",
+      "por_que": "Cuanto factura cada peso de planta: proxy de utilizacion de capacidad. Reemplaza utilizacion de capacidad, que EMIS no trae."
+    },
+    {
+      "indicador_id": "cons_volatilidad_ingresos",
+      "nombre": "Volatilidad del crecimiento de ingresos",
+      "alcance": "industria",
+      "industria": "Construccion liviana y fertilizantes",
+      "eje": "Crecimiento",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del crecimiento anual de ingresos en moneda local (convertir con la tasa que trae EMIS), ultimos 4 años",
+      "por_que": "Mide cuanto se mueven las ventas con el ciclo de construccion o de cosecha. Reemplaza correlacion con el ciclo sectorial, que exige series externas y con 5 datos anuales no es confiable."
+    },
+    {
+      "indicador_id": "cons_volatilidad_margen_bruto",
+      "nombre": "Volatilidad del margen bruto",
+      "alcance": "industria",
+      "industria": "Construccion liviana y fertilizantes",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del margen bruto (utilidad bruta / total ingreso operativo) en los 5 años del EMIS, en puntos porcentuales",
+      "por_que": "Urea, cemento, acero y flete mueven el costo: un margen estable indica capacidad de trasladar precio. Reemplaza costo de flete sobre ventas, que EMIS no separa."
+    },
+    {
+      "indicador_id": "dist_dias_cartera",
+      "nombre": "Dias de cartera",
+      "alcance": "industria",
+      "industria": "Distribucion y retail especializado",
+      "eje": "Comercial y cliente",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por cobrar / total ingreso operativo x 365",
+      "por_que": "En distribucion el credito al cliente es parte del producto: plazos largos inmovilizan caja y elevan el riesgo de impago. Reemplaza concentracion de proveedores, que pasa a la etapa de diligencia."
+    },
+    {
+      "indicador_id": "dist_dias_proveedores",
+      "nombre": "Dias de proveedores",
+      "alcance": "industria",
+      "industria": "Distribucion y retail especializado",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por pagar / costo de mercancias vendidas x 365",
+      "por_que": "El poder de negociacion con proveedores se ve en el plazo que conceden, que financia el inventario. Reemplaza bonificaciones de proveedores, que EMIS no trae."
+    },
+    {
+      "indicador_id": "dist_ingreso_por_empleado",
+      "nombre": "Ingreso por empleado",
+      "alcance": "industria",
+      "industria": "Distribucion y retail especializado",
+      "eje": "Operacion",
+      "unidad": "USD",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo del ultimo año / total de empleados reportado en EMIS",
+      "por_que": "Productividad de la red de venta y logistica. Reemplaza ventas de puntos comparables, que EMIS no trae. Verificar que el año del conteo coincida con el de los estados."
+    },
+    {
+      "indicador_id": "dist_rentabilidad_inventario",
+      "nombre": "Rentabilidad del inventario invertido",
+      "alcance": "industria",
+      "industria": "Distribucion y retail especializado",
+      "eje": "Rentabilidad",
+      "unidad": "ratio",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Utilidad bruta / inventario promedio (inicio y fin de año)",
+      "por_que": "Cuanto margen genera cada peso invertido en inventario (GMROI): combina precio y rotacion en un solo numero."
+    },
+    {
+      "indicador_id": "maq_dias_cartera",
+      "nombre": "Dias de cartera",
+      "alcance": "industria",
+      "industria": "Maquinaria y autopartes",
+      "eje": "Comercial y cliente",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por cobrar / total ingreso operativo x 365",
+      "por_que": "La venta de equipos suele financiarse al cliente: plazos largos inmovilizan caja y elevan el riesgo de impago. Reemplaza parque instalado, que EMIS no trae."
+    },
+    {
+      "indicador_id": "maq_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Maquinaria y autopartes",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "El inventario de repuestos y equipos es el mayor uso de caja del negocio y se vuelve obsoleto. Se quita la parte de mas de 24 meses sin movimiento, que EMIS no trae."
+    },
+    {
+      "indicador_id": "maq_dias_proveedores",
+      "nombre": "Dias de proveedores",
+      "alcance": "industria",
+      "industria": "Maquinaria y autopartes",
+      "eje": "Comercial y cliente",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por pagar / costo de mercancias vendidas x 365",
+      "por_que": "Mide el credito que da la marca representada: plazos largos indican una relacion solida con el fabricante. Reemplaza representaciones exclusivas, que pasan a la etapa de diligencia."
+    },
+    {
+      "indicador_id": "maq_volatilidad_ingresos",
+      "nombre": "Volatilidad del crecimiento de ingresos",
+      "alcance": "industria",
+      "industria": "Maquinaria y autopartes",
+      "eje": "Crecimiento",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del crecimiento anual de ingresos en moneda local (convertir con la tasa que trae EMIS), ultimos 4 años",
+      "por_que": "La posventa (repuestos y servicio) estabiliza el ingreso frente al ciclo de venta de equipos: baja volatilidad sugiere una base de posventa fuerte. Reemplaza mezcla de posventa, que EMIS no trae."
+    },
+    {
+      "indicador_id": "plast_capex_sobre_depreciacion",
+      "nombre": "Inversion de capital sobre depreciacion",
+      "alcance": "industria",
+      "industria": "Plasticos quimicos y empaques",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Compra de propiedades, planta y equipo / depreciacion (EBITDA menos EBIT), promedio de 3 años",
+      "por_que": "Extrusoras e inyectoras se desgastan: menos de 1x sostenido anticipa inversion diferida. Reemplaza volumen frente a precio, que EMIS no trae."
+    },
+    {
+      "indicador_id": "plast_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Plasticos quimicos y empaques",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "Compras especulativas de resina e inventario de producto terminado inmovilizan caja. Reemplaza desperdicio y reproceso, que EMIS no trae."
+    },
+    {
+      "indicador_id": "plast_rotacion_activo_fijo",
+      "nombre": "Rotacion del activo fijo",
+      "alcance": "industria",
+      "industria": "Plasticos quimicos y empaques",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo / propiedad, planta y equipo neto",
+      "por_que": "Cuanto factura cada peso de maquinaria: proxy de utilizacion de capacidad. Reemplaza utilizacion de capacidad instalada, que EMIS no trae."
+    },
+    {
+      "indicador_id": "plast_volatilidad_margen_bruto",
+      "nombre": "Volatilidad del margen bruto",
+      "alcance": "industria",
+      "industria": "Plasticos quimicos y empaques",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del margen bruto (utilidad bruta / total ingreso operativo) en los 5 años del EMIS, en puntos porcentuales",
+      "por_que": "La resina sigue al petroleo: un margen estable muestra que el spread se protege con precio. Reemplaza spread de resina por kilo, que EMIS no trae."
+    },
+    {
+      "indicador_id": "fin_apalancamiento",
+      "nombre": "Apalancamiento: deuda financiera sobre patrimonio",
+      "alcance": "industria",
+      "industria": "Servicios financieros especializados",
+      "eje": "Solvencia",
+      "unidad": "x (multiplo)",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Deuda financiera total (creditos y prestamos corrientes + no corrientes) / patrimonio total",
+      "por_que": "Cuanto colchon de capital tiene frente a perdidas de credito. Es la medida que usan las calificadoras para financieras no bancarias. Reemplaza costo de riesgo, que requiere el gasto de provisiones de las notas."
+    },
+    {
+      "indicador_id": "fin_costo_fondeo",
+      "nombre": "Costo de fondeo",
+      "alcance": "industria",
+      "industria": "Servicios financieros especializados",
+      "eje": "Solvencia",
+      "unidad": "%",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Gastos financieros / deuda financiera promedio (creditos y prestamos corrientes + no corrientes, promedio inicio y fin de año)",
+      "por_que": "Cuanto le cuesta el dinero que presta. Comparar contra la tasa de politica monetaria del pais. La apertura por fuente y plazo se quita porque EMIS no la trae."
+    },
+    {
+      "indicador_id": "fin_rendimiento_cartera",
+      "nombre": "Rendimiento de la cartera",
+      "alcance": "industria",
+      "industria": "Servicios financieros especializados",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo / cartera promedio (cuentas comerciales por cobrar corrientes + cuentas por cobrar no corrientes, promedio inicio y fin de año)",
+      "por_que": "Cuanto ingreso genera cada peso prestado: poder de precio del producto de credito. Reemplaza margen financiero neto, porque EMIS no separa ingresos y gastos por intereses. Leer junto con el margen sobre ancla, ya que no descuenta perdidas por mora."
+    },
+    {
+      "indicador_id": "fin_roe",
+      "nombre": "Rentabilidad sobre patrimonio (ROE)",
+      "alcance": "industria",
+      "industria": "Servicios financieros especializados",
+      "eje": "Rentabilidad",
+      "unidad": "%",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Ganancia neta / patrimonio total promedio (inicio y fin de año)",
+      "por_que": "Metrica de retorno central en un financiero, porque el patrimonio es el que absorbe las perdidas de credito. Reemplaza cartera vencida y cobertura, que requieren notas y EMIS no las trae."
+    },
+    {
+      "indicador_id": "petro_capex_sobre_depreciacion",
+      "nombre": "Inversion de capital sobre depreciacion",
+      "alcance": "industria",
+      "industria": "Servicios petroleros e industriales",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Compra de propiedades, planta y equipo / depreciacion (EBITDA menos EBIT), promedio de 3 años",
+      "por_que": "Equipos y flota se desgastan rapido: menos de 1x sostenido anticipa una flota envejecida y reinversion a cargo del comprador. Reemplaza seguridad y accidentalidad, que pasa a la etapa de diligencia."
+    },
+    {
+      "indicador_id": "petro_dias_cartera",
+      "nombre": "Dias de cartera",
+      "alcance": "industria",
+      "industria": "Servicios petroleros e industriales",
+      "eje": "Comercial y cliente",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Cuentas comerciales por cobrar / total ingreso operativo x 365",
+      "por_que": "Las operadoras suelen pagar tarde y el contratista financia la operacion: es el riesgo de caja central del sector. Reemplaza contratos vigentes, que pasan a la etapa de diligencia."
+    },
+    {
+      "indicador_id": "petro_rotacion_activo_fijo",
+      "nombre": "Rotacion del activo fijo",
+      "alcance": "industria",
+      "industria": "Servicios petroleros e industriales",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo / propiedad, planta y equipo neto",
+      "por_que": "Cuanto factura cada peso de equipos y flota: proxy de utilizacion. Reemplaza utilizacion de equipos y cuadrillas, que EMIS no trae."
+    },
+    {
+      "indicador_id": "petro_volatilidad_ingresos",
+      "nombre": "Volatilidad del crecimiento de ingresos",
+      "alcance": "industria",
+      "industria": "Servicios petroleros e industriales",
+      "eje": "Crecimiento",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del crecimiento anual de ingresos en moneda local (convertir con la tasa que trae EMIS), ultimos 4 años",
+      "por_que": "Mide la exposicion al ciclo de inversion de las operadoras y al precio del crudo. Reemplaza tarifa real, que EMIS no trae."
+    },
+    {
+      "indicador_id": "vet_dias_inventario",
+      "nombre": "Dias de inventario",
+      "alcance": "industria",
+      "industria": "Veterinarias y mascotas",
+      "eje": "Capital de trabajo y caja",
+      "unidad": "dias",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Inventarios / costo de mercancias vendidas x 365",
+      "por_que": "Alimento y farmacos con vencimiento: inventario alto inmoviliza caja y genera perdidas. Reemplaza mezcla de ingreso por linea, que EMIS no trae."
+    },
+    {
+      "indicador_id": "vet_ingreso_por_empleado",
+      "nombre": "Ingreso por empleado",
+      "alcance": "industria",
+      "industria": "Veterinarias y mascotas",
+      "eje": "Operacion",
+      "unidad": "USD",
+      "serie": "ultimo_año",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo del ultimo año / total de empleados reportado en EMIS",
+      "por_que": "Productividad del equipo clinico y de tienda. Reemplaza ingreso por veterinario: EMIS no separa veterinarios pero si trae el total de empleados. Verificar que el año del conteo coincida con el de los estados."
+    },
+    {
+      "indicador_id": "vet_rotacion_activo_fijo",
+      "nombre": "Rotacion del activo fijo",
+      "alcance": "industria",
+      "industria": "Veterinarias y mascotas",
+      "eje": "Eficiencia del capital",
+      "unidad": "x (multiplo)",
+      "serie": "promedio_3_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Total ingreso operativo / propiedad, planta y equipo neto",
+      "por_que": "Cuanto factura cada peso invertido en clinicas y equipos: proxy de ocupacion. Reemplaza pacientes activos y frecuencia, que EMIS no trae."
+    },
+    {
+      "indicador_id": "vet_volatilidad_ingresos",
+      "nombre": "Volatilidad del crecimiento de ingresos",
+      "alcance": "industria",
+      "industria": "Veterinarias y mascotas",
+      "eje": "Crecimiento",
+      "unidad": "%",
+      "serie": "desviacion_5_años",
+      "fuente_dato": [
+        "EMIS"
+      ],
+      "formula": "Desviacion estandar del crecimiento anual de ingresos en moneda local (convertir con la tasa que trae EMIS), ultimos 4 años",
+      "por_que": "Un negocio de clientes recurrentes crece de forma estable; volatilidad alta sugiere dependencia de aperturas o eventos puntuales. Reemplaza retencion y planes, que EMIS no trae."
+    }
+  ]
+}

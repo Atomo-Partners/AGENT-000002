@@ -1,0 +1,192 @@
+{
+  "version": "2026-11-24",
+  "estado_revision": "aprobado",
+  "traducido_por": "Claude con la skill atomo-config-fase2, a partir de kn__indicadores_emis leído el 2026-11-24",
+  "revisado_por": "Átomo (aprobado en la revisión del 2026-11-24, con las recomendaciones contrastadas con kn__indicadores_emis)",
+  "sintaxis": {
+    "{clave}": "Cuenta de cifras_compactas (id del catálogo EMIS) en el año que se calcula.",
+    "{clave@t-1}": "La misma cuenta en el año anterior.",
+    "{clave?}": "Cuenta opcional: si el reporte no la trae en ningún año, vale 0.",
+    "minimo_uno_de": "Lista de cuentas de las que al menos una debe existir; si no existe ninguna, el KPI queda sin datos (p. ej. sin ninguna línea de deuda).",
+    "pedir_si_falta": "Lista de cuentas: si EMIS no trae ninguna, el KPI queda pedir_al_target.",
+    "advertir_si_cero": "{cuenta: texto}: advertencia si la cuenta es cero o falta en algún año de la serie.",
+    "denominador_positivo": "Expresión que debe ser mayor que cero. Si en un año es cero o negativa, ese año queda no significativo y el scorecard lo pone en rojo (deuda / EBITDA negativo, ROE con patrimonio negativo).",
+    "{MACRO}": "Se reemplaza por la primera alternativa de 'macros' cuyas cuentas existen en las cifras.",
+    "{ANCLA}": "Métrica ancla de la industria según 'anclas'.",
+    "{empleados}": "Total de empleados de EMIS; solo vale para el año del conteo si está a un año o menos del último año de cifras."
+  },
+  "convenciones": [
+    "Montos en miles de USD, como EMIS. Costos, gastos, impuestos, compras de activos, reembolsos e intereses pagados vienen con signo negativo y la fórmula los vuelve positivos.",
+    "Indicadores en % se multiplican por 100. Días con base 365. Múltiplos y ratios sin escalar.",
+    "Cuando una fórmula mezcla balance con resultados o flujo, el motor lleva el balance a la tasa promedio del año para que la tasa de cambio no distorsione el cociente.",
+    "La fórmula describe un año. La regla de serie del catálogo decide qué valor se compara contra el scorecard."
+  ],
+  "decisiones_negocio": [
+    "2026-11-24: la base de ingresos es 'ingresos netos por ventas' (net_sales_revenue); el total de ingresos operativos solo si el reporte no trae ventas netas. El texto del catálogo en Notion todavía dice 'total ingreso operativo'.",
+    "2026-11-24: el crecimiento real es acumulado: año final / año inicial - 1 en la ventana del catálogo (t-3 al último año), en USD y deflactado con el IPC de Colombia de cada año. Los rangos de Notion para crecimiento_real todavía están escritos por año."
+  ],
+  "crecimiento": {
+    "medida": "acumulado",
+    "nota_moneda": "Las cifras originales ya venían convertidas a dólares por EMIS. El crecimiento incluye el efecto de la tasa de cambio y no se limpia: revisarlo en due diligence.",
+    "aviso_rangos": "Crecimiento acumulado de 3 años (año final / año inicial - 1). Los rangos del scorecard de Notion para este indicador están escritos por año: revisar la banda."
+  },
+  "macros": {
+    "REV": ["{net_sales_revenue}", "{total_operating_revenue}"],
+    "EBITDA": ["{ebitda}", "({operating_profit} + {adj_depreciation_impairment_ppe})"],
+    "CXC": ["{current_trade_receivables}", "{trade_and_other_receivables}"],
+    "CXP": ["{current_trade_payables}", "{trade_and_other_payables}"]
+  },
+  "anclas": {
+    "EBITDA": "{EBITDA}",
+    "EBIT": "{operating_profit}",
+    "Utilidad antes de impuestos": "{profit_before_income_tax}"
+  },
+  "kpis": {
+    "capex_venta": {
+      "formula": "-{purchase_of_ppe} / {REV} * 100"
+    },
+    "ciclo_conversion_efectivo": {
+      "formula": "({CXC} / {REV} - {inventories} / {cost_of_goods_sold} + {CXP} / {cost_of_goods_sold}) * 365",
+      "no_aplica_si_falta": ["inventories", "cost_of_goods_sold"],
+      "nota": "Días de cartera + días de inventario - días de proveedores. El costo de ventas viene negativo, por eso los signos de los dos últimos términos."
+    },
+    "cobertura_intereses": {
+      "formula": "{operating_profit} / -{finance_expenses}"
+    },
+    "conf_dias_inventario": {
+      "formula": "-{inventories} / {cost_of_goods_sold} * 365",
+      "no_aplica_si_falta": ["inventories"]
+    },
+    "conversion_a_caja": {
+      "formula": "{net_cash_flow_operating} / {ANCLA} * 100",
+      "denominador_positivo": "{ANCLA}"
+    },
+    "crecimiento_real": {
+      "formula": "{REV}",
+      "nota": "Nivel que crece. El motor calcula el crecimiento acumulado de la ventana (año final / año inicial - 1) en USD y lo deflacta con el IPC del país de la empresa (config/ipc.json, Colombia)."
+    },
+    "deuda_ebitda": {
+      "formula": "({current_loans_and_borrowings?} + {non_current_loans_and_borrowings?}) / {EBITDA}",
+      "minimo_uno_de": ["current_loans_and_borrowings", "non_current_loans_and_borrowings"],
+      "denominador_positivo": "{EBITDA}"
+    },
+    "deuda_neta_sobre_ancla": {
+      "formula": "({current_loans_and_borrowings?} + {non_current_loans_and_borrowings?} - {cash_and_cash_equivalents}) / {ANCLA}",
+      "minimo_uno_de": ["current_loans_and_borrowings", "non_current_loans_and_borrowings"],
+      "denominador_positivo": "{ANCLA}"
+    },
+    "gasto_sga_sobre_ventas": {
+      "formula": "-({selling_and_distribution_expenses?} + {administrative_expenses?}) / {REV} * 100",
+      "minimo_uno_de": ["selling_and_distribution_expenses", "administrative_expenses"],
+      "no_aplica_si_falta": ["cost_of_goods_sold"],
+      "nota": "Sin costo de ventas la empresa clasifica todos sus costos como gastos (Rentek: 52,6 %), y el cociente deja de medir el gasto de estructura que define Notion. Mismo criterio que margen_bruto."
+    },
+    "margen_bruto": {
+      "formula": "({REV} + {cost_of_goods_sold}) / {REV} * 100",
+      "no_aplica_si_falta": ["cost_of_goods_sold"],
+      "nota": "Sin costo de ventas la utilidad bruta es igual a las ventas y el margen no informa nada."
+    },
+    "margen_metrica_ancla": {
+      "formula": "{ANCLA} / {REV} * 100"
+    },
+    "patrimonio_sobre_capital_pagado": {
+      "formula": "{total_equity} / ({issued_capital} + {share_premium?})"
+    },
+    "roa_operativo": {
+      "formula": "{operating_profit} / {total_assets} * 100"
+    },
+    "rotacion_activos": {
+      "formula": "{REV} / {total_assets}"
+    },
+    "superavit_capital_sobre_patrimonio": {
+      "formula": "({share_premium?} + {other_components_of_equity?}) / {total_equity} * 100",
+      "minimo_uno_de": ["share_premium", "other_components_of_equity"],
+      "denominador_positivo": "{total_equity}"
+    },
+    "agro_capex_sobre_depreciacion": {
+      "formula": "-{purchase_of_ppe} / ({ebitda} - {operating_profit})",
+      "alternativas": ["-{purchase_of_ppe} / {adj_depreciation_impairment_ppe}"],
+      "nota": "'Promedio de 3 años' se lee como suma de capex / suma de depreciación: Notion pide promedio simple solo cuando lo dice (inventario vs. ventas) y suma de 3 años en el indicador que complementa este (capex sobre venta)."
+    },
+    "plast_capex_sobre_depreciacion": {
+      "formula": "-{purchase_of_ppe} / ({ebitda} - {operating_profit})",
+      "alternativas": ["-{purchase_of_ppe} / {adj_depreciation_impairment_ppe}"],
+      "nota": "'Promedio de 3 años' se lee como suma de capex / suma de depreciación: Notion pide promedio simple solo cuando lo dice (inventario vs. ventas) y suma de 3 años en el indicador que complementa este (capex sobre venta)."
+    },
+    "petro_capex_sobre_depreciacion": {
+      "formula": "-{purchase_of_ppe} / ({ebitda} - {operating_profit})",
+      "alternativas": ["-{purchase_of_ppe} / {adj_depreciation_impairment_ppe}"],
+      "nota": "'Promedio de 3 años' se lee como suma de capex / suma de depreciación: Notion pide promedio simple solo cuando lo dice (inventario vs. ventas) y suma de 3 años en el indicador que complementa este (capex sobre venta)."
+    },
+    "agro_dias_inventario": {"formula": "-{inventories} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["inventories"]},
+    "pharma_dias_inventario": {"formula": "-{inventories} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["inventories"]},
+    "cons_dias_inventario": {"formula": "-{inventories} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["inventories"]},
+    "maq_dias_inventario": {"formula": "-{inventories} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["inventories"]},
+    "plast_dias_inventario": {"formula": "-{inventories} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["inventories"]},
+    "vet_dias_inventario": {"formula": "-{inventories} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["inventories"]},
+    "agro_rotacion_activo_fijo": {"formula": "{REV} / {property_plant_equipment}"},
+    "cons_rotacion_activo_fijo": {"formula": "{REV} / {property_plant_equipment}"},
+    "plast_rotacion_activo_fijo": {"formula": "{REV} / {property_plant_equipment}"},
+    "petro_rotacion_activo_fijo": {"formula": "{REV} / {property_plant_equipment}"},
+    "vet_rotacion_activo_fijo": {"formula": "{REV} / {property_plant_equipment}"},
+    "agro_volatilidad_margen_bruto": {"formula": "({REV} + {cost_of_goods_sold}) / {REV} * 100", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "pharma_volatilidad_margen_bruto": {"formula": "({REV} + {cost_of_goods_sold}) / {REV} * 100", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "conf_volatilidad_margen_bruto": {"formula": "({REV} + {cost_of_goods_sold}) / {REV} * 100", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "cons_volatilidad_margen_bruto": {"formula": "({REV} + {cost_of_goods_sold}) / {REV} * 100", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "plast_volatilidad_margen_bruto": {"formula": "({REV} + {cost_of_goods_sold}) / {REV} * 100", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "cons_volatilidad_ingresos": {"formula": "({REV} / {REV@t-1} - 1) * 100"},
+    "maq_volatilidad_ingresos": {"formula": "({REV} / {REV@t-1} - 1) * 100"},
+    "petro_volatilidad_ingresos": {"formula": "({REV} / {REV@t-1} - 1) * 100"},
+    "vet_volatilidad_ingresos": {"formula": "({REV} / {REV@t-1} - 1) * 100"},
+    "debt_service_coverage_ratio": {
+      "formula": "({EBITDA} + {income_tax}) / (-{finance_expenses} - {repayment_of_borrowings?})",
+      "pedir_si_falta": ["repayment_of_borrowings"],
+      "advertir_si_cero": {"repayment_of_borrowings": "si la deuda se refinanció en vez de pagarse, el reembolso sale bajo y el indicador se ve mejor de lo que es (Notion)"},
+      "nota": "Impuesto y reembolso vienen negativos: el numerador resta el impuesto y el denominador suma el reembolso. Notion define el DSCR con capital: sin la línea de reembolso de EMIS se pide al target en vez de calcularlo solo con intereses. 'Sumando numerador y denominador de los últimos 3 años' = razón de sumas."
+    },
+    "pharma_dias_cartera": {"formula": "{CXC} / {REV} * 365"},
+    "conf_dias_cartera": {"formula": "{CXC} / {REV} * 365"},
+    "dist_dias_cartera": {"formula": "{CXC} / {REV} * 365"},
+    "maq_dias_cartera": {"formula": "{CXC} / {REV} * 365"},
+    "petro_dias_cartera": {"formula": "{CXC} / {REV} * 365"},
+    "pharma_inversion_intangibles": {"formula": "-{purchase_of_intangible_assets} / {REV} * 100", "nota": "'Promedio de 3 años' se lee como suma de compras / suma de ingresos, igual que capex sobre venta."},
+    "conf_inventario_vs_ventas": {
+      "formula": "({inventories} / {inventories@t-1} - {REV} / {REV@t-1}) * 100",
+      "no_aplica_si_falta": ["inventories"],
+      "nota": "Usa el año anterior: con promedio_3_años el motor promedia simple las 3 diferencias anuales, como pide el catálogo."
+    },
+    "dist_dias_proveedores": {"formula": "-{CXP} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "maq_dias_proveedores": {"formula": "-{CXP} / {cost_of_goods_sold} * 365", "no_aplica_si_falta": ["cost_of_goods_sold"]},
+    "dist_ingreso_por_empleado": {
+      "formula": "{REV} * 1000 / {empleados}",
+      "requiere": ["empleados"],
+      "nota": "Ingresos en miles de USD por 1000: USD por empleado, la escala del rango de Notion."
+    },
+    "vet_ingreso_por_empleado": {
+      "formula": "{REV} * 1000 / {empleados}",
+      "requiere": ["empleados"],
+      "nota": "Ingresos en miles de USD por 1000: USD por empleado, la escala del rango de Notion."
+    },
+    "dist_rentabilidad_inventario": {
+      "formula": "{gross_profit} / (({inventories} + {inventories@t-1}) / 2)",
+      "no_aplica_si_falta": ["inventories"],
+      "nota": "Inventario promedio de inicio y fin de año: con promedio_3_años el motor promedia simple los 3 valores anuales."
+    },
+    "fin_apalancamiento": {
+      "formula": "({current_loans_and_borrowings?} + {non_current_loans_and_borrowings?}) / {total_equity}",
+      "minimo_uno_de": ["current_loans_and_borrowings", "non_current_loans_and_borrowings"],
+      "denominador_positivo": "{total_equity}"
+    },
+    "fin_costo_fondeo": {
+      "formula": "-{finance_expenses} / (({current_loans_and_borrowings?} + {non_current_loans_and_borrowings?} + {current_loans_and_borrowings@t-1?} + {non_current_loans_and_borrowings@t-1?}) / 2) * 100",
+      "minimo_uno_de": ["current_loans_and_borrowings", "non_current_loans_and_borrowings"]
+    },
+    "fin_rendimiento_cartera": {
+      "formula": "{REV} / (({CXC} + {non_current_trade_receivables?} + {CXC@t-1} + {non_current_trade_receivables@t-1?}) / 2) * 100"
+    },
+    "fin_roe": {
+      "formula": "{net_profit} / (({total_equity} + {total_equity@t-1}) / 2) * 100",
+      "denominador_positivo": "({total_equity} + {total_equity@t-1}) / 2"
+    }
+  }
+}

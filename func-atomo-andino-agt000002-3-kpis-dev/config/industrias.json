@@ -1,0 +1,16 @@
+{
+  "version": "2026-11-24",
+  "nota": "La industria del análisis sale del Sector priorizado de empresas_pipeline_candidatas (llega en el disparador como la fórmula Sector de agt__evaluacion_deal). Se compara sin tildes ni mayúsculas.",
+  "sector_a_industria": {
+    "Agroindustria y alimentos procesados": "Agroindustria y alimentos",
+    "Plásticos químicos empaques y papel": "Plasticos quimicos y empaques",
+    "Confecciones ropa interior y athleisure": "Confecciones y apparel",
+    "Construcción liviana y fertilizantes": "Construccion liviana y fertilizantes",
+    "Servicios financieros": "Servicios financieros especializados",
+    "Aseo cosméticos cuidado personal y farmacéuticos": "Aseo cosmeticos y pharma",
+    "Maquinaria equipos eléctricos y autopartes": "Maquinaria y autopartes"
+  },
+  "umbral_movimiento_cambiario_pct": 10,
+  "eliminatorios": ["cobertura_intereses", "deuda_neta_sobre_ancla"],
+  "anios_vigencia_empleados": 1
+}

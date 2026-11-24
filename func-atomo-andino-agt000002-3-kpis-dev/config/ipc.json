@@ -1,0 +1,89 @@
+{
+  "version": "2026-11-24",
+  "decision": "El crecimiento real se calcula sobre las cifras en USD de EMIS y se deflacta con el IPC del país de la empresa (decisión de Átomo, 2026-11-24). No se convierte a moneda local: todo el scorecard se lee en dólares.",
+  "pais_por_defecto": "Colombia",
+  "medida": "variacion_promedio",
+  "medida_decidida": "Átomo, 2026-11-24: promedio anual, porque los ingresos se acumulan durante todo el año.",
+  "medidas": {
+    "variacion_dic": "Variación anual del IPC a diciembre (diciembre contra diciembre del año anterior). Es la cifra que publica el DANE como inflación del año.",
+    "variacion_promedio": "Variación del índice promedio del año contra el promedio del año anterior. Calculada con la serie mensual de índices del DANE; para usarla, cambiar 'medida' (decisión de Átomo)."
+  },
+  "paises": {
+    "Colombia": {
+      "moneda": "COP",
+      "fuente": "DANE, anexo 'anex-IPC-Indices-oct2026.xlsx', hoja IndicesIPC: Total, Índice de Precios al Consumidor, Índices - Serie de empalme 2003-2026 (actualizado el 9 de noviembre de 2026)",
+      "url": "https://www.dane.gov.co/index.php/estadisticas-por-tema/precios-y-costos/indice-de-precios-al-consumidor-ipc",
+      "estado": "empalmado",
+      "nota_estado": "Empalmado el 2026-11-24 con la serie de índices del DANE. variacion_dic = índice de diciembre / diciembre del año anterior; coincide con la cifra publicada en todos los años (2020: 1,62 con el índice redondeado a dos decimales frente a 1,61 publicado; se conserva la publicada). variacion_promedio = promedio de los 12 índices del año / promedio del año anterior. 2026 aún sin diciembre.",
+      "leido": "2026-11-24",
+      "por_anio": {
+        "2015": {
+          "variacion_dic": 6.77,
+          "variacion_promedio": 4.99,
+          "indice_dic": 88.05,
+          "indice_promedio": 85.56
+        },
+        "2016": {
+          "variacion_dic": 5.75,
+          "variacion_promedio": 7.51,
+          "indice_dic": 93.11,
+          "indice_promedio": 91.9883
+        },
+        "2017": {
+          "variacion_dic": 4.09,
+          "variacion_promedio": 4.32,
+          "indice_dic": 96.92,
+          "indice_promedio": 95.9583
+        },
+        "2018": {
+          "variacion_dic": 3.18,
+          "variacion_promedio": 3.24,
+          "indice_dic": 100.0,
+          "indice_promedio": 99.0683
+        },
+        "2019": {
+          "variacion_dic": 3.8,
+          "variacion_promedio": 3.52,
+          "indice_dic": 103.8,
+          "indice_promedio": 102.5558
+        },
+        "2020": {
+          "variacion_dic": 1.61,
+          "variacion_promedio": 2.53,
+          "indice_dic": 105.48,
+          "indice_promedio": 105.1458
+        },
+        "2021": {
+          "variacion_dic": 5.62,
+          "variacion_promedio": 3.5,
+          "indice_dic": 111.41,
+          "indice_promedio": 108.8217
+        },
+        "2022": {
+          "variacion_dic": 13.12,
+          "variacion_promedio": 10.18,
+          "indice_dic": 126.03,
+          "indice_promedio": 119.8958
+        },
+        "2023": {
+          "variacion_dic": 9.28,
+          "variacion_promedio": 11.74,
+          "indice_dic": 137.72,
+          "indice_promedio": 133.9675
+        },
+        "2024": {
+          "variacion_dic": 5.2,
+          "variacion_promedio": 6.61,
+          "indice_dic": 144.88,
+          "indice_promedio": 142.8217
+        },
+        "2025": {
+          "variacion_dic": 5.1,
+          "variacion_promedio": 5.14,
+          "indice_dic": 152.27,
+          "indice_promedio": 150.1667
+        }
+      }
+    }
+  }
+}

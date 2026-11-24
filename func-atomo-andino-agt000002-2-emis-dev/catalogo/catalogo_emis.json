@@ -1,0 +1,3672 @@
+{
+  "version": "1.2",
+  "descripcion": "Catálogo de la plantilla EMIS Global (Business Report) para estructurar la salida de Document Intelligence. Construido con los reportes de Dromos Pavimentos (inglés, 2026-09-04) y Moda Pap (español, 2026-08-06). Versión 1.1 (2026-11-24): etiquetas en español del reporte de Rentek y cuentas de prima de emisión, acciones propias, inversiones, intereses pagados y reembolso de préstamos.",
+  "normalizacion_etiquetas": "Se comparan sin tildes, sin mayúsculas y solo con letras y dígitos (se ignoran espacios, puntuación y saltos de línea).",
+  "idiomas": [
+    "en",
+    "es"
+  ],
+  "titulos_de_seccion": {
+    "empresa": {
+      "en": [
+        "Company Tear Sheet - Contact Information"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Información de Contacto"
+      ]
+    },
+    "clasificacion_naics": {
+      "en": [
+        "Company Tear Sheet - NAICS Industry Classification"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Clasificación de sectores por NAICS"
+      ]
+    },
+    "descripcion_negocio": {
+      "en": [
+        "Company Tear Sheet - Business description"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Descripción de la compañía"
+      ]
+    },
+    "informacion_basica": {
+      "en": [
+        "Company Tear Sheet - Basic Information"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Información básica"
+      ]
+    },
+    "ejecutivos_clave": {
+      "en": [
+        "Company Tear Sheet - Key Executives"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Principales Ejecutivos"
+      ]
+    },
+    "resumen_financiero": {
+      "en": [
+        "Company Tear Sheet - Key Financial Highlights"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Datos Financieros Claves"
+      ]
+    },
+    "empresas_similares": {
+      "en": [
+        "Company Tear Sheet - Similar companies"
+      ],
+      "es": [
+        "Hoja Resumen de Compañía - Compañías similares"
+      ]
+    },
+    "estados_financieros.detalles_reporte": {
+      "en": [
+        "REPORTING DETAILS"
+      ],
+      "es": [
+        "DETALLES DEL REPORTE"
+      ]
+    },
+    "estados_financieros.estado_resultados": {
+      "en": [
+        "Income Statement"
+      ],
+      "es": [
+        "Estado de Resultados"
+      ]
+    },
+    "estados_financieros.balance_general": {
+      "en": [
+        "Balance Sheet"
+      ],
+      "es": [
+        "Balance General"
+      ]
+    },
+    "estados_financieros.flujo_de_caja": {
+      "en": [
+        "Cash Flow Statement"
+      ],
+      "es": [
+        "Estado de Flujo de Efectivo"
+      ]
+    },
+    "otra_informacion": {
+      "en": [
+        "OTHER INFORMATION"
+      ],
+      "es": [
+        "Más Inforciones",
+        "Más Informaciones"
+      ]
+    },
+    "ratios": {
+      "en": [
+        "Ratios"
+      ],
+      "es": [
+        "Ratios"
+      ]
+    },
+    "ratios.rentabilidad": {
+      "en": [
+        "Profitability"
+      ],
+      "es": [
+        "Ratios de Rentabilidad"
+      ]
+    },
+    "ratios.eficiencia": {
+      "en": [
+        "Efficiency"
+      ],
+      "es": [
+        "Ratios de Eficiencia"
+      ]
+    },
+    "ratios.cifras_de_valoracion": {
+      "en": [
+        "Valuation Figures"
+      ],
+      "es": [
+        "Cifras de valoración"
+      ]
+    },
+    "ratios.liquidez": {
+      "en": [
+        "Liquidity"
+      ],
+      "es": [
+        "Ratios de Liquidez"
+      ]
+    },
+    "ratios.apalancamiento": {
+      "en": [
+        "Leverage"
+      ],
+      "es": [
+        "Ratios de Apalancamiento"
+      ]
+    },
+    "ratios.tendencias_de_crecimiento": {
+      "en": [
+        "Growth Trends"
+      ],
+      "es": [
+        "Ratios de Tendencia de Crecimiento"
+      ]
+    },
+    "ratios.cobertura": {
+      "en": [
+        "Coverage Ratios"
+      ],
+      "es": [
+        "Ratios de cobertura"
+      ]
+    },
+    "ratios.desempeno": {
+      "en": [
+        "Performance"
+      ],
+      "es": [
+        "Ratios de rendimiento"
+      ]
+    },
+    "ratios.tamano_comun": {
+      "en": [
+        "Common-size Ratios"
+      ],
+      "es": [
+        "Proporciones de tamaño común"
+      ]
+    }
+  },
+  "encabezados": {
+    "columna_nombre": {
+      "en": [
+        "NAME"
+      ],
+      "es": [
+        "NOMBRE"
+      ]
+    },
+    "periodo_fiscal": {
+      "en": [
+        "FISCAL PERIOD"
+      ],
+      "es": [
+        "PERÍODO FISCAL"
+      ]
+    },
+    "compania": {
+      "en": [
+        "COMPANY"
+      ],
+      "es": [
+        "COMPAÑÍA"
+      ]
+    },
+    "nota_ratios": {
+      "en": [
+        "all ratios calculated by emis"
+      ],
+      "es": [
+        "Todos los ratios calculados por EMIS"
+      ]
+    },
+    "tasa_de_cambio": {
+      "en": [
+        "Exchange rate used for currency conversion (IFRS)"
+      ],
+      "es": [
+        "Tipo de Moneda utilizado para la conversión de la moneda (IFRS)"
+      ]
+    }
+  },
+  "empresa": [
+    {
+      "id": "nombre_completo",
+      "etiquetas": {
+        "en": [
+          "Full name"
+        ],
+        "es": [
+          "Nombre Completo"
+        ]
+      }
+    },
+    {
+      "id": "estado_bolsa",
+      "etiquetas": {
+        "en": [
+          "Status"
+        ],
+        "es": [
+          "Estado"
+        ]
+      }
+    },
+    {
+      "id": "forma_legal",
+      "etiquetas": {
+        "en": [
+          "Legal Form"
+        ],
+        "es": [
+          "Forma Legal"
+        ]
+      }
+    },
+    {
+      "id": "estado_operacional",
+      "etiquetas": {
+        "en": [
+          "Operational Status"
+        ],
+        "es": [
+          "Estatus Operacional"
+        ]
+      }
+    },
+    {
+      "id": "emis_id",
+      "etiquetas": {
+        "en": [
+          "EMISid"
+        ],
+        "es": [
+          "EMISid"
+        ]
+      }
+    },
+    {
+      "id": "nit",
+      "etiquetas": {
+        "en": [
+          "CO-NIT"
+        ],
+        "es": [
+          "CO-NIT"
+        ]
+      }
+    },
+    {
+      "id": "fecha_constitucion",
+      "tipo": "fecha",
+      "etiquetas": {
+        "en": [
+          "Incorporation Date"
+        ],
+        "es": [
+          "Fecha de Incorporación"
+        ]
+      }
+    },
+    {
+      "id": "sede",
+      "etiquetas": {
+        "en": [
+          "Headquarters"
+        ],
+        "es": [
+          "Casa Matriz"
+        ]
+      }
+    },
+    {
+      "id": "telefono",
+      "etiquetas": {
+        "en": [
+          "Tel"
+        ],
+        "es": [
+          "Teléfono"
+        ]
+      }
+    },
+    {
+      "id": "fax",
+      "etiquetas": {
+        "en": [
+          "Fax"
+        ],
+        "es": [
+          "Fax"
+        ]
+      }
+    },
+    {
+      "id": "email",
+      "etiquetas": {
+        "en": [
+          "Email"
+        ],
+        "es": [
+          "Correo Electrónico"
+        ]
+      }
+    }
+  ],
+  "secciones_de_texto": {
+    "nota": "Estas secciones no son tablas para Document Intelligence. Solo se llenan si la entrada trae párrafos.",
+    "clasificacion_naics": [
+      {
+        "id": "actividad_principal",
+        "etiquetas": {
+          "en": [
+            "Main Activities"
+          ],
+          "es": [
+            "Principales Actividades"
+          ]
+        }
+      },
+      {
+        "id": "actividades_secundarias",
+        "etiquetas": {
+          "en": [
+            "Secondary Activities"
+          ],
+          "es": [
+            "Actividades Secundarias"
+          ]
+        }
+      }
+    ],
+    "descripcion_negocio": [
+      {
+        "id": "descripcion",
+        "etiquetas": {
+          "en": [
+            "Company Description"
+          ],
+          "es": [
+            "Descripción de Compañías"
+          ]
+        }
+      },
+      {
+        "id": "productos_principales",
+        "etiquetas": {
+          "en": [
+            "Main Products"
+          ],
+          "es": [
+            "Productos Principales"
+          ]
+        }
+      }
+    ],
+    "informacion_basica": [
+      {
+        "id": "total_empleados",
+        "etiquetas": {
+          "en": [
+            "Total Employees"
+          ],
+          "es": [
+            "Total de Empleados"
+          ]
+        }
+      },
+      {
+        "id": "capital_registrado",
+        "etiquetas": {
+          "en": [
+            "Registered Capital"
+          ],
+          "es": [
+            "Capital Registrado"
+          ]
+        }
+      },
+      {
+        "id": "auditores",
+        "etiquetas": {
+          "en": [
+            "Financial Auditors"
+          ],
+          "es": [
+            "Auditores Financieros"
+          ]
+        }
+      },
+      {
+        "id": "calificaciones",
+        "etiquetas": {
+          "en": [
+            "Ratings"
+          ],
+          "es": [
+            "Calificación"
+          ]
+        }
+      }
+    ],
+    "ejecutivos_clave": {
+      "formato": "nombre y cargo por fila"
+    }
+  },
+  "empresas_similares": {
+    "nota": "Las columnas se asignan por posición, porque Document Intelligence puede desordenar el texto de los encabezados y las tablas de continuación pierden columnas vacías. Se alinean desde la derecha (año fiscal siempre es la última).",
+    "columnas": [
+      {
+        "id": "nombre",
+        "unidad": "texto"
+      },
+      {
+        "id": "total_ingreso_operativo",
+        "unidad": "usd_miles"
+      },
+      {
+        "id": "utilidad_operacional",
+        "unidad": "usd_miles"
+      },
+      {
+        "id": "utilidad_neta",
+        "unidad": "usd_miles"
+      },
+      {
+        "id": "roa",
+        "unidad": "fraccion_sin_simbolo"
+      },
+      {
+        "id": "roe",
+        "unidad": "fraccion_sin_simbolo"
+      },
+      {
+        "id": "utilidad_por_accion",
+        "unidad": "numero"
+      },
+      {
+        "id": "fecha_referencia_precio",
+        "unidad": "fecha"
+      },
+      {
+        "id": "anio_fiscal",
+        "unidad": "anio"
+      }
+    ]
+  },
+  "detalles_y_otra_informacion": [
+    {
+      "id": "statement_type",
+      "unidad": "texto",
+      "etiquetas": {
+        "en": [
+          "Statement type"
+        ],
+        "es": [
+          "Tipo de Estado Financiero"
+        ]
+      }
+    },
+    {
+      "id": "begin_date",
+      "unidad": "fecha",
+      "etiquetas": {
+        "en": [
+          "Begin date of reporting period"
+        ],
+        "es": [
+          "Fecha inicial del periodo de reporte"
+        ]
+      }
+    },
+    {
+      "id": "period_end_date",
+      "unidad": "fecha",
+      "etiquetas": {
+        "en": [
+          "Period end date"
+        ],
+        "es": [
+          "Fecha final del período"
+        ]
+      }
+    },
+    {
+      "id": "provider",
+      "unidad": "texto",
+      "etiquetas": {
+        "en": [
+          "Provider"
+        ],
+        "es": [
+          "Proveedor"
+        ]
+      }
+    },
+    {
+      "id": "units",
+      "unidad": "texto",
+      "etiquetas": {
+        "en": [
+          "Units"
+        ],
+        "es": [
+          "Unidades"
+        ]
+      }
+    },
+    {
+      "id": "original_units",
+      "unidad": "texto",
+      "etiquetas": {
+        "en": [
+          "Original units as reported"
+        ],
+        "es": [
+          "Unidades originales como se reportó"
+        ]
+      }
+    },
+    {
+      "id": "source",
+      "unidad": "texto",
+      "etiquetas": {
+        "en": [
+          "Source"
+        ],
+        "es": [
+          "Fuente"
+        ]
+      }
+    }
+  ],
+  "resumen_financiero": [
+    {
+      "id": "total_operating_revenue",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Operating Revenue"
+        ],
+        "es": [
+          "Total Ingreso Operativo"
+        ]
+      }
+    },
+    {
+      "id": "net_sales_revenue",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net sales revenue"
+        ],
+        "es": [
+          "Ingresos netos por ventas"
+        ]
+      }
+    },
+    {
+      "id": "gross_profit",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Gross Profit"
+        ],
+        "es": [
+          "Utilidad bruta"
+        ]
+      }
+    },
+    {
+      "id": "gross_profit_margin",
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Gross Profit Margin"
+        ],
+        "es": [
+          "Margen De Ganancia Bruta"
+        ]
+      }
+    },
+    {
+      "id": "operating_profit",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Operating Profit"
+        ],
+        "es": [
+          "Ganancia operativa (EBIT)"
+        ]
+      }
+    },
+    {
+      "id": "operating_profit_margin",
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Profit Margin"
+        ],
+        "es": [
+          "Margen Operacional"
+        ]
+      }
+    },
+    {
+      "id": "ebitda",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "EBITDA"
+        ],
+        "es": [
+          "EBITDA"
+        ]
+      }
+    },
+    {
+      "id": "ebitda_margin",
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "EBITDA Margin"
+        ],
+        "es": [
+          "Margen Ebitda"
+        ]
+      }
+    },
+    {
+      "id": "net_profit",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Profit/Loss for the Period"
+        ],
+        "es": [
+          "Ganancia (Pérdida) Neta"
+        ]
+      }
+    },
+    {
+      "id": "net_profit_margin",
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Net Profit Margin"
+        ],
+        "es": [
+          "Margen Neto"
+        ]
+      }
+    },
+    {
+      "id": "total_assets",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Assets"
+        ],
+        "es": [
+          "Activos Totales"
+        ]
+      }
+    },
+    {
+      "id": "current_assets",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Assets"
+        ],
+        "es": [
+          "Activos Corrientes"
+        ]
+      }
+    },
+    {
+      "id": "total_liabilities",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Liabilities"
+        ],
+        "es": [
+          "Pasivos Totales"
+        ]
+      }
+    },
+    {
+      "id": "net_debt",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Debt"
+        ],
+        "es": [
+          "Deuda Neta"
+        ]
+      }
+    },
+    {
+      "id": "net_cash_flow_operating",
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Cash Flow from (used in) Operating Activities"
+        ],
+        "es": [
+          "Flujo neto de efectivo por (utilizados en) actividades de explotación"
+        ]
+      }
+    },
+    {
+      "id": "provider",
+      "unidad": "texto",
+      "etiquetas": {
+        "en": [
+          "Provider"
+        ],
+        "es": [
+          "Proveedor"
+        ]
+      }
+    }
+  ],
+  "cuentas": [
+    {
+      "id": "total_operating_revenue",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Operating Revenue"
+        ],
+        "es": [
+          "Total Ingreso Operativo"
+        ]
+      }
+    },
+    {
+      "id": "net_sales_revenue",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net sales revenue"
+        ],
+        "es": [
+          "Ingresos netos por ventas"
+        ]
+      }
+    },
+    {
+      "id": "cost_of_goods_sold",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Cost of Goods Sold"
+        ],
+        "es": [
+          "Costo de mercancías vendidas",
+          "Costo de ventas"
+        ]
+      }
+    },
+    {
+      "id": "gross_profit",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Gross Profit"
+        ],
+        "es": [
+          "Utilidad bruta"
+        ]
+      }
+    },
+    {
+      "id": "selling_and_distribution_expenses",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "operating_profit",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Selling and Distribution Expenses"
+        ],
+        "es": [
+          "Gastos de venta y distribución"
+        ]
+      }
+    },
+    {
+      "id": "administrative_expenses",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "operating_profit",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Administrative Expenses"
+        ],
+        "es": [
+          "Gastos administrativos"
+        ]
+      }
+    },
+    {
+      "id": "net_other_operating_result",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "operating_profit",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Other Operating Result"
+        ],
+        "es": [
+          "Otros resultados operativos netos"
+        ]
+      }
+    },
+    {
+      "id": "other_operating_income",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "net_other_operating_result",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Operating Income"
+        ],
+        "es": [
+          "Otros ingresos operativos"
+        ]
+      }
+    },
+    {
+      "id": "other_operating_expenses",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "net_other_operating_result",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Operating Expenses"
+        ],
+        "es": [
+          "Otros gastos operativos"
+        ]
+      }
+    },
+    {
+      "id": "operating_profit",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Operating Profit"
+        ],
+        "es": [
+          "Ganancia operativa (EBIT)"
+        ]
+      }
+    },
+    {
+      "id": "ebitda",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "EBITDA"
+        ],
+        "es": [
+          "EBITDA"
+        ]
+      }
+    },
+    {
+      "id": "financial_result",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Financial result"
+        ],
+        "es": [
+          "Resultado financiero"
+        ]
+      }
+    },
+    {
+      "id": "finance_income",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "financial_result",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Finance income"
+        ],
+        "es": [
+          "Ingresos financieros"
+        ]
+      }
+    },
+    {
+      "id": "finance_expenses",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "financial_result",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Finance Expenses"
+        ],
+        "es": [
+          "Gastos financieros"
+        ]
+      }
+    },
+    {
+      "id": "net_other_non_operating_result",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Other Non-Operating Result"
+        ],
+        "es": [
+          "Otros resultados no operativos netos"
+        ]
+      }
+    },
+    {
+      "id": "other_non_operating_income",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "net_other_non_operating_result",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [],
+        "es": [
+          "Otros ingresos"
+        ]
+      }
+    },
+    {
+      "id": "other_non_operating_expenses",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": "net_other_non_operating_result",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [],
+        "es": [
+          "Otros gastos"
+        ]
+      }
+    },
+    {
+      "id": "profit_before_income_tax",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Profit before Income Tax"
+        ],
+        "es": [
+          "Ganancias antes de impuestos"
+        ]
+      }
+    },
+    {
+      "id": "income_tax",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Income Tax"
+        ],
+        "es": [
+          "Impuesto a la renta"
+        ]
+      }
+    },
+    {
+      "id": "profit_after_income_tax",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Profit after Income Tax"
+        ],
+        "es": [
+          "Ganancias después de impuestos"
+        ]
+      }
+    },
+    {
+      "id": "net_profit",
+      "seccion": "estados_financieros.estado_resultados",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Profit/Loss for the Period"
+        ],
+        "es": [
+          "Ganancia (Pérdida) Neta"
+        ]
+      }
+    },
+    {
+      "id": "total_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Assets"
+        ],
+        "es": [
+          "Activos Totales"
+        ]
+      }
+    },
+    {
+      "id": "non_current_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_assets",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Non-Current Assets"
+        ],
+        "es": [
+          "Activos no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "property_plant_equipment",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Property, Plant and Equipment"
+        ],
+        "es": [
+          "Propiedad, planta y equipo"
+        ]
+      }
+    },
+    {
+      "id": "intangible_assets_and_goodwill",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Intangible Assets and Goodwill"
+        ],
+        "es": [
+          "Activos intangibles y valor llave"
+        ]
+      }
+    },
+    {
+      "id": "goodwill",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "intangible_assets_and_goodwill",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Goodwill"
+        ],
+        "es": [
+          "Valor llave",
+          "Plusvalía"
+        ]
+      }
+    },
+    {
+      "id": "other_intangible_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "intangible_assets_and_goodwill",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Intangible Assets"
+        ],
+        "es": [
+          "Otros activos intangibles"
+        ]
+      }
+    },
+    {
+      "id": "non_current_trade_and_other_receivables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Non-Current Trade and Other Receivables"
+        ],
+        "es": [
+          "Comerciales y otras cuentas a cobrar no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "non_current_trade_receivables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_trade_and_other_receivables",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Non-Current Trade Receivables"
+        ],
+        "es": [
+          "Cuentas por cobrar no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "long_term_financial_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Long-Term Financial Assets"
+        ],
+        "es": [
+          "Activos financieros a largo plazo"
+        ]
+      }
+    },
+    {
+      "id": "other_non_current_financial_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "long_term_financial_assets",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Non-Current Financial Assets"
+        ],
+        "es": [
+          "Otros activos financieros no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "deferred_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Deferred Assets"
+        ],
+        "es": [
+          "Activos diferidos"
+        ]
+      }
+    },
+    {
+      "id": "non_current_deferred_tax_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "deferred_assets",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Non-Current Deferred Tax Assets"
+        ],
+        "es": [
+          "Activos no corrientes por impuesto diferido"
+        ]
+      }
+    },
+    {
+      "id": "other_non_current_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Non-Current Assets"
+        ],
+        "es": [
+          "Otros activos no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "current_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_assets",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Assets"
+        ],
+        "es": [
+          "Activos Corrientes"
+        ]
+      }
+    },
+    {
+      "id": "inventories",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Inventories"
+        ],
+        "es": [
+          "Inventarios"
+        ]
+      }
+    },
+    {
+      "id": "trade_and_other_receivables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Trade and Other Receivables"
+        ],
+        "es": [
+          "Comerciales y otras cuentas a cobrar"
+        ]
+      }
+    },
+    {
+      "id": "current_trade_receivables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "trade_and_other_receivables",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Trade Receivables"
+        ],
+        "es": [
+          "Cuentas comerciales por cobrar"
+        ]
+      }
+    },
+    {
+      "id": "tax_receivables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "trade_and_other_receivables",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Tax Receivables"
+        ],
+        "es": [
+          "Créditos de impuestos"
+        ]
+      }
+    },
+    {
+      "id": "cash_and_cash_equivalents",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Cash and Cash Equivalents"
+        ],
+        "es": [
+          "Efectivo o Equivalentes"
+        ]
+      }
+    },
+    {
+      "id": "other_current_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Current Assets"
+        ],
+        "es": [
+          "Otros Activos Corrientes"
+        ]
+      }
+    },
+    {
+      "id": "total_equity_and_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Equity and Liabilities"
+        ],
+        "es": [
+          "Total de patrimonio y pasivos"
+        ]
+      }
+    },
+    {
+      "id": "total_equity",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_equity_and_liabilities",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Equity"
+        ],
+        "es": [
+          "Total de patrimonio"
+        ]
+      }
+    },
+    {
+      "id": "equity_attributable_to_owners",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_equity",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Equity attributable to Owners of the Parent"
+        ],
+        "es": [
+          "Patrimonio neto atribuible a los propietarios de la controladora"
+        ]
+      }
+    },
+    {
+      "id": "issued_capital",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "equity_attributable_to_owners",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Issued Capital"
+        ],
+        "es": [
+          "Capital Suscrito"
+        ]
+      }
+    },
+    {
+      "id": "other_reserves",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "equity_attributable_to_owners",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Reserves"
+        ],
+        "es": [
+          "Otras reservas"
+        ]
+      }
+    },
+    {
+      "id": "retained_earnings",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "equity_attributable_to_owners",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Retained Earnings"
+        ],
+        "es": [
+          "Resultados acumulados"
+        ]
+      }
+    },
+    {
+      "id": "other_components_of_equity",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "equity_attributable_to_owners",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Components of Equity"
+        ],
+        "es": [
+          "Otros componentes del patrimonio"
+        ]
+      }
+    },
+    {
+      "id": "total_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_equity_and_liabilities",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Total Liabilities"
+        ],
+        "es": [
+          "Pasivos Totales"
+        ]
+      }
+    },
+    {
+      "id": "non_current_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_liabilities",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Non-Current Liabilities"
+        ],
+        "es": [
+          "Pasivos no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "non_current_loans_and_borrowings",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Non-Current Loans and Borrowings"
+        ],
+        "es": [
+          "Créditos y préstamos no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "other_non_current_payables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Non-Current Payables"
+        ],
+        "es": [
+          "Otras cuentas por pagar no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "non_current_deferred_revenue_and_accruals",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Deferred Revenue, Accrued Expenses and Other Deferred Non-Current Liabilities"
+        ],
+        "es": [
+          "Ingresos diferidos, gastos devengados y otros pasivos no circulantes diferidos",
+          "Ingresos diferidos, gastos devengados y otros pasivos no corrientes diferidos"
+        ]
+      }
+    },
+    {
+      "id": "non_current_provisions",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Provisions for Other Liabilities and Charges"
+        ],
+        "es": [
+          "Provisiones para otros pasivos y gastos"
+        ]
+      },
+      "nota": "Misma etiqueta que current_provisions; se distingue por el padre vigente."
+    },
+    {
+      "id": "other_non_current_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "non_current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Non-Current Liabilities"
+        ],
+        "es": [
+          "Otros pasivos no corrientes"
+        ]
+      }
+    },
+    {
+      "id": "current_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "total_liabilities",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Liabilities"
+        ],
+        "es": [
+          "Pasivos Corrientes"
+        ]
+      }
+    },
+    {
+      "id": "current_loans_and_borrowings",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Loans and Borrowings"
+        ],
+        "es": [
+          "Créditos y préstamos corrientes"
+        ]
+      }
+    },
+    {
+      "id": "trade_and_other_payables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Trade and Other Payables"
+        ],
+        "es": [
+          "Comerciales y otras cuentas a pagar"
+        ]
+      }
+    },
+    {
+      "id": "current_trade_payables",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "trade_and_other_payables",
+      "nivel": 4,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Trade Payables"
+        ],
+        "es": [
+          "Cuentas Comerciales por pagar"
+        ]
+      }
+    },
+    {
+      "id": "current_provisions",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Provisions for Other Liabilities and Charges"
+        ],
+        "es": [
+          "Provisiones para otros pasivos y gastos"
+        ]
+      },
+      "nota": "Misma etiqueta que non_current_provisions; se distingue por el padre vigente."
+    },
+    {
+      "id": "other_current_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Current Liabilities"
+        ],
+        "es": [
+          "Otros pasivos corrientes"
+        ]
+      }
+    },
+    {
+      "id": "current_income_tax_liabilities",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_liabilities",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Current Income Tax Liabilities"
+        ],
+        "es": [
+          "Pasivos corrientes por impuesto a la renta"
+        ]
+      }
+    },
+    {
+      "id": "investment_property",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "long_term_financial_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Investment Property"
+        ],
+        "es": [
+          "Propiedades de inversión"
+        ]
+      }
+    },
+    {
+      "id": "investments_in_subsidiaries",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "long_term_financial_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Investments in Subsidiaries"
+        ],
+        "es": [
+          "Inversiones en subsidiarias"
+        ]
+      }
+    },
+    {
+      "id": "short_term_financial_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "current_assets",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Short-Term Financial Assets"
+        ],
+        "es": [
+          "Activos financieros de corto plazo"
+        ]
+      }
+    },
+    {
+      "id": "other_current_financial_assets",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "short_term_financial_assets",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Current Financial Assets"
+        ],
+        "es": [
+          "Otros activos financieros corrientes"
+        ]
+      }
+    },
+    {
+      "id": "share_premium",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "equity_attributable_to_owners",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Share Premium"
+        ],
+        "es": [
+          "Prima de emisión"
+        ]
+      }
+    },
+    {
+      "id": "treasury_shares",
+      "seccion": "estados_financieros.balance_general",
+      "padre": "equity_attributable_to_owners",
+      "nivel": 3,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Treasury Shares"
+        ],
+        "es": [
+          "Acciones propias"
+        ]
+      }
+    },
+    {
+      "id": "net_cash_flow_operating",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Cash Flow from (used in) Operating Activities"
+        ],
+        "es": [
+          "Flujo neto de efectivo por (utilizados en) actividades de explotación"
+        ]
+      }
+    },
+    {
+      "id": "cf_net_profit",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_operating",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Profit"
+        ],
+        "es": [
+          "Utilidad Neta"
+        ]
+      }
+    },
+    {
+      "id": "cash_generated_from_operations",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_operating",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Cash generated from Operations"
+        ],
+        "es": [
+          "Efectivo generado por las operaciones"
+        ]
+      }
+    },
+    {
+      "id": "adj_depreciation_impairment_ppe",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "cash_generated_from_operations",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Adjustments for: Depreciation and Impairment of Property, Plant and Equipment"
+        ],
+        "es": [
+          "Ajustes por: Depreciación y deterioro de propiedad, planta y equipo"
+        ]
+      }
+    },
+    {
+      "id": "adj_other_adjustments",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "cash_generated_from_operations",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Adjustments for: Other Adjustments"
+        ],
+        "es": [
+          "Ajustes por: otros ajustes"
+        ]
+      }
+    },
+    {
+      "id": "chg_inventories",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "cash_generated_from_operations",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Changes in: Inventories"
+        ],
+        "es": [
+          "Cambios en: Inventarios"
+        ]
+      }
+    },
+    {
+      "id": "chg_trade_and_other_receivables",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "cash_generated_from_operations",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Changes in: Trade and Other Receivables"
+        ],
+        "es": [
+          "Cambios en: comerciales y otras cuentas a cobrar"
+        ]
+      }
+    },
+    {
+      "id": "chg_trade_and_other_payables",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "cash_generated_from_operations",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Changes in: Trade and Other Payables"
+        ],
+        "es": [
+          "Cambios en: comerciales y otras cuentas a pagar"
+        ]
+      }
+    },
+    {
+      "id": "chg_provisions_and_employee_benefits",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "cash_generated_from_operations",
+      "nivel": 2,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Changes in: Provisions and Employee Benefits"
+        ],
+        "es": [
+          "Cambios en: Provisiones y beneficios para los empleados"
+        ]
+      }
+    },
+    {
+      "id": "other_operating_activity_cash_flows",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_operating",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Operating Activity Cash Flows"
+        ],
+        "es": [
+          "Otro flujo de efectivo de actividades operativas"
+        ]
+      }
+    },
+    {
+      "id": "net_cash_flow_investing",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Cash Flow from (used in) Investing Activities"
+        ],
+        "es": [
+          "Flujo neto de efectivo de (utilizadas en) actividades de inversión"
+        ]
+      }
+    },
+    {
+      "id": "purchase_of_ppe",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_investing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Purchase of Property, Plant and Equipment"
+        ],
+        "es": [
+          "Compra de propiedades, planta y equipo"
+        ]
+      }
+    },
+    {
+      "id": "proceeds_from_sale_of_ppe",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_investing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Proceeds from Sale of Property, Plant and Equipment"
+        ],
+        "es": [
+          "Producto de venta de propiedades, planta y equipo"
+        ]
+      }
+    },
+    {
+      "id": "purchase_of_intangible_assets",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_investing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Purchase of Intangible Assets"
+        ],
+        "es": [
+          "Compra de activos intangibles"
+        ]
+      }
+    },
+    {
+      "id": "other_investing_activity_cash_flows",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_investing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Investing Activity Cash Flows"
+        ],
+        "es": [
+          "Otros flujos de efectivo de actividades inversión"
+        ]
+      }
+    },
+    {
+      "id": "net_cash_flow_financing",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Cash Flow from (used in) Financing Activities"
+        ],
+        "es": [
+          "Flujo neto de efectivo de (utilizados en) actividades de financiación"
+        ]
+      }
+    },
+    {
+      "id": "proceeds_from_borrowings",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Proceeds from Borrowings"
+        ],
+        "es": [
+          "Ingresos provenientes de préstamos"
+        ]
+      }
+    },
+    {
+      "id": "payments_of_finance_lease_liabilities",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Payments of Finance Lease Liabilities"
+        ],
+        "es": [
+          "Pagos de pasivos por arrendamientos financieros"
+        ]
+      }
+    },
+    {
+      "id": "dividends_paid",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Dividends Paid"
+        ],
+        "es": [
+          "Dividendos pagados"
+        ]
+      }
+    },
+    {
+      "id": "net_change_in_cash",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Increase/Decrease in Cash and Cash Equivalents"
+        ],
+        "es": [
+          "Aumento (disminución) neto en efectivo y equivalentes de efectivo"
+        ]
+      }
+    },
+    {
+      "id": "cash_beginning_of_period",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Cash at the Beginning of the Period"
+        ],
+        "es": [
+          "Efectivo al inicio del período"
+        ]
+      }
+    },
+    {
+      "id": "cash_end_of_period",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Cash at the End of the Period"
+        ],
+        "es": [
+          "Efectivo al final del período"
+        ]
+      }
+    },
+    {
+      "id": "adj_finance_expenses",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_operating",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Adjustments for: Finance Expenses"
+        ],
+        "es": [
+          "Ajustes por: Gastos financieros"
+        ]
+      }
+    },
+    {
+      "id": "acquisition_of_subsidiary",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_investing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Acquisition of Subsidiary"
+        ],
+        "es": [
+          "Adquisición de subsidiaria"
+        ]
+      }
+    },
+    {
+      "id": "purchase_of_treasury_shares",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Purchase of Treasury Shares"
+        ],
+        "es": [
+          "Compra de acciones propias"
+        ]
+      }
+    },
+    {
+      "id": "repayment_of_borrowings",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Repayment of Borrowings"
+        ],
+        "es": [
+          "Reembolso de préstamos"
+        ]
+      }
+    },
+    {
+      "id": "interest_paid",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Interest Paid"
+        ],
+        "es": [
+          "Intereses pagados"
+        ]
+      }
+    },
+    {
+      "id": "other_financing_activity_cash_flows",
+      "seccion": "estados_financieros.flujo_de_caja",
+      "padre": "net_cash_flow_financing",
+      "nivel": 1,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Other Financing Activity Cash Flows"
+        ],
+        "es": [
+          "Otros flujos de efectivo de actividades financieras"
+        ]
+      }
+    },
+    {
+      "id": "return_on_assets",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Return on Assets (ROA)"
+        ],
+        "es": [
+          "Rendimiento Sobre Los Activos (ROA)"
+        ]
+      }
+    },
+    {
+      "id": "annualised_roa",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Annualised ROA"
+        ],
+        "es": [
+          "Rendimiento Sobre Activos Anualizado"
+        ]
+      }
+    },
+    {
+      "id": "return_on_equity",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Return on Equity (ROE)"
+        ],
+        "es": [
+          "Rendimiento Sobre El Patrimonio (ROE)"
+        ]
+      }
+    },
+    {
+      "id": "annualised_roe",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Annualised ROE"
+        ],
+        "es": [
+          "Rendimiento Sobre El Patrimonio Anualizado"
+        ]
+      }
+    },
+    {
+      "id": "return_on_capital_employed",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Return on Capital Employed"
+        ],
+        "es": [
+          "Rendimiento Sobre El Capital Empleado"
+        ]
+      }
+    },
+    {
+      "id": "gross_profit_margin",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Gross Profit Margin"
+        ],
+        "es": [
+          "Margen De Ganancia Bruta"
+        ]
+      }
+    },
+    {
+      "id": "ebitda_margin",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "EBITDA Margin"
+        ],
+        "es": [
+          "Margen Ebitda"
+        ]
+      }
+    },
+    {
+      "id": "operating_profit_margin",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Profit Margin"
+        ],
+        "es": [
+          "Margen Operacional"
+        ]
+      }
+    },
+    {
+      "id": "net_profit_margin",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Net Profit Margin"
+        ],
+        "es": [
+          "Margen Neto"
+        ]
+      }
+    },
+    {
+      "id": "operating_roa",
+      "seccion": "ratios",
+      "grupo": "rentabilidad",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating ROA"
+        ],
+        "es": [
+          "ROA Operativo"
+        ]
+      }
+    },
+    {
+      "id": "inventory_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Inventory Turnover"
+        ],
+        "es": [
+          "Rotación De Inventario"
+        ]
+      }
+    },
+    {
+      "id": "trade_receivables_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Trade Receivables Turnover"
+        ],
+        "es": [
+          "Rotación De Cuentas Por Cobrar"
+        ]
+      }
+    },
+    {
+      "id": "current_assets_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Current Assets Turnover"
+        ],
+        "es": [
+          "Rotación Del Activo Corriente"
+        ]
+      }
+    },
+    {
+      "id": "days_inventory_outstanding",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "dias",
+      "etiquetas": {
+        "en": [
+          "Days Inventory Outstanding (Ending)"
+        ],
+        "es": [
+          "Días de Inventario Pendientes (Final)"
+        ]
+      }
+    },
+    {
+      "id": "days_sales_outstanding",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "dias",
+      "etiquetas": {
+        "en": [
+          "Days Sales Outstanding (Ending)"
+        ],
+        "es": [
+          "Días de Ventas Pendientes (Final)"
+        ]
+      }
+    },
+    {
+      "id": "days_payable_outstanding",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "dias",
+      "etiquetas": {
+        "en": [
+          "Days Payable Outstanding (Ending)"
+        ],
+        "es": [
+          "Días de Cuentas por Pagar Pendientes (Final)"
+        ]
+      }
+    },
+    {
+      "id": "cash_conversion_cycle",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "dias",
+      "etiquetas": {
+        "en": [
+          "Cash Conversion Cycle (Ending)"
+        ],
+        "es": [
+          "Ciclo de Conversión de Efectivo (Final)"
+        ]
+      }
+    },
+    {
+      "id": "non_current_assets_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Non-Current Assets Turnover"
+        ],
+        "es": [
+          "Rotación Del Activo No Corriente"
+        ]
+      }
+    },
+    {
+      "id": "assets_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Assets Turnover"
+        ],
+        "es": [
+          "Rotación De Activos"
+        ]
+      }
+    },
+    {
+      "id": "trade_payables_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Trade Payables Turnover"
+        ],
+        "es": [
+          "Rotación De Cuentas Por Pagar"
+        ]
+      }
+    },
+    {
+      "id": "working_capital_turnover",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Working Capital Turnover"
+        ],
+        "es": [
+          "Rotación Del Capital De Trabajo"
+        ]
+      }
+    },
+    {
+      "id": "export_proportion",
+      "seccion": "ratios",
+      "grupo": "eficiencia",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Export Proportion"
+        ],
+        "es": [
+          "Proporción De Exportación"
+        ]
+      }
+    },
+    {
+      "id": "book_value",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Bookvalue (BV)"
+        ],
+        "es": [
+          "Valor Contable"
+        ]
+      }
+    },
+    {
+      "id": "net_cash",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Cash"
+        ],
+        "es": [
+          "Efectivo Neto"
+        ]
+      }
+    },
+    {
+      "id": "debt",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Debt"
+        ],
+        "es": [
+          "Deuda"
+        ]
+      }
+    },
+    {
+      "id": "long_term_debt",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Long-Term Debt"
+        ],
+        "es": [
+          "Deuda A Largo Plazo"
+        ]
+      }
+    },
+    {
+      "id": "short_term_debt",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Short-Term Debt"
+        ],
+        "es": [
+          "Deuda A Corto Plazo"
+        ]
+      }
+    },
+    {
+      "id": "net_debt",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Net Debt"
+        ],
+        "es": [
+          "Deuda Neta"
+        ]
+      }
+    },
+    {
+      "id": "working_capital",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Working Capital"
+        ],
+        "es": [
+          "Capital De Trabajo"
+        ]
+      }
+    },
+    {
+      "id": "capital_employed",
+      "seccion": "ratios",
+      "grupo": "cifras_de_valoracion",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Capital Employed"
+        ],
+        "es": [
+          "Capital Empleado"
+        ]
+      }
+    },
+    {
+      "id": "current_ratio",
+      "seccion": "ratios",
+      "grupo": "liquidez",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Current Ratio"
+        ],
+        "es": [
+          "Razón De Liquidez"
+        ]
+      }
+    },
+    {
+      "id": "quick_ratio",
+      "seccion": "ratios",
+      "grupo": "liquidez",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Quick Ratio"
+        ],
+        "es": [
+          "Prueba Ácida"
+        ]
+      }
+    },
+    {
+      "id": "dooms_day_ratio",
+      "seccion": "ratios",
+      "grupo": "liquidez",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Doom's Day Ratio"
+        ],
+        "es": [
+          "Razón De Efectivo"
+        ]
+      }
+    },
+    {
+      "id": "cash_ratio",
+      "seccion": "ratios",
+      "grupo": "liquidez",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Cash Ratio"
+        ],
+        "es": [
+          "Coeficiente De Efectivo"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_ratio",
+      "seccion": "ratios",
+      "grupo": "liquidez",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow Ratio"
+        ],
+        "es": [
+          "Relación De Flujo De Efectivo Operativo"
+        ]
+      }
+    },
+    {
+      "id": "altman_z_score",
+      "seccion": "ratios",
+      "grupo": "liquidez",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "indice",
+      "etiquetas": {
+        "en": [
+          "Altman Z-Score"
+        ],
+        "es": [
+          "Modelo Z-Score de Altman"
+        ]
+      }
+    },
+    {
+      "id": "current_to_non_current_liabilities",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Current Liabilities / Non-Current Liabilities"
+        ],
+        "es": [
+          "Pasivos Corrientes / Pasivos No Corrientes"
+        ]
+      }
+    },
+    {
+      "id": "debt_to_assets",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Debt / Assets"
+        ],
+        "es": [
+          "Deuda / Activos"
+        ]
+      }
+    },
+    {
+      "id": "debt_to_equity",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Debt / Equity"
+        ],
+        "es": [
+          "Relación Deuda/Capital"
+        ]
+      }
+    },
+    {
+      "id": "long_term_debt_to_capital_employed",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Long-Term Debt / Capital Employed"
+        ],
+        "es": [
+          "Relación Deuda Largo Plazo/Capital Empleado"
+        ]
+      }
+    },
+    {
+      "id": "debt_to_ebitda",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Debt / EBITDA"
+        ],
+        "es": [
+          "Relación Deuda/Ebitda"
+        ]
+      }
+    },
+    {
+      "id": "net_debt_to_ebitda",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Net Debt / EBITDA"
+        ],
+        "es": [
+          "Deuda Neta / EBITDA"
+        ]
+      }
+    },
+    {
+      "id": "net_cash_flow_to_debt",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Net Cash Flow / Debt"
+        ],
+        "es": [
+          "Relación Flujo De Caja/Deuda"
+        ]
+      }
+    },
+    {
+      "id": "assets_to_equity",
+      "seccion": "ratios",
+      "grupo": "apalancamiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Assets / Equity"
+        ],
+        "es": [
+          "Relación Activos/Patrimonio"
+        ]
+      }
+    },
+    {
+      "id": "net_sales_revenue_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Net Sales Revenue Trend"
+        ],
+        "es": [
+          "Tendencia De Los Ingresos Netos"
+        ]
+      }
+    },
+    {
+      "id": "total_operating_revenue_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Total Operating Revenue Trend"
+        ],
+        "es": [
+          "Tendencia De Los Ingresos Operacionales"
+        ]
+      }
+    },
+    {
+      "id": "gross_profit_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Gross Profit Trend"
+        ],
+        "es": [
+          "Tendencia De La Utilidad Bruta"
+        ]
+      }
+    },
+    {
+      "id": "ebitda_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "EBITDA Trend"
+        ],
+        "es": [
+          "Tendencia Del Ebitda"
+        ]
+      }
+    },
+    {
+      "id": "operating_profit_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Profit Trend"
+        ],
+        "es": [
+          "Tendencia De La Utilidad Operacional"
+        ]
+      }
+    },
+    {
+      "id": "net_profit_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Net Profit Trend"
+        ],
+        "es": [
+          "Tendencia De La Utilidad Neta"
+        ]
+      }
+    },
+    {
+      "id": "accounts_receivables_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Accounts Receivables Trend"
+        ],
+        "es": [
+          "Tendencia Cuentas Por Cobrar"
+        ]
+      }
+    },
+    {
+      "id": "inventory_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Inventory Trend"
+        ],
+        "es": [
+          "Tendencia Del Inventario"
+        ]
+      }
+    },
+    {
+      "id": "net_ppe_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Net Property, Plant and Equipment (PPE) Trend"
+        ],
+        "es": [
+          "Tendencia Propiedad, Planta Y Equipo Neto (PP&E)"
+        ]
+      }
+    },
+    {
+      "id": "total_assets_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Total Assets Trend"
+        ],
+        "es": [
+          "Tendencia De Los Activos Totales"
+        ]
+      }
+    },
+    {
+      "id": "book_value_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Bookvalue Trend"
+        ],
+        "es": [
+          "Tendencia Del Valor Contable"
+        ]
+      }
+    },
+    {
+      "id": "shareholders_equity_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Shareholders' Equity Trend"
+        ],
+        "es": [
+          "Tendencia Del Patrimonio Neto"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_trend",
+      "seccion": "ratios",
+      "grupo": "tendencias_de_crecimiento",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow Trend"
+        ],
+        "es": [
+          "Tendencia Del Flujo De Caja Operativo"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_to_debt",
+      "seccion": "ratios",
+      "grupo": "cobertura",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "veces",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow / Debt"
+        ],
+        "es": [
+          "Cobertura De La Deuda"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_to_revenue",
+      "seccion": "ratios",
+      "grupo": "desempeno",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow / Revenue"
+        ],
+        "es": [
+          "Razón Flujo De Caja Operativo/Ingresos"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_to_assets",
+      "seccion": "ratios",
+      "grupo": "desempeno",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow / Assets"
+        ],
+        "es": [
+          "Razón Flujo De Caja Operativo/Activos"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_to_equity",
+      "seccion": "ratios",
+      "grupo": "desempeno",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow / Equity"
+        ],
+        "es": [
+          "Razón Flujo De Caja Operativo/Patrimonio"
+        ]
+      }
+    },
+    {
+      "id": "operating_cash_flow_to_ebit",
+      "seccion": "ratios",
+      "grupo": "desempeno",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow / EBIT"
+        ],
+        "es": [
+          "Razón Flujo De Caja Operativo/Utilidad Operacional"
+        ]
+      }
+    },
+    {
+      "id": "capital_expenditure",
+      "seccion": "ratios",
+      "grupo": "desempeno",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "usd_miles",
+      "etiquetas": {
+        "en": [
+          "Capital Expenditure (CapEx)"
+        ],
+        "es": [
+          "Gasto de Capital (CapEx)"
+        ]
+      }
+    },
+    {
+      "id": "cash_to_total_assets",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Cash / Total Assets"
+        ],
+        "es": [
+          "Relación Efectivo/Total Activos"
+        ]
+      }
+    },
+    {
+      "id": "trade_receivables_to_total_assets",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Trade Receivables / Total Assets"
+        ],
+        "es": [
+          "Relación Cuentas Por Cobrar/Activos Totales"
+        ]
+      }
+    },
+    {
+      "id": "inventories_to_total_assets",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Inventories / Total Assets"
+        ],
+        "es": [
+          "Relación Inventario/Total Activos"
+        ]
+      }
+    },
+    {
+      "id": "fixed_assets_to_total_assets",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Fixed Assets / Total Assets"
+        ],
+        "es": [
+          "Relación Activo fijo/Total activo"
+        ]
+      }
+    },
+    {
+      "id": "current_to_total_liabilities",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Current Liabilities / Total Liabilities"
+        ],
+        "es": [
+          "Relación Pasivo Corriente/Pasivo total"
+        ]
+      }
+    },
+    {
+      "id": "salaries_to_net_sales",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Salaries and Employee Benefits / Net Sales"
+        ],
+        "es": [
+          "Razón Salarios Y Prestaciones Laborales/ Ventas"
+        ]
+      }
+    },
+    {
+      "id": "administrative_expenses_to_net_sales",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Administrative Expenses / Net Sales"
+        ],
+        "es": [
+          "Relación Gastos Administrativos/Ventas"
+        ]
+      }
+    },
+    {
+      "id": "depreciation_amortization_to_net_sales",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Depreciation and Amortization / Net sales"
+        ],
+        "es": [
+          "Relación Depreciación Y Amortización/Ventas"
+        ]
+      }
+    },
+    {
+      "id": "interest_paid_to_net_sales",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Interest Paid / Net Sales"
+        ],
+        "es": [
+          "Relación Intereses Pagados/Ventas"
+        ]
+      }
+    },
+    {
+      "id": "income_tax_to_net_sales",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Income Tax / Net Sales"
+        ],
+        "es": [
+          "Relación Impuesto A La Renta/Ventas"
+        ]
+      }
+    },
+    {
+      "id": "operating_cf_to_total_cf",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Operating Cash Flow / Total Cash Flow"
+        ],
+        "es": [
+          "Relación Flujo De Caja Operativo/Flujo De Caja Total"
+        ]
+      }
+    },
+    {
+      "id": "investing_cf_to_total_cf",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Investing Cash Flow / Total Cash Flow"
+        ],
+        "es": [
+          "Relación Flujo De Efectivo De Inversión/Flujo De Efectivo Total"
+        ]
+      }
+    },
+    {
+      "id": "financing_cf_to_total_cf",
+      "seccion": "ratios",
+      "grupo": "tamano_comun",
+      "padre": null,
+      "nivel": 0,
+      "unidad": "fraccion",
+      "etiquetas": {
+        "en": [
+          "Financing Cash Flow / Total Cash Flow"
+        ],
+        "es": [
+          "Relación Flujo De Efectivo De Financiación/Flujo De Efectivo Total"
+        ]
+      }
+    }
+  ],
+  "valores_de_texto": {
+    "tipo_estado": {
+      "Annual, Individual": "anual_individual",
+      "Anual, Indiv.": "anual_individual"
+    },
+    "unidades": {
+      "Thousands USD": "usd_miles",
+      "Miles USD": "usd_miles",
+      "COP Thousands": "cop_miles",
+      "COP Miles": "cop_miles"
+    },
+    "nulos": [
+      "",
+      "N/D",
+      "N/A",
+      "n.a.",
+      "-",
+      "—"
+    ]
+  },
+  "meses": {
+    "en": {
+      "january": 1,
+      "february": 2,
+      "march": 3,
+      "april": 4,
+      "may": 5,
+      "june": 6,
+      "july": 7,
+      "august": 8,
+      "september": 9,
+      "october": 10,
+      "november": 11,
+      "december": 12
+    },
+    "es": {
+      "enero": 1,
+      "febrero": 2,
+      "marzo": 3,
+      "abril": 4,
+      "mayo": 5,
+      "junio": 6,
+      "julio": 7,
+      "agosto": 8,
+      "septiembre": 9,
+      "setiembre": 9,
+      "octubre": 10,
+      "noviembre": 11,
+      "diciembre": 12
+    }
+  },
+  "unidades": {
+    "usd_miles": "Miles de USD.",
+    "fraccion": "Porcentaje expresado como fracción: 20.05% se guarda como 0.2005.",
+    "fraccion_sin_simbolo": "Porcentaje sin el signo %, que también se guarda como fracción: 14.47 se guarda como 0.1447.",
+    "veces": "Múltiplo: 1.41x se guarda como 1.41.",
+    "dias": "Número de días.",
+    "indice": "Índice sin unidad (Altman Z-Score).",
+    "texto": "Texto.",
+    "fecha": "Fecha ISO AAAA-MM-DD.",
+    "anio": "Año entero.",
+    "numero": "Número sin unidad."
+  },
+  "validaciones": {
+    "tolerancia": 0.05,
+    "nota": "Una regla solo se evalúa en un año si todos sus términos tienen valor ese año; si falta alguno, queda como no_evaluable.",
+    "reglas": [
+      {
+        "id": "utilidad_bruta",
+        "descripcion": "Utilidad bruta = ventas netas + costo de ventas",
+        "resultado": "gross_profit",
+        "suma": [
+          "net_sales_revenue",
+          "cost_of_goods_sold"
+        ]
+      },
+      {
+        "id": "otros_operacionales",
+        "descripcion": "Otros operacionales = otros ingresos + otros gastos operacionales",
+        "resultado": "net_other_operating_result",
+        "suma": [
+          "other_operating_income",
+          "other_operating_expenses"
+        ]
+      },
+      {
+        "id": "utilidad_operacional",
+        "descripcion": "Utilidad operacional = bruta + venta + administración + otros operacionales",
+        "resultado": "operating_profit",
+        "suma": [
+          "gross_profit",
+          "selling_and_distribution_expenses",
+          "administrative_expenses",
+          "net_other_operating_result"
+        ]
+      },
+      {
+        "id": "resultado_financiero",
+        "descripcion": "Resultado financiero = ingresos + gastos financieros",
+        "resultado": "financial_result",
+        "suma": [
+          "finance_income",
+          "finance_expenses"
+        ]
+      },
+      {
+        "id": "otros_no_operacionales",
+        "descripcion": "Otros no operacionales = otros ingresos + otros gastos no operacionales",
+        "resultado": "net_other_non_operating_result",
+        "suma": [
+          "other_non_operating_income",
+          "other_non_operating_expenses"
+        ]
+      },
+      {
+        "id": "utilidad_antes_impuestos",
+        "descripcion": "Utilidad antes de impuestos = operacional + financiero + no operacional",
+        "resultado": "profit_before_income_tax",
+        "suma": [
+          "operating_profit",
+          "financial_result",
+          "net_other_non_operating_result"
+        ]
+      },
+      {
+        "id": "utilidad_neta",
+        "descripcion": "Utilidad después de impuestos = antes de impuestos + impuesto",
+        "resultado": "profit_after_income_tax",
+        "suma": [
+          "profit_before_income_tax",
+          "income_tax"
+        ]
+      },
+      {
+        "id": "activo_total",
+        "descripcion": "Activo total = no corriente + corriente",
+        "resultado": "total_assets",
+        "suma": [
+          "non_current_assets",
+          "current_assets"
+        ]
+      },
+      {
+        "id": "activo_corriente",
+        "descripcion": "Activo corriente = suma de sus componentes",
+        "resultado": "current_assets",
+        "suma": [
+          "inventories",
+          "trade_and_other_receivables",
+          "short_term_financial_assets",
+          "cash_and_cash_equivalents",
+          "other_current_assets"
+        ],
+        "opcionales": [
+          "inventories",
+          "short_term_financial_assets",
+          "other_current_assets"
+        ]
+      },
+      {
+        "id": "patrimonio_y_pasivos",
+        "descripcion": "Total patrimonio y pasivos = patrimonio + pasivo total",
+        "resultado": "total_equity_and_liabilities",
+        "suma": [
+          "total_equity",
+          "total_liabilities"
+        ]
+      },
+      {
+        "id": "cuadre_balance",
+        "descripcion": "Activo total = total patrimonio y pasivos",
+        "resultado": "total_assets",
+        "suma": [
+          "total_equity_and_liabilities"
+        ]
+      },
+      {
+        "id": "pasivo_total",
+        "descripcion": "Pasivo total = no corriente + corriente",
+        "resultado": "total_liabilities",
+        "suma": [
+          "non_current_liabilities",
+          "current_liabilities"
+        ]
+      },
+      {
+        "id": "patrimonio",
+        "descripcion": "Patrimonio de los propietarios = capital + prima + acciones propias + reservas + utilidades retenidas + otros",
+        "resultado": "equity_attributable_to_owners",
+        "suma": [
+          "issued_capital",
+          "share_premium",
+          "treasury_shares",
+          "other_reserves",
+          "retained_earnings",
+          "other_components_of_equity"
+        ],
+        "opcionales": [
+          "share_premium",
+          "treasury_shares",
+          "other_components_of_equity"
+        ]
+      },
+      {
+        "id": "cambio_en_caja",
+        "descripcion": "Cambio en caja = operación + inversión + financiación",
+        "resultado": "net_change_in_cash",
+        "suma": [
+          "net_cash_flow_operating",
+          "net_cash_flow_investing",
+          "net_cash_flow_financing"
+        ]
+      },
+      {
+        "id": "caja_final",
+        "descripcion": "Caja final = caja inicial + cambio en caja",
+        "resultado": "cash_end_of_period",
+        "suma": [
+          "cash_beginning_of_period",
+          "net_change_in_cash"
+        ]
+      },
+      {
+        "id": "caja_flujo_vs_balance",
+        "tipo": "cruce_tasas",
+        "descripcion": "Caja final del flujo × tasa de resultados ÷ tasa de balance = caja del balance",
+        "resultado": "cash_and_cash_equivalents",
+        "termino": "cash_end_of_period"
+      },
+      {
+        "id": "resumen_vs_estados",
+        "tipo": "resumen",
+        "descripcion": "Cada cifra del resumen financiero coincide con la del estado o ratio de igual id, con tolerancia de redondeo",
+        "tolerancia_usd_miles": 0.5,
+        "tolerancia_fraccion": 0.0002
+      }
+    ]
+  }
+}
